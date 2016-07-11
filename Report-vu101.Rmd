@@ -1,3 +1,6 @@
+### TESTING 
+### the version control 
+### of GITHUB
 ---
 title: "Rapport - VU innovations in Scholarly Communication"
 author: "Maurice Vanderfeesten, Marjet Elemans"
