@@ -4,6 +4,7 @@ author: "Maurice Vanderfeesten, Marjet Elemans"
 date: "June 13, 2016"
 output: html_document
 ---
+<!-- English or Dutch? First part of the report is written in dutch, then switches to English. Axis titles in the figures are also in Dutch -->
 
 De UBVU wil haar dienstverlening graag zo dicht mogelijk aansluiten bij het wetenschappelijke communicatieproces van de onderzoekers van VU en VUmc.
 
@@ -32,7 +33,7 @@ We hebben een custom URL aangevraagd waardoor VU en VUmc onderzoekers in de binn
 
 In twee e-mail acties leverde het in januari een activiteit op van 543 bezoekers, en in februari 296 bezoekers, in totaal 839 bezoekers.
 
-De VU en VUmc hebben bijelkaar ongeveer 6000 personen wetenschappelijke staf.
+De VU en VUmc hebben samen ongeveer 6000 personen wetenschappelijke staf.
 
 # Resultaten
 De vraag-categorien komen ook terug in de nummering van de resultaten.
@@ -138,7 +139,7 @@ The charts below show which tools are used most often, as indicated by the respo
 - *Outreach* Generally, outreach to other academics is more popular than outreach to a broader public. ResearchGate and Google Scholar profiles are the most popular tools in this category. Twitter, and to a lesser extent WordPress, are used as tools for outreach to a broader public. Very few researchers make their presentations available for others.
 
 - *Assessment* In the assessment phase, researchers mostly use Thomson reuters' Web of Science Journal Citation Reports to measure impact. Scopus is used as well, but much less often, presumably because the VU does not offer access to it. Alternative ('open') ways of peer review have very few users.
-<!-- WoS is supported by the UB-->
+<!-- WoS is supported by the UB? -->
 
 ```{r child="Vraag131.top3.fasen.Rmd", echo=FALSE}
 ```
@@ -150,8 +151,29 @@ The charts below show which tools are used most often, as indicated by the respo
 ```
 
 # VU&VUmc vs OECD countries
-Dispite the fact that the survey has responses from most of the countries in the world. We have limited ourselves to countries that look like ours. We saw for example more usage of Zotero (free of charge) in countries with lower GDP, and more usage of EndNote (paid) in countries with a higher GDP.
-We selected responses where the affiliated country of the respondent is one of the EOCD countires. We used the state of [OECD membership](http://www.oecd.org/about/membersandpartners/list-oecd-member-countries.htm) from the date 2016-05-03, which accounts for 34 member states.
+Despite the fact that the survey has responses from many different countries, we limit the analysis to the 34 [OECD member states](http://www.oecd.org/about/membersandpartners/list-oecd-member-countries.htm) (checked 3 May 2016), as these countries are more similar to the Netherlands, and comparison is more meaningful. For example, respondents from countries with low GDP often use Zotero (free of charge), while EndNote (paid) is used more in countries with a higher GDP.
+
+The figures below compare respondents from VU University to respondents from OECD countries. OECD respondents are indicated with solid colored bars, VU respondent bars are hashed. All data is reported in percentages, that is, a solid bar up to 80 for google Scholar in the **Discovery_search** graph indicates that 80 per cent of all VU respondents reported using Google Scholar for Search in the Discovery process. We report all tools per subactivity.
+
+Overall, differences between OECD and VU repondents are not very large, but there are a few tools that stand out.
+
+<!-- 
+ - betere legenda maken; 
+ - axis-beschrijving kan veel korter; 
+ - y axis beter op (25-)50-(75-)100 %? 
+ - OECD=incl Nederland?
+ - why are some graphs so much higher?
+-->
+
+- *Discovery* Mendeley is used relatively often at the VU for reading and searching
+
+- *Analysis* Use of SPSS as a tool for analysis is much larger at the VU than for the OECD average.
+
+- *Writing* As in the Discovery phase, Mendeley users for reference management are strongly represented at the VU. The preference for Mendeley is at the expense of all other tools except Endnote. For writing, VU respondents are relatively traditional, with high usage of MS Word and low usage of Google Docs and LaTeX.
+
+- *Publication* Scopus usage is relatively low. Few VU respondents use the institutional repository for archival.
+
+- *Outreach* ...
 
 ```{r child="Vraag132.AlleTools.subfasen.Rmd", echo=FALSE}
 ```
