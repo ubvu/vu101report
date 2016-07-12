@@ -1,0 +1,77 @@
+# Demographics
+These demographics form the baseline of our study.
+
+## Survey outcomes
+
+| Number of respondents | Value |
+| --- | ---: |
+| World Wide | 20663 |
+| Netherlands | 2041 |
+| VU and VUmc | 531 |
+
+![](http://d3atbsy0flqavg.cloudfront.net/v1.1.1/site/uri/dashboard101innovations.silk.co/file/id/bb516563-3c66-4ad7-a08e-e7db18902f3c)
+[More global demographics...](http://dashboard101innovations.silk.co/page/Demographics)
+
+**The values below are within the set of VU & VUmc respondents.**
+
+| Discipline (multi-choice) | Value |
+| --- | ---: |
+| Physical Sciences | 39 |
+| Engineering & Technology | 35 |
+| Life Sciences | 144 |
+| Medicine | 181 |
+| Social Sciences & Economics | 176 |
+| Law | 26 |
+| Arts & Humanities | 55 |
+
+| Role | Value |
+| --- | ---: |
+| Number of PhD's | 230 |
+| Number of PostDoc's | 70 |
+| Number of (Associate, Assistant) Professors | 188 |
+
+| First publication year | Value |
+| --- | ---: |
+| before 1991 | 61 |
+| 1991-2000 | 70 |
+| 2001-2005 | 55 |
+| 2006-2010 | 79 |
+| 2011-2016 | 168 |
+| not published (yet) | 96 |
+
+| Country of affiliation | Value |
+| --- | ---: |
+| Netherlands | 519 |
+| United States | 3 |
+| Germany | 2 |
+| Brazil | 1 |
+| DR of Congo | 1 |
+| India | 1 |
+| Italy | 1 |
+| Latvia | 1 |
+| Turkey | 1 |
+
+## Organisation demographics VU&VUmc
+| Faculty | Number of scientific personnel |
+| --- | ---: |
+| Godgeleerdheid | 0 |
+| Geesteswetenschappen | 0 |
+| Rechtsgeleerdheid | 0 |
+| Sociale Wetenschappen | 0 |
+| Economische Wetenschappen en Bedrijfskunde | 0 |
+| Exacte Wetenschappen | 0 |
+| Aard- en Levenswetenschappen | 0 |
+| Gedrags- en Bewegingswetenschappen | 0 |
+| Geneeskunde | 0 |
+| Tandheelkunde (ACTA) | 0 |
+
+## Survey disciplines and faculty
+| Survey Discipline | Faculty | Number of scientific personnel |
+| --- | --- | ---: |
+| Physical Sciences | Exacte wetenschappen | 0 |
+| Engineering & Technology | Exacte wetenschappen | 0 |
+| Life Sciences | Aard- en Levenswetenschappen  | 0 |
+| Medicine | Aard- en Levenswetenschappen AND Geneeskunde AND Tandheelkunde (ACTA) | 0 |
+| Social Sciences & Economics | Sociale Wetenschappen AND Economische Wetenschappen en Bedrijfskunde | 0 |
+| Law | Rechtsgeleerdheid | 0 |
+| Arts & Humanities | Godgeleerdheid AND Geesteswetenschappen | 0 |

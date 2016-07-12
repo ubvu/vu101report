@@ -1,221 +1,53 @@
 ---
 title: "Rapport - VU innovations in Scholarly Communication"
-author: "Maurice Vanderfeesten, Marjet Elemans"
+author: "Maurice Vanderfeesten, Marjet Elemans, Mathijs de Zwaan"
 date: "June 13, 2016"
 output: html_document
 ---
-<!-- English or Dutch? First part of the report is written in dutch, then switches to English. Axis titles in the figures are also in Dutch -->
-
-De UBVU wil haar dienstverlening graag zo dicht mogelijk aansluiten bij het wetenschappelijke communicatieproces van de onderzoekers van VU en VUmc.
-
-Het wetenschappelijke communicatieproces is volop in beweging. Dit komt door de inzet van digitale middelen binnen de onderzoeksfases: Discovery, Analysis, Writing, Publication, Outreach en Assessment.
-
-Het project doet onderzoek naar naar wat het gebruik is van deze digitale middelen binnen het VU en VUmc, en sluit hierbij aan bij een internationaal onderzoek waardoor resultaten vergeleken kunnen worden met andere landen.
-
-De onderstaande resultaten zijn bedoeld als gespreksstof met de faculteiten om de dienstverlening te verbeteren, vernieuwen en te veranderen, zodat ze beter aansluit bij de fases van de onderzoekspraktijk van de onderzoekers.
-
-# Aanpak
-Er zijn [onderzoeksvragen](https://docs.google.com/document/d/1p3k5PLXtJNvGviWvsBoPZ4dbgGU9Fa_dHb08iOdvC6Q/edit?usp=sharing) door de vak- en thema specialisten opgesteld. Dit zijn de vragen die nodig zijn om het gesprek te voeren. Voor elke vraag is een raamwerk gemaakt waarbinnen het antwoord vanuit de enquete resultaten kan worden gegeven. Vanuit het oogpunt tijd, is gekozen om alleen de vragen te beantwoorden met de hoogste urgentie.
-
-De vragen moeten antwoord geven voor twee vraag-categoriën:
-1. Het toolgebruik binnen de VU in haar geheel
-2. Het toolgebruik binnen Disciplines
-
-Met name de laatste vraag-categorie is interessant voor vak- en themaspecialisten, waar ze inzicht krijgen in het tool-gebruik binnen de discipline die ze vertegenwoordigen.
-
-# Data gathering
-Met deze enquete hebben we meegelift bij een bestaand onderzoek van Kramer, B. and J. Bosman, *Innovations in scholarly communication - global survey on research tool usage* [version 1; referees: awaiting peer review]. F1000Research 2016, 5:692
-[(doi: 10.12688/f1000research.8414.1)](http://dx.doi.org/10.12688/f1000research.8414.1)
-
-We hebben een custom URL aangevraagd waardoor VU en VUmc onderzoekers in de binnengekomen data is te onderscheiden met de hash 7V4u8a. Van deze custom URL is een verkorte URL gemaakt [http://bit.ly/vu101innovations], zodat we de activiteit van de verspreiding makkelijker bij konden houden. We hebben aan de portefeuillehoudersonderzoek gevraagd deze verkorte URL door te sturen naar hun onderzoekers.
-
-![VU101webactivity](./images/vu101response-aantallen.png "VU101 webactivity, 543 in January, 296 in February")
-
-In twee e-mail acties leverde het in januari een activiteit op van 543 bezoekers, en in februari 296 bezoekers, in totaal 839 bezoekers.
-
-De VU en VUmc hebben samen ongeveer 6000 personen wetenschappelijke staf.
-
-# Resultaten
-De vraag-categorien komen ook terug in de nummering van de resultaten.
-
-Elke vraag bevat een antwoord, aangevuld met diagrammen. Een vraag begint met een samenvattende uitleg en diagram en daarna volgen de sub-secties met gedetailleerdere diagrammen.
-
-De Scholarly Communication Fases zullen gedurende het hele rapport terug komen: Discovery, Analysis, Writing, Publication, Outreach en Assessment.
-
-![VU101innovations](./images/vu101innovations.png "Discovery, Analysis, Writing, Publication, Outreach en Assessment")
+<!-- preparing all data for plots -->
 ```{r echo=FALSE, warning=FALSE, message=FALSE}
-source("MainBasic.R")
-```
+source("MainBasic.R")```
 
-# Demografische gegevens
+<!-- Introduction -->
+```{r child="Vraag01.introduction.Rmd", echo=FALSE}```
 
-## Survey outcomes
+<!-- # Demographics -->
+```{r child="Vraag02.demographics.Rmd", echo=FALSE}```
 
-
-| Number of respondents | Value |
-| --- | ---: |
-| world wide | 20663 |
-| VU and VUmc | 531 |
-
-**The values below are within the set of VU & VUmc respondents.**
-
-| Discipline (multi-choice) | Value |
-| --- | ---: |
-| Physical Sciences | 39 |
-| Engineering & Technology | 35 |
-| Life Sciences | 144 |
-| Medicine | 181 |
-| Social Sciences & Economics | 176 |
-| Law | 26 |
-| Arts & Humanities | 55 |
-
-| Role | Value |
-| --- | ---: |
-| Number of PhD's | 230 |
-| Number of PostDoc's | 70 |
-| Number of (Associate, Assistant) Professors | 188 |
-
-| First publication year | Value |
-| --- | ---: |
-| before 1991 | 61 |
-| 1991-2000 | 70 |
-| 2001-2005 | 55 |
-| 2006-2010 | 79 |
-| 2011-2016 | 168 |
-| not published (yet) | 96 |
-
-| Country of affiliation | Value |
-| --- | ---: |
-| Netherlands | 519 |
-| United States | 3 |
-| Germany | 2 |
-| Brazil | 1 |
-| DR of Congo | 1 |
-| India | 1 |
-| Italy | 1 |
-| Latvia | 1 |
-| Turkey | 1 |
-
-## Organisation demographics VU&VUmc
-| Faculty | Number of scientific personnel |
-| --- | ---: |
-| Godgeleerdheid | 0 |
-| Geesteswetenschappen | 0 |
-| Rechtsgeleerdheid | 0 |
-| Sociale Wetenschappen | 0 |
-| Economische Wetenschappen en Bedrijfskunde | 0 |
-| Exacte Wetenschappen | 0 |
-| Aard- en Levenswetenschappen | 0 |
-| Gedrags- en Bewegingswetenschappen | 0 |
-| Geneeskunde | 0 |
-| Tandheelkunde (ACTA) | 0 |
-
-## Survey disciplines and faculty
-| Survey Discipline | Faculty | Number of scientific personnel |
-| --- | --- | ---: |
-| Physical Sciences | Exacte wetenschappen | 0 |
-| Engineering & Technology | Exacte wetenschappen | 0 |
-| Life Sciences | Aard- en Levenswetenschappen  | 0 |
-| Medicine | Aard- en Levenswetenschappen AND Geneeskunde AND Tandheelkunde (ACTA) | 0 |
-| Social Sciences & Economics | Sociale Wetenschappen AND Economische Wetenschappen en Bedrijfskunde | 0 |
-| Law | Rechtsgeleerdheid | 0 |
-| Arts & Humanities | Godgeleerdheid AND Geesteswetenschappen | 0 |
-
-
-# Popular tools vs Library supported tools (1.3.1)
+# Popular tools vs Library supported tools <!-- (1.3.1) -->
 
 The charts below show which tools are used most often, as indicated by the responses in the survey. The first set of charts shows the three most used tools by research phase; the second set gives more detail, and displays usage of all available tools in the different research phases. Bars with a solid fill indicate that the tool is supported by the Library (as indicated on the [Library services price list available on VUnet](https://vunet.login.vu.nl/services/pages/practicalinformation.aspx?cid=tcm%3a165-344598-16)), hatched bars indicate no support.
 
-## Top 3 per research phase
+<!-- ## Top 3 per research phase -->
+```{r child="Vraag131.top3.fasen.Rmd", echo=FALSE}```
 
-- *Discovery* Acrobat Reader, Google Scholar, and Institutional Access are all used by approximately 500 respondents. Looking at the more detailed figures showing all tools per research activity, it becomes clear that these tools are not direct competitors: each are leading tools in different research activities. Acrobat Reader is a very poular tool for reading, Google Scholar for searching literature, and Institutional Access to gain access to academic literature.
+<!-- ## All tools per research activity -->
+```{r child="Vraag131.AlleTools.subfasen.Rmd", echo=FALSE}```
 
-- *Analysis* Excel is most widely used within the VU, with SPSS a close second, and R a more distant third. These tools fall within the same activity class, and could be considered rival tools. It is notable that very few reseachers use tools to share there analysis, and it would be interesting to see how this evolves in the future.
+# VU&VUmc vs OECD countries <!-- (1.3.2) -->
 
-- *Writing* Microsoft Word is the most popular writing tool by far, and nearly all respondents indicate that they use Word. The second and third most popular tools in the Writing category are reference managers: Endnote and Mendeley. Endnote is supported by the Library, but Mendeley has only slightly fewer users.
+```{r child="Vraag132.AlleTools.subfasen.Rmd", echo=FALSE}```
 
-- *Publication* Unsurprisingly, the traditional topical journal (ie, 'closed' access) is still the leading outlet for academic work; more than eighty per cent of respondents with at least one publication indicate they have published in such a journal. The second and third most popular tools, ResearchGate and Open Access topical journals, are Open Access outlets. Note that ResearchGate is seen as a tool for archival, rather than publication.
-
-- *Outreach* Generally, outreach to other academics is more popular than outreach to a broader public. ResearchGate and Google Scholar profiles are the most popular tools in this category. Twitter, and to a lesser extent WordPress, are used as tools for outreach to a broader public. Very few researchers make their presentations available for others.
-
-- *Assessment* In the assessment phase, researchers mostly use Thomson reuters' Web of Science Journal Citation Reports to measure impact. Scopus is used as well, but much less often, presumably because the VU does not offer access to it. Alternative ('open') ways of peer review have very few users.
-<!-- WoS is supported by the UB? -->
-
-```{r child="Vraag131.top3.fasen.Rmd", echo=FALSE}
-```
-
-## All tools per research activity
-<!-- The y-axis titles for the 'all tools per activity' charts say 'TOP 3' -->
-
-```{r child="Vraag131.AlleTools.subfasen.Rmd", echo=FALSE}
-```
-
-# VU&VUmc vs OECD countries
-Despite the fact that the survey has responses from many different countries, we limit the analysis to the 34 [OECD member states](http://www.oecd.org/about/membersandpartners/list-oecd-member-countries.htm) (checked 3 May 2016), as these countries are more similar to the Netherlands, and comparison is more meaningful. For example, respondents from countries with low GDP often use Zotero (free of charge), while EndNote (paid) is used more in countries with a higher GDP.
-
-The figures below compare respondents from VU University to respondents from OECD countries. OECD respondents are indicated with solid colored bars, VU respondent bars are hashed. All data is reported in percentages, that is, a solid bar up to 80 for google Scholar in the **Discovery_search** graph indicates that 80 per cent of all VU respondents reported using Google Scholar for Search in the Discovery process. We report all tools per subactivity.
-
-Overall, differences between OECD and VU repondents are not very large, but there are a few tools that stand out.
-
-<!-- 
- - betere legenda maken; 
- - axis-beschrijving kan veel korter; 
- - y axis beter op (25-)50-(75-)100 %? 
- - OECD=incl Nederland?
- - why are some graphs so much higher?
--->
-
-- *Discovery* Mendeley is used relatively often at the VU for reading and searching
-
-- *Analysis* Use of SPSS as a tool for analysis is much larger at the VU than for the OECD average.
-
-- *Writing* As in the Discovery phase, Mendeley users for reference management are strongly represented at the VU. The preference for Mendeley is at the expense of all other tools except Endnote. For writing, VU respondents are relatively traditional, with high usage of MS Word and low usage of Google Docs and LaTeX.
-
-- *Publication* Scopus usage is relatively low. Few VU respondents use the institutional repository for archival.
-
-- *Outreach* ...
-
-```{r child="Vraag132.AlleTools.subfasen.Rmd", echo=FALSE}
-```
-
-# Career groups and Tool usage (1.1.1)
+# Career groups and Tool usage <!-- (1.1.1) -->
 At this stage we would like to see if there are tools used that differ between the academic careergroups at the VU and VUmc.
 In the data we labeled the PhDs and post docs as non-tenured and the other (assistant) professors were labeled as tenured researchers.
 
-## Extremities
-The figure below shows only the tools with the biggest difference between tenures users and non-tenured researchers.
+<!-- ## Extremities: Tenures vs Non-tenures -->
+```{r child="Vraag111.top2.fasen.Rmd", echo=FALSE}```
 
-Please note that the bars of the Tenured group is filled with the color of the research phase. The bars of the Non-tenured group are shaded.
+<!-- ## Details: Tenures vs Non-tenures grouped by research activities -->
+```{r child="Vraag111.AlleTools.subfasen.Rmd", echo=FALSE}```
 
-Tools to the **left** of each graph are used more by the **Tenured** group.
-Tools to the **right** of each graph are used more by the **Non-Tenured** group.
-
-```{r child="Vraag111.top2.fasen.Rmd", echo=FALSE}
-```
-
-## Details
-Here we see all tools in the survey sorted by research phase and research activity.
-```{r child="Vraag111.AlleTools.subfasen.Rmd", echo=FALSE}
-```
-
----
-# TODO
----
-
-# Open Access and Open Science (2.2.2)
+# Open Access and Open Science <!-- (2.2.2) -->
 ## Tenures vs Non-tenures
-```{r child="Vraag222.OAsupport.Rmd", echo=FALSE}
-```
+```{r child="Vraag222.OAsupport.Rmd", echo=FALSE}```
 
 ## Per Discipline: Open Access and Open Science
-```{r child="Vraag222.OAsupport.per.discipline.Rmd", echo=FALSE}
-```
+```{r child="Vraag222.OAsupport.per.discipline.Rmd", echo=FALSE}```
 
-# Tools per discipline (2.1.1)
-## Most used tool per Research Phase
-```{r child="Vraag211.top1.tabel.Rmd", echo=FALSE}
-```
+# Tools per discipline <!-- (2.1.1) -->
+<!-- ## Most used tool per Research Phase -->
+```{r child="Vraag211.top1.tabel.Rmd", echo=FALSE}```
 
-## Tools per Research activity
-```{r child="Vraag211.PerDiscipline.subfasen.Rmd", echo=FALSE}
-```
+<!-- ## Tools per Research activity -->
+```{r child="Vraag211.PerDiscipline.subfasen.Rmd", echo=FALSE}```

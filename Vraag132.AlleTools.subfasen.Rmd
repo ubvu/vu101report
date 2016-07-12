@@ -1,16 +1,41 @@
+# VU&VUmc vs OECD countries
+Despite the fact that the survey has responses from many different countries, we limit the analysis to the 34 [OECD member states](http://www.oecd.org/about/membersandpartners/list-oecd-member-countries.htm) (checked 3 May 2016), as these countries are more similar to the Netherlands, and comparison is more meaningful. For example, respondents from countries with low GDP often use Zotero (free of charge), while EndNote (paid) is used more in countries with a higher GDP.
+
+The figures below compare respondents from VU University to respondents from OECD countries. OECD respondents are indicated with solid colored bars, VU respondent bars are hashed. All data is reported in percentages, that is, a solid bar up to 80 for google Scholar in the **Discovery_search** graph indicates that 80 per cent of all VU respondents reported using Google Scholar for Search in the Discovery process. We report all tools per subactivity.
+
+Overall, differences between OECD and VU repondents are not very large, but there are a few tools that stand out.
+
+<!--
+ - betere legenda maken;
+ - axis-beschrijving kan veel korter;
+ - y axis beter op (25-)50-(75-)100 %?
+ - OECD=incl Nederland?
+ - why are some graphs so much higher?
+-->
+
+- *Discovery* Mendeley is used relatively often at the VU for reading and searching
+
+- *Analysis* Use of SPSS as a tool for analysis is much larger at the VU than for the OECD average.
+
+- *Writing* As in the Discovery phase, Mendeley users for reference management are strongly represented at the VU. The preference for Mendeley is at the expense of all other tools except Endnote. For writing, VU respondents are relatively traditional, with high usage of MS Word and low usage of Google Docs and LaTeX.
+
+- *Publication* Scopus usage is relatively low. Few VU respondents use the institutional repository for archival.
+
+- *Outreach* ...
+
 ```{r}
 
 for(i in 1:length(PhaseResearchCycle))
-{ 
+{
   # Print heading
   par(mar = c(6,6,4,1) +0.1)
   #selecteer SubPhases behoorden bij PhaseResearchCyclie[i]
   SubPhases.Phase.i<-SubPhases[grep(PhaseResearchCycle[i],SubPhases)]
   n.rows<-ceiling(length(SubPhases.Phase.i)/2)
-  
+
   # WIN GRAPH DISABLED FOR KNITR COMPATIBILITY!
   #win.graph(14,n.rows*4)
-  
+
   par(mfrow=c(n.rows,2))
   for(j in 1:length(SubPhases.Phase.i))
   {
@@ -19,7 +44,7 @@ for(i in 1:length(PhaseResearchCycle))
     ColNames.SubPhase.j <- as.character(Tools[which(Tools[,"SubPhase"]==SubPhases.Phase.i[j]),"Variable.name"])
     #selecteer tools van subphase j uit phase i in ToolUse.per.TenureStatus
     ToolUse.Subphase.j<-(ToolUse.OECDvsVU[,ColNames.SubPhase.j]/respondenten.OECDvsVU)*100
-    
+
     #sort tools from ToolUse.Subphase.j by difference in tooluse in OECD-countries
     ToolUse.Subphase.j<-ToolUse.Subphase.j[,order(-ToolUse.Subphase.j[1,])]
     #define axis labels
@@ -31,5 +56,4 @@ for(i in 1:length(PhaseResearchCycle))
       ylim=c(0,100),cex.lab=if(n.rows==1){0.8},
       ylab="percentage gebruikers in OECD landen (gekleurde bars)\n en aan de VU (open bars)")
   }
-}
-```
+}```
