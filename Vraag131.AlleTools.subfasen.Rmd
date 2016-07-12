@@ -35,4 +35,5 @@ for(i in 1:length(PhaseResearchCycle))
           cex.names=0.7,cex.main=1,las=2,cex.lab=if(n.rows==1){0.8},
           names.arg=wr.lab,col=Kleuren[i],density=((fill+1)^2)*20)
   }
-}```
+}
+```

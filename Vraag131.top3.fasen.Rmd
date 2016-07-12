@@ -39,4 +39,5 @@ for(i in 1:length(PhaseResearchCycle))
           xlab="Aantal gebruikers: Top 3 van alle respondenten\n(dichte arcering=UB support)",
           cex.names=0.7,cex.main=1,horiz=T,las=1,
           names.arg=wr.lab,col=Kleuren[i],density=((fill+1)^2)*20)
-}```
+}
+```

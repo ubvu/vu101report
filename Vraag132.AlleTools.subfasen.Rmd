@@ -56,4 +56,5 @@ for(i in 1:length(PhaseResearchCycle))
       ylim=c(0,100),cex.lab=if(n.rows==1){0.8},
       ylab="percentage gebruikers in OECD landen (gekleurde bars)\n en aan de VU (open bars)")
   }
-}```
+}
+```

@@ -49,4 +49,5 @@ for(i in 1:length(PhaseResearchCycle))
     names.arg=wr.lab,las=1,cex.names=0.7,col=rep(Kleuren[i],2),density=c(20,1000),
     xlim=c(0,max(ToolUse.per.TenureStatus[1:2,])),
     xlab="percentage gebruikers in tenured (gekleurde bars)\n en non-tenured (gearceerde bars) groep")
-}```
+}
+```

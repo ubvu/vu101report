@@ -5,48 +5,62 @@ date: "June 13, 2016"
 output: html_document
 ---
 <!-- preparing all data for plots -->
-```{r echo=FALSE, warning=FALSE, message=FALSE}source("MainBasic.R")```
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+source("MainBasic.R")
+```
 
 <!-- Introduction -->
-```{r child="Vraag01.introduction.Rmd", echo=FALSE}```
+```{r child="Vraag01.introduction.Rmd", echo=FALSE}
+```
 
 <!-- # Demographics -->
-```{r child="Vraag02.demographics.Rmd", echo=FALSE}```
+```{r child="Vraag02.demographics.Rmd", echo=FALSE}
+```
 
 # Popular tools vs Library supported tools <!-- (1.3.1) -->
 
 The charts below show which tools are used most often, as indicated by the responses in the survey. The first set of charts shows the three most used tools by research phase; the second set gives more detail, and displays usage of all available tools in the different research phases. Bars with a solid fill indicate that the tool is supported by the Library (as indicated on the [Library services price list available on VUnet](https://vunet.login.vu.nl/services/pages/practicalinformation.aspx?cid=tcm%3a165-344598-16)), hatched bars indicate no support.
 
 <!-- ## Top 3 per research phase -->
-```{r child="Vraag131.top3.fasen.Rmd", echo=FALSE}```
+```{r child="Vraag131.top3.fasen.Rmd", echo=FALSE}
+```
 
 <!-- ## All tools per research activity -->
-```{r child="Vraag131.AlleTools.subfasen.Rmd", echo=FALSE}```
+```{r child="Vraag131.AlleTools.subfasen.Rmd", echo=FALSE}
+```
 
 # VU&VUmc vs OECD countries <!-- (1.3.2) -->
 
-```{r child="Vraag132.AlleTools.subfasen.Rmd", echo=FALSE}```
+```{r child="Vraag132.AlleTools.subfasen.Rmd", echo=FALSE}
+```
 
 # Career groups and Tool usage <!-- (1.1.1) -->
 At this stage we would like to see if there are tools used that differ between the academic careergroups at the VU and VUmc.
 In the data we labeled the PhDs and post docs as non-tenured and the other (assistant) professors were labeled as tenured researchers.
 
 <!-- ## Extremities: Tenures vs Non-tenures -->
-```{r child="Vraag111.top2.fasen.Rmd", echo=FALSE}```
+```{r child="Vraag111.top2.fasen.Rmd", echo=FALSE}
+```
 
 <!-- ## Details: Tenures vs Non-tenures grouped by research activities -->
-```{r child="Vraag111.AlleTools.subfasen.Rmd", echo=FALSE}```
+```{r child="Vraag111.AlleTools.subfasen.Rmd", echo=FALSE}
+```
 
 # Open Access and Open Science <!-- (2.2.2) -->
 ## Tenures vs Non-tenures
-```{r child="Vraag222.OAsupport.Rmd", echo=FALSE}```
+```{r child="Vraag222.OAsupport.Rmd", echo=FALSE}
+```
 
 ## Per Discipline: Open Access and Open Science
-```{r child="Vraag222.OAsupport.per.discipline.Rmd", echo=FALSE}```
+```{r child="Vraag222.OAsupport.per.discipline.Rmd", echo=FALSE}
+```
 
 # Tools per discipline <!-- (2.1.1) -->
 <!-- ## Most used tool per Research Phase -->
-```{r child="Vraag211.top1.tabel.Rmd", echo=FALSE}```
+```{r child="Vraag211.top1.tabel.Rmd", echo=FALSE}
+```
 
 <!-- ## Tools per Research activity -->
-```{r child="Vraag211.PerDiscipline.subfasen.Rmd", echo=FALSE}```
+```{r child="Vraag211.PerDiscipline.subfasen.Rmd", echo=FALSE}
+```

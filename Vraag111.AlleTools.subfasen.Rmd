@@ -34,4 +34,5 @@ for(i in 1:length(PhaseResearchCycle))
       ylim=c(0,max(ToolUse.per.TenureStatus[1:2,])),cex.lab=if(n.rows==1){0.8},
       ylab="percentage gebruikers in tenured (gekleurde bars)\n en non-tenured (open bars) groep")
   }
-}```
+}
+```
