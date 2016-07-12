@@ -5,8 +5,7 @@ date: "June 13, 2016"
 output: html_document
 ---
 <!-- preparing all data for plots -->
-```{r echo=FALSE, warning=FALSE, message=FALSE}
-source("MainBasic.R")```
+```{r echo=FALSE, warning=FALSE, message=FALSE}source("MainBasic.R")```
 
 <!-- Introduction -->
 ```{r child="Vraag01.introduction.Rmd", echo=FALSE}```
