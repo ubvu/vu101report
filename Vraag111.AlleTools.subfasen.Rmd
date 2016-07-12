@@ -1,15 +1,19 @@
+## Details: Tenures vs Non-tenures grouped by research activities
+
+Here we see all tools in the survey sorted by research phase and research activity.
+
 ```{r Vraag111.AlleTools.subfasen.Rmd, echo=FALSE}
 for(i in 1:length(PhaseResearchCycle))
-{ 
+{
   # Print heading
   par(mar = c(6,6,4,1) +0.1)
   #selecteer SubPhases behoorden bij PhaseResearchCyclie[i]
   SubPhases.Phase.i<-SubPhases[grep(PhaseResearchCycle[i],SubPhases)]
   n.rows<-ceiling(length(SubPhases.Phase.i)/2)
-  
+
   # WIN GRAPH DISABLED FOR KNITR COMPATIBILITY!
   #win.graph(14,n.rows*4)
-  
+
   par(mfrow=c(n.rows,2))
   for(j in 1:length(SubPhases.Phase.i))
   {
@@ -18,7 +22,7 @@ for(i in 1:length(PhaseResearchCycle))
     ColNames.SubPhase.j <- as.character(Tools[which(Tools[,"SubPhase"]==SubPhases.Phase.i[j]),"Variable.name"])
     #selecteer tools van subphase j uit phase i in ToolUse.per.TenureStatus
     ToolUse.Subphase.j<-ToolUse.per.TenureStatus[,ColNames.SubPhase.j]
-    
+
     #sort tools from ToolUse.Subphase.j by difference in tooluse between tenure-groups
     ToolUse.Subphase.j<-ToolUse.Subphase.j[,order(ToolUse.Subphase.j[3,])]
     #define axis labels

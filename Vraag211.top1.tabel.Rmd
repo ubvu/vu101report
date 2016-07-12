@@ -1,3 +1,5 @@
+## Most used tool per Research Phase
+
 ```{r}
 #Vraag211.top1.tabel.R
 
@@ -8,11 +10,11 @@ rownames(top1.discipline) <- Disciplines
 #vul top1.discipline met meest gebruikte tool per discipline per researchphase
 
 for(i in 1:length(PhaseResearchCycle))
-{ 
+{
   #select all tools from phase i
   ToolUse.Phase.i<-ToolUse.per.discipline[,as.character(Tools[which(Tools[,"PhaseResearchCycle"]==i),"Variable.name"])]
   for(j in 1:length(Disciplines))
-  { 
+  {
     #sorteer gebruik tools phase i in discipline j
     ToolUse.Phasei.Disciplinej<- ToolUse.Phase.i[j,order(-ToolUse.Phase.i[j,])]
     #zet naam meest gebruikte tool in top1.discipline cell [j,i]
@@ -20,7 +22,7 @@ for(i in 1:length(PhaseResearchCycle))
     top1.discipline[j,i]<- as.character(Name.Most.Used)
   }
 }
-  
+
 
 colors <- matrix(Kleuren,nrow=length(Disciplines),ncol=length(PhaseResearchCycle))
 
@@ -29,6 +31,4 @@ colors <- matrix(Kleuren,nrow=length(Disciplines),ncol=length(PhaseResearchCycle
 
 par(mar=c(0,0,1,0))
 plot_table(top1.discipline, Kleuren, "gray",main="Meest gebruikte tools", text.cex=0.8)
-
-
 ```
