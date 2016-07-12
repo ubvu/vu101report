@@ -1,6 +1,6 @@
 ---
 title: "Rapport - VU innovations in Scholarly Communication"
-author: "Maurice Vanderfeesten, Marjet Elemans, Mathijs de Zwaan"
+author: "Maurice Vanderfeesten, Marjet Elemans, Matthijs de Zwaan"
 date: "June 13, 2016"
 output: html_document
 ---
