@@ -1,3 +1,3 @@
 # Track excel files in Git Large File Storage
-git lfs track "*.xlsx"
-git lfs track "*.xls"
+# git lfs track "*.xlsx"
+# git lfs track "*.xls"
