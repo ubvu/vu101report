@@ -2,7 +2,13 @@
 title: "Rapport - VU innovations in Scholarly Communication"
 author: "Maurice Vanderfeesten, Marjet Elemans, Mathijs de Zwaan"
 date: "June 13, 2016"
-output: html_document
+output: 
+  html_document:
+    toc: true # table of content true
+    depth: 3  # upto three depths of headings (specified by #, ## and ###)
+    number_sections: true  ## if you want number sections at each table header
+    theme: united  # many options for theme, this one is my favorite.
+    highlight: tango  # specifies the syntax highlighting style
 ---
 <!-- preparing all data for plots -->
 
@@ -48,11 +54,11 @@ In the data we labeled the PhDs and post docs as non-tenured and the other (assi
 ```
 
 # Open Access and Open Science <!-- (2.2.2) -->
-## Tenures vs Non-tenures
+<!-- ## Open Intention for Tenures vs Non-tenures -->
 ```{r child="Vraag222.OAsupport.Rmd", echo=FALSE, fig.width=12, out.width=910}
 ```
 
-## Per Discipline: Open Access and Open Science
+<!-- ## Open Intention per discipline -->
 ```{r child="Vraag222.OAsupport.per.discipline.Rmd", echo=FALSE, fig.width=12, out.width=910}
 ```
 
@@ -61,6 +67,10 @@ In the data we labeled the PhDs and post docs as non-tenured and the other (assi
 ```{r child="Vraag211.top1.tabel.Rmd", echo=FALSE, fig.width=12, out.width=910}
 ```
 
-<!-- ## Tools per Research activity -->
+<!-- ## Tool usage grouped by discipline and grouped by research activity -->
+```{r child="Vraag211.AllDisciplines.subfasen.Rmd", echo=FALSE, fig.width=12, out.width=910}
+```
+
+<!-- # Detailed overview for each discipline -->
 ```{r child="Vraag211.PerDiscipline.subfasen.Rmd", echo=FALSE, fig.width=12, out.width=910}
 ```
