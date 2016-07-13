@@ -5,9 +5,10 @@ date: "June 13, 2016"
 output: 
   html_document:
     toc: true # table of content true
+    toc_float: true # make the toc float
     depth: 3  # upto three depths of headings (specified by #, ## and ###)
     number_sections: true  ## if you want number sections at each table header
-    theme: united  # many options for theme, this one is my favorite.
+    theme: yeti  # many options for theme, this one is my favorite.
     highlight: tango  # specifies the syntax highlighting style
 ---
 <!-- preparing all data for plots -->
