@@ -1,3 +1,5 @@
 # Track excel files in Git Large File Storage
 # git lfs track "*.xlsx"
 # git lfs track "*.xls"
+.xlsx filter=lfs diff=lfs merge=lfs -text
+.xsl filter=lfs diff=lfs merge=lfs -text
