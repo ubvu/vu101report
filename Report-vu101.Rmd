@@ -2,7 +2,13 @@
 title: "Rapport - VU innovations in Scholarly Communication"
 author: "Maurice Vanderfeesten, Marjet Elemans, Matthijs de Zwaan"
 date: "June 13, 2016"
-output: html_document
+output: 
+  html_document:
+    toc: true # table of content true
+    depth: 3  # upto three depths of headings (specified by #, ## and ###)
+    number_sections: true  ## if you want number sections at each table header
+    theme: united  # many options for theme, this one is my favorite.
+    highlight: tango  # specifies the syntax highlighting style
 ---
 <!-- preparing all data for plots -->
 
@@ -23,16 +29,16 @@ source("MainBasic.R")
 The charts below show which tools are used most often, as indicated by the responses in the survey. The first set of charts shows the three most used tools by research phase; the second set gives more detail, and displays usage of all available tools in the different research phases. Bars with a solid fill indicate that the tool is supported by the Library (as indicated on the [Library services price list available on VUnet](https://vunet.login.vu.nl/services/pages/practicalinformation.aspx?cid=tcm%3a165-344598-16)), hatched bars indicate no support.
 
 <!-- ## Top 3 per research phase -->
-```{r child="Vraag131.top3.fasen.Rmd", echo=FALSE}
+```{r child="Vraag131.top3.fasen.Rmd", echo=FALSE, fig.width=12, out.width=910}
 ```
 
 <!-- ## All tools per research activity -->
-```{r child="Vraag131.AlleTools.subfasen.Rmd", echo=FALSE}
+```{r child="Vraag131.AlleTools.subfasen.Rmd", echo=FALSE, fig.width=12, out.width=910}
 ```
 
 # VU&VUmc vs OECD countries <!-- (1.3.2) -->
 
-```{r child="Vraag132.AlleTools.subfasen.Rmd", echo=FALSE}
+```{r child="Vraag132.AlleTools.subfasen.Rmd", echo=FALSE, fig.width=12, out.width=910}
 ```
 
 # Career groups and Tool usage <!-- (1.1.1) -->
@@ -40,27 +46,31 @@ At this stage we would like to see if there are tools used that differ between t
 In the data we labeled the PhDs and post docs as non-tenured and the other (assistant) professors were labeled as tenured researchers.
 
 <!-- ## Extremities: Tenures vs Non-tenures -->
-```{r child="Vraag111.top2.fasen.Rmd", echo=FALSE}
+```{r child="Vraag111.top2.fasen.Rmd", echo=FALSE, fig.width=12, out.width=910}
 ```
 
 <!-- ## Details: Tenures vs Non-tenures grouped by research activities -->
-```{r child="Vraag111.AlleTools.subfasen.Rmd", echo=FALSE}
+```{r child="Vraag111.AlleTools.subfasen.Rmd", echo=FALSE, fig.width=12, out.width=910}
 ```
 
 # Open Access and Open Science <!-- (2.2.2) -->
-## Tenures vs Non-tenures
-```{r child="Vraag222.OAsupport.Rmd", echo=FALSE}
+<!-- ## Open Intention for Tenures vs Non-tenures -->
+```{r child="Vraag222.OAsupport.Rmd", echo=FALSE, fig.width=12, out.width=910}
 ```
 
-## Per Discipline: Open Access and Open Science
-```{r child="Vraag222.OAsupport.per.discipline.Rmd", echo=FALSE}
+<!-- ## Open Intention per discipline -->
+```{r child="Vraag222.OAsupport.per.discipline.Rmd", echo=FALSE, fig.width=12, out.width=910}
 ```
 
 # Tools per discipline <!-- (2.1.1) -->
 <!-- ## Most used tool per Research Phase -->
-```{r child="Vraag211.top1.tabel.Rmd", echo=FALSE}
+```{r child="Vraag211.top1.tabel.Rmd", echo=FALSE, fig.width=12, out.width=910}
 ```
 
-<!-- ## Tools per Research activity -->
-```{r child="Vraag211.PerDiscipline.subfasen.Rmd", echo=FALSE}
+<!-- ## Tool usage grouped by discipline and grouped by research activity -->
+```{r child="Vraag211.AllDisciplines.subfasen.Rmd", echo=FALSE, fig.width=12, out.width=910}
+```
+
+<!-- # Detailed overview for each discipline -->
+```{r child="Vraag211.PerDiscipline.subfasen.Rmd", echo=FALSE, fig.width=12, out.width=910}
 ```
