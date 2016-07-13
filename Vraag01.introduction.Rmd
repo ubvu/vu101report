@@ -1,5 +1,7 @@
 <!-- English or Dutch? First part of the report is written in dutch, then switches to English. Axis titles in the figures are also in Dutch -->
 
+![101Innovationslogo](./images/vu101header.png)
+
 De UBVU wil haar dienstverlening graag zo dicht mogelijk aansluiten bij het wetenschappelijke communicatieproces van de onderzoekers van VU en VUmc.
 
 Het wetenschappelijke communicatieproces is volop in beweging. Dit komt door de inzet van digitale middelen binnen de onderzoeksfases: Discovery, Analysis, Writing, Publication, Outreach en Assessment.
@@ -36,4 +38,4 @@ Elke vraag bevat een antwoord, aangevuld met diagrammen. Een vraag begint met ee
 
 De Scholarly Communication Fases zullen gedurende het hele rapport terug komen: Discovery, Analysis, Writing, Publication, Outreach en Assessment.
 
-![VU101innovations](./images/vu101innovations.png "Discovery, Analysis, Writing, Publication, Outreach en Assessment")
+![VU101innovations](./images/vu101innovations-big.png "Discovery, Analysis, Writing, Publication, Outreach en Assessment")

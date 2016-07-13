@@ -1,5 +1,7 @@
 ## Tool usage grouped by discipline and grouped by research activity
 
+![Discipline Colors Legend](./images/disciplines-colors-legend-7col-mid.png)
+
 ```{r}
 #Vraag211.AllDisciplines.subfasen.R
 
