@@ -32,5 +32,6 @@ vignettes/*.pdf
 *.utf8.md
 *.knit.md
 
-# Ignore final output
-Report-vu101.html
+# Ignore final output & images
+*.html
+*.png
