@@ -2,6 +2,16 @@
 
 Here we see all tools in the survey sorted by research phase and research activity.
 
+- *Discovery* ...
+
+- *Analysis* ...
+
+- *Writing* ...
+
+- *Publication* ...
+
+- *Outreach* ...
+
 ```{r Vraag111.AlleTools.subfasen.Rmd, echo=FALSE}
 for(i in 1:length(PhaseResearchCycle))
 {

@@ -3,6 +3,16 @@ The figure below shows only the tools with the biggest difference between tenure
 
 Please note that the bars of the Tenured group is filled with the color of the research phase. The bars of the Non-tenured group are shaded.
 
+- *Discovery* ...
+
+- *Analysis* ...
+
+- *Writing* ...
+
+- *Publication* ...
+
+- *Outreach* ...
+
 Tools to the **left** of each graph are used more by the **Tenured** group.
 Tools to the **right** of each graph are used more by the **Non-Tenured** group.
 
