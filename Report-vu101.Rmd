@@ -1,8 +1,8 @@
 ---
 title: "Rapport - VU innovations in Scholarly Communication"
 author: "Maurice Vanderfeesten, Marjet Elemans, Matthijs de Zwaan"
-date: "June 13, 2016"
-output: 
+date: "July 13, 2016"
+output:
   html_document:
     toc: true # table of content true
     toc_float: true # make the toc float
@@ -42,14 +42,16 @@ The charts below show which tools are used most often, as indicated by the respo
 ```{r child="Vraag132.AlleTools.subfasen.Rmd", echo=FALSE, fig.width=12, out.width=910}
 ```
 
-# Career groups and Tool usage <!-- (1.1.1) -->
-At this stage we would like to see if there are tools used that differ between the academic careergroups at the VU and VUmc.
-In the data we labeled the PhDs and post docs as non-tenured and the other (assistant) professors were labeled as tenured researchers.
+# Career groups and Tool usage <!-- (1.1.1) --> {#sec:tenure}
+In this section, we report on differences in tool usage between tenured and non-tenured researchers. We consider assistant professors, associate professors and full professors as tenured faculty; PhD students and postdoctoral researchers are grouped as non-tenured.
 
+
+## Tenured vs non-tenured researchers {#ssec:tenure:top2}
 <!-- ## Extremities: Tenures vs Non-tenures -->
 ```{r child="Vraag111.top2.fasen.Rmd", echo=FALSE, fig.width=12, out.width=910}
 ```
 
+## Tenured vs non-tenured researchers: detail {#ssec:tenure:detail}
 <!-- ## Details: Tenures vs Non-tenures grouped by research activities -->
 ```{r child="Vraag111.AlleTools.subfasen.Rmd", echo=FALSE, fig.width=12, out.width=910}
 ```
