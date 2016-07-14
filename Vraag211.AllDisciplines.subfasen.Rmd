@@ -31,10 +31,10 @@ for(i in 1:length(PhaseResearchCycle))
     labs <- Tools[match(as.character(colnames(ToolUse.Subphase.j)),Tools[,"Variable.name"]),"Tool.name"]
     wr.lab <- wrap.labels(labs, 10)
     #plot
-    barplot(ToolUse.Subphase.j,beside=TRUE,main=SubPhases.Phase.i[j],
+    barplot(ToolUse.Subphase.j/respondenten.per.discipline,beside=TRUE,main=SubPhases.Phase.i[j],
       names.arg=wr.lab,las=3,cex.names=0.7,col=Kleuren.disciplines,
-      ylim=c(0,max(ToolUse.Subphase.j)),cex.lab=if(n.rows==1){0.8},
-      ylab="Aantal gebruikers in Arts& Humanities (oranje), \nEngineering & Technology (beige), Law (grijs), \nLife Sciencse (Groen), Medicine (rood), \nPhysics (blauw) en Social Sciences (geel)")
+      ylim=c(0,1),cex.lab=if(n.rows==1){0.8},
+      ylab="% tool users in disciplines")
   }
 }
 ```
