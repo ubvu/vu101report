@@ -31,7 +31,7 @@ for(i in 1:length(PhaseResearchCycle))
 
   # plot gebruikers top 3 in horizontale bargraph 
   barplot(ToolUse.SubPhase.j, main=SubPhases.Phase.i[j],ylim=c(0,max(ToolUse.totaal)),
-          ylab="N tool users (filled color = VU library supported)",
+          ylab="[filled bar=available@library] \n N tool users",
           cex.names=0.7,cex.main=1,las=2,cex.lab=if(n.rows==1){0.8},
           names.arg=wr.lab,col=Kleuren[i],density=((fill+1)^2)*20)
   }
