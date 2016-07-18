@@ -26,6 +26,6 @@ for(i in 1:length(PhaseResearchCycle))
     barplot(ToolUse.Subphase.j[1:2,],beside=TRUE,main=SubPhases.Phase.i[j],
       names.arg=wr.lab,las=3,cex.names=0.7,col=rep(Kleuren[i],2),density=c(20,1000),
       ylim=c(0,max(ToolUse.per.TenureStatus[1:2,])),cex.lab=if(n.rows==1){0.8},
-      ylab="percentage gebruikers in tenured (gekleurde bars)\n en non-tenured (open bars) groep")
+      ylab="[hatched bars: non-tenured] \n [filled bars: tenured] \n % tool users")
   }
 }

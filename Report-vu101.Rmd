@@ -30,16 +30,16 @@ source("MainBasic.R")
 The charts below show which tools are used most often, as indicated by the responses in the survey. The first set of charts shows the three most used tools by research phase; the second set gives more detail, and displays usage of all available tools in the different research phases. Bars with a solid fill indicate that the tool is supported by the Library (as indicated on the [Library services price list available on VUnet](https://vunet.login.vu.nl/services/pages/practicalinformation.aspx?cid=tcm%3a165-344598-16)), hatched bars indicate no support.
 
 <!-- ## Top 3 per research phase -->
-```{r child="Vraag131.top3.fasen.Rmd", echo=FALSE, fig.width=12, out.width=910}
+```{r child="Vraag131.top3.fasen.Rmd", echo=FALSE, fig.width=9, out.width=910}
 ```
 
 <!-- ## All tools per research activity -->
-```{r child="Vraag131.AlleTools.subfasen.Rmd", echo=FALSE, fig.width=12, out.width=910}
+```{r child="Vraag131.AlleTools.subfasen.Rmd", echo=FALSE, fig.width=9, out.width=910}
 ```
 
 # VU&VUmc vs OECD countries <!-- (1.3.2) -->
 
-```{r child="Vraag132.AlleTools.subfasen.Rmd", echo=FALSE, fig.width=12, out.width=910}
+```{r child="Vraag132.AlleTools.subfasen.Rmd", echo=FALSE, fig.width=9, out.width=910}
 ```
 
 # Career groups and Tool usage <!-- (1.1.1) --> {#sec:tenure}
@@ -48,21 +48,21 @@ In this section, we report on differences in tool usage between tenured and non-
 
 ## Tenured vs non-tenured researchers {#ssec:tenure:top2}
 <!-- ## Extremities: Tenures vs Non-tenures -->
-```{r child="Vraag111.top2.fasen.Rmd", echo=FALSE, fig.width=12, out.width=910}
+```{r child="Vraag111.top2.fasen.Rmd", echo=FALSE, fig.width=9, out.width=910}
 ```
 
 ## Tenured vs non-tenured researchers: detail {#ssec:tenure:detail}
 <!-- ## Details: Tenures vs Non-tenures grouped by research activities -->
-```{r child="Vraag111.AlleTools.subfasen.Rmd", echo=FALSE, fig.width=12, out.width=910}
+```{r child="Vraag111.AlleTools.subfasen.Rmd", echo=FALSE, fig.width=9, out.width=910}
 ```
 
 # Open Access and Open Science <!-- (2.2.2) -->
 <!-- ## Open Intention for Tenures vs Non-tenures -->
-```{r child="Vraag222.OAsupport.Rmd", echo=FALSE, fig.width=12, out.width=910}
+```{r child="Vraag222.OAsupport.Rmd", echo=FALSE, fig.width=9, out.width=910}
 ```
 
 <!-- ## Open Intention per discipline -->
-```{r child="Vraag222.OAsupport.per.discipline.Rmd", echo=FALSE, fig.width=12, out.width=910}
+```{r child="Vraag222.OAsupport.per.discipline.Rmd", echo=FALSE, fig.width=9, out.width=910}
 ```
 
 # Tools per discipline <!-- (2.1.1) -->
@@ -71,7 +71,7 @@ In this section, we report on differences in tool usage between tenured and non-
 ```
 
 <!-- ## Tool usage grouped by discipline and grouped by research activity -->
-```{r child="Vraag211.AllDisciplines.subfasen.Rmd", echo=FALSE, fig.width=12, out.width=910}
+```{r child="Vraag211.AllDisciplines.subfasen.Rmd", echo=FALSE, fig.width=9, out.width=910}
 ```
 
 <!-- # Detailed overview for each discipline -->
