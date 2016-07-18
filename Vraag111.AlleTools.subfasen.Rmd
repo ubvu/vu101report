@@ -1,5 +1,3 @@
-## Details: Tenures vs Non-tenures grouped by research activities
-
 Here we see all tools in the survey sorted by research phase and research activity.
 
 - *Discovery* ...
