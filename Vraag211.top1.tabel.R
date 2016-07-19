@@ -25,6 +25,6 @@ colors <- matrix(Kleuren,nrow=length(Disciplines),ncol=length(PhaseResearchCycle
 
 win.graph(14,7)
 par(mar=c(0,0,1,0))
-plot_table(top1.discipline, Kleuren, "gray",main="Meest gebruikte tools", text.cex=0.8)
+plot_table(top1.discipline, Kleuren, "gray",main="Most popular tool in a research phase for a discipline", text.cex=0.8)
 
 

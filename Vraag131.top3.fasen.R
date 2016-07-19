@@ -18,8 +18,8 @@ for(i in 1:length(PhaseResearchCycle))
   fill <- Tools[match(as.character(names(ToolUse.Phase.i[1:3])),Tools[,"Variable.name"]),"UB.support"]
   
   # plot gebruikers top 3 in horizontale bargraph 
-  barplot(ToolUse.Phase.i[1:3], main=PhaseResearchCycle[i],xlim=c(0,max(ToolUse.totaal)),
-          xlab="Aantal gebruikers: Top 3 van alle respondenten\n(dichte arcering=UB support)",
+  barplot(ToolUse.Phase.i[1:3], main=paste(PhaseResearchCycle[i]," (3 most popular)"),xlim=c(0,max(ToolUse.totaal)),
+          xlab="N tool users [filled bar=available@library]",
           cex.names=0.7,cex.main=1,horiz=T,las=1,
           names.arg=wr.lab,col=Kleuren[i],density=((fill+1)^2)*20)
 }
