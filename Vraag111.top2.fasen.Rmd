@@ -1,5 +1,4 @@
-## Extremities: Tenures vs Non-tenures
-The figure below shows only the tools with the biggest difference between tenures users and non-tenured researchers.
+<!--## Extremities: Tenures vs Non-tenures-->
 
 For the first set of graphs showing the two most pronounced differences, we calculate the difference by substracting the use in the tenured group from the use in the non-tenured group (both as percentages). The upper bars show the largest positive difference (ie, the tool is more popular among non-tenured researchers); the lower bars show the largest negative difference.
 
@@ -14,8 +13,7 @@ For the first set of graphs showing the two most pronounced differences, we calc
 - **Outreach** Tenured researchers seem to spend more effort on their research profile, as tool use in this phase is higher for that group. ResearchGate is popular among both groups. Although to a lesser extent (differences are less pronounced), tenured researchers also use more tools for outrecach to a broader public.
 
 - **Assessment** The difference is use of Web of Science indicators for impact assessment is striking: about 55% of tenured researchers indicate using the tool, versus appraximately 20% of non-tenured reseachers. Altmetrics and the PLoS metrics are not very popular (yet) in comparison, and are used by both groups, although slightly more by non-tenured researchers.
-Tools to the **left** of each graph are used more by the **Tenured** group.
-Tools to the **right** of each graph are used more by the **Non-Tenured** group.
+
 
 ```{r Vraag111.top2.fasen.Rmd, echo=FALSE}
 
