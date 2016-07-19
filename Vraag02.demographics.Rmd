@@ -9,7 +9,7 @@ These demographics form the baseline of our study.
 | Netherlands | 2041 |
 | VU and VUmc | 531 |
 
-![](http://d3atbsy0flqavg.cloudfront.net/v1.1.1/site/uri/dashboard101innovations.silk.co/file/id/bb516563-3c66-4ad7-a08e-e7db18902f3c)
+![Survey Respondents Worldwide](./images/101world.png)
 [More global demographics...](http://dashboard101innovations.silk.co/page/Demographics)
 
 **The values below are within the set of VU & VUmc respondents.**

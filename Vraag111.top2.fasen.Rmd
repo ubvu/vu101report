@@ -2,19 +2,6 @@
 
 For the first set of graphs showing the two most pronounced differences, we calculate the difference by substracting the use in the tenured group from the use in the non-tenured group (both as percentages). The upper bars show the largest positive difference (ie, the tool is more popular among non-tenured researchers); the lower bars show the largest negative difference.
 
-- **Discovery** The difference in use for PubMed and table of content announcements for journals stand out as the most significant discrepancies in the Discovery phase. Although not featuring in the 'top-2' figures, the use of Mendely stands out when inspecting the more detailed graphs: non-tenured (generally younger) researchers use Mendeley more often in the Reading, Searching and Alert activities within the Discovery phase.
-
-- **Analysis** Tool use for analysis is stronger with non-tenured researchers across the board. This holds for relatively new (and more open) tools such as R and Python, as well as for long-standing software such as Excel and MATLAB. The large difference for SPSS is no outlier. Tools for sharing analysis scripts are not very popular, and tool usage is low overall. Somewhat unexpectedly, use of the Open Science Framework is stronger for the tenured then for the non-tenured group. This could have to do with the fact <!-- is it a fact? --> that the OSF is often used for grant applications, and that this arguably is a more important activity for tenured researchers.
-
-- **Writing** The importance of Mendeley in the research workflow of non-tenured researchers is again apparent in the Writing Phase. Among this group, Mendeley is the most popular reference management software, more popular than Endnote---the most popular reference tool for tenured researchers. For the writing itself, MS Word is by far the most popular tool among both groups.
-
-- **Publication** <!-- Should we make these graphs relative to the number of people that have published? Difficult to interpret now --> In general, tenured researchers use more tools in the Publication phase; probably they simply publish more. This makes it difficult to interpret these figures properly. A few tools stand out. First, PubMed is relatively popular for archival of publications for non-tenured researchers, although in absolute terms ResearchGate is the most popular repository for both groups. GitHub is used mostly by non-tenured researchers as a repository for scripts and software code.
-
-- **Outreach** Tenured researchers seem to spend more effort on their research profile, as tool use in this phase is higher for that group. ResearchGate is popular among both groups. Although to a lesser extent (differences are less pronounced), tenured researchers also use more tools for outrecach to a broader public.
-
-- **Assessment** The difference is use of Web of Science indicators for impact assessment is striking: about 55% of tenured researchers indicate using the tool, versus appraximately 20% of non-tenured reseachers. Altmetrics and the PLoS metrics are not very popular (yet) in comparison, and are used by both groups, although slightly more by non-tenured researchers.
-
-
 ```{r Vraag111.top2.fasen.Rmd, echo=FALSE}
 
 # Vraag111.top2.fasen.R
