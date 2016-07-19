@@ -1,4 +1,5 @@
-## Most used tool per Research phase in each discipline
+As a quick summary we hafe made a table to show the one most used tool per research phase in each discipline.
+A more detailed explanation is given in the section below the table, but for the one most used tool we can state the following:
 
 - *Discovery:* Most disciplines use Google Scholar to discover new literature. Medicine use PubMeb as their primary source for search. One could say that Lifesciences find having campus access to literature more important than searching for that literature, but in the detail section below we see a more elaborate explanation, where their attention for search is spread between Google Scholar and PubMed.
 
