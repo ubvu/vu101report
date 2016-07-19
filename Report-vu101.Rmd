@@ -1,7 +1,7 @@
 ---
 title: "Rapport - VU innovations in Scholarly Communication"
-author: "Maurice Vanderfeesten, Marjet Elemans, Matthijs de Zwaan"
-date: "July 13, 2016"
+author: "[Maurice Vanderfeesten![ORCID](./images/ORCiD-icon16x16.png)](http://orcid.org/0000-0001-6397-4759), Marjet Elemans, Matthijs de Zwaan"
+date: "July 19, 2016"
 output:
   html_document:
     toc: true # table of content true
