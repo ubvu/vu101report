@@ -66,12 +66,12 @@ These demographics form the baseline of our study.
 | Tandheelkunde (ACTA) | 0 |
 
 ## Survey disciplines and faculty
-| Survey Discipline | Faculty | Number of scientific personnel |
-| --- | --- | ---: |
-| Physical Sciences | Exacte wetenschappen | 0 |
-| Engineering and Technology | Exacte wetenschappen | 0 |
-| Life Sciences | Aard- en Levenswetenschappen  | 0 |
-| Medicine | Aard- en Levenswetenschappen AND Geneeskunde AND Tandheelkunde (ACTA) | 0 |
-| Social Sciences and Economics | Sociale Wetenschappen AND Economische Wetenschappen en Bedrijfskunde | 0 |
-| Law | Rechtsgeleerdheid | 0 |
-| Arts & Humanities | Godgeleerdheid AND Geesteswetenschappen | 0 |
+| Survey Discipline                 | Faculty                           | Number of scientific personnel |
+| --------------------------------- | --------------------------------- | -----: |
+| Physical Sciences                 | Exacte wetenschappen              | 0 |
+| Engineering and Technology        | Exacte wetenschappen              | 0 |
+| Life Sciences                     | Aard- en Levenswetenschappen      | 0 |
+| Medicine                          | Aard- en Levenswetenschappen AND Geneeskunde AND Tandheelkunde (ACTA) | 0 |
+| Social Sciences and Economics     | Sociale Wetenschappen AND Economische Wetenschappen en Bedrijfskunde | 0 |
+| Law                               | Rechtsgeleerdheid                 | 0 |
+| Arts & Humanities                 | Godgeleerdheid AND Geesteswetenschappen | 0 |
