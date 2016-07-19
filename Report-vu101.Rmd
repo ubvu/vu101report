@@ -45,6 +45,11 @@ The charts below show which tools are used most often, as indicated by the respo
 # Tenured vs non-tenured researchers <!-- (1.1.1) --> {#sec:tenure}
 In this section, we report on differences in tool usage between tenured and non-tenured researchers. We consider assistant professors, associate professors and full professors as tenured faculty; PhD students and postdoctoral researchers are grouped as non-tenured.
 
+<!-- ## Extremities: Tenures vs Non-tenures -->
+```{r child="Vraag111.top2.fasen.Rmd", echo=FALSE, fig.width=9, out.width=910}
+```
+
+<!-- ## Details: Tenures vs Non-tenures grouped by research activities -->
 ```{r child="Vraag111.AlleTools.subfasen.Rmd", echo=FALSE, fig.width=9, out.width=910}
 ```
 
