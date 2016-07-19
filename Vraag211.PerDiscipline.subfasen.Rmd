@@ -1,14 +1,28 @@
 # Detailed overview for each discipline
 
-```{r}
+In this overview we show the graphs focussed on each discipline in each research phase. Next to these bars we will place additional bars, where you can compare the discipline against the OECD averages for that discipline, and the VU&VUmc average.
+
+
+```{r Vraag211.PerDiscipline.subfasen.Rmd, echo=FALSE,results='asis'}
 #Vraag211.PerDiscipline.subfasen.R
 
-
+# Discipline header
+discipline.tekst <- c(paste(Disciplines,sep=''))
 
 for(d in 1:length(Disciplines))
 { 
+  # Discipline tekst in loops plaatsen
+  cat("##", discipline.tekst[d], "(N=",respondenten.per.discipline[d],")", "\n")
+  
+  # Research phase header tekst
+  researchphase.tekst <- c(paste(PhaseResearchCycle,sep=''))  
+  
   for(i in 1:length(PhaseResearchCycle))
   { 
+    
+    # Research phase tekst in loops plaatsen
+    cat("###", researchphase.tekst[i], "\n")
+    
     # Print heading
     par(mar = c(6,6,4,1) +0.1)
     #selecteer SubPhases behoorden bij PhaseResearchCyclie[i]
@@ -41,7 +55,11 @@ for(d in 1:length(Disciplines))
               ylim=c(0,1),cex.lab=if(n.rows==1){0.8},
               ylab=paste("% tool users in ",Disciplines[d]))
     }
+    cat("\n")
+    cat("\n")
   }
+  cat("\n")
+  cat("\n")
 }
 
 ```  

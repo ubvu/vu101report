@@ -9,7 +9,7 @@ These demographics form the baseline of our study.
 | Netherlands | 2041 |
 | VU and VUmc | 531 |
 
-![](http://d3atbsy0flqavg.cloudfront.net/v1.1.1/site/uri/dashboard101innovations.silk.co/file/id/bb516563-3c66-4ad7-a08e-e7db18902f3c)
+![Survey Respondents Worldwide](./images/101world.png)
 [More global demographics...](http://dashboard101innovations.silk.co/page/Demographics)
 
 **The values below are within the set of VU & VUmc respondents.**
@@ -17,10 +17,10 @@ These demographics form the baseline of our study.
 | Discipline (multi-choice) | Value |
 | --- | ---: |
 | Physical Sciences | 39 |
-| Engineering & Technology | 35 |
+| Engineering and Technology | 35 |
 | Life Sciences | 144 |
 | Medicine | 181 |
-| Social Sciences & Economics | 176 |
+| Social Sciences and Economics | 176 |
 | Law | 26 |
 | Arts & Humanities | 55 |
 
@@ -69,9 +69,9 @@ These demographics form the baseline of our study.
 | Survey Discipline | Faculty | Number of scientific personnel |
 | --- | --- | ---: |
 | Physical Sciences | Exacte wetenschappen | 0 |
-| Engineering & Technology | Exacte wetenschappen | 0 |
+| Engineering and Technology | Exacte wetenschappen | 0 |
 | Life Sciences | Aard- en Levenswetenschappen  | 0 |
 | Medicine | Aard- en Levenswetenschappen AND Geneeskunde AND Tandheelkunde (ACTA) | 0 |
-| Social Sciences & Economics | Sociale Wetenschappen AND Economische Wetenschappen en Bedrijfskunde | 0 |
+| Social Sciences and Economics | Sociale Wetenschappen AND Economische Wetenschappen en Bedrijfskunde | 0 |
 | Law | Rechtsgeleerdheid | 0 |
 | Arts & Humanities | Godgeleerdheid AND Geesteswetenschappen | 0 |
