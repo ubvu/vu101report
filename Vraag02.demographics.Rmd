@@ -52,7 +52,7 @@ These demographics form the baseline of our study.
 | Turkey | 1 |
 
 ## Organisation demographics VU&VUmc
-Below the numbers are given for the active scientific personel on 30th of June 2016 for the VU. For VUmc, numbers from dec 2014 are used.
+Below the numbers are given for the active scientific personel on 30th of June 2016 for the VU. For VUmc (Medicine), numbers from annual report 2015 are used.
 
 | Faculty | Number of scientific personnel |
 | --- | ---: |
@@ -64,7 +64,7 @@ Below the numbers are given for the active scientific personel on 30th of June 2
 | Exacte Wetenschappen | 390 |
 | Aard- en Levenswetenschappen | 450 |
 | Gedrags- en Bewegingswetenschappen | 422 |
-| Geneeskunde (VUmc) | 1101 |
+| Geneeskunde (VUmc) | 1079 |
 | Tandheelkunde (ACTA) | 251 |
 
 ## Survey disciplines and faculty
@@ -75,7 +75,7 @@ To normalize the numbers, and calculating the representation of the the survey r
 | Physical Sciences               | Exacte wetenschappen              | 195 |
 | Engineering and Technology      | Exacte wetenschappen              | 195 |
 | Life Sciences                   | Aard- en Levenswetenschappen      | 450 |
-| Medicine                        | Aard- en Levenswetenschappen AND Geneeskunde AND Tandheelkunde (ACTA) | 1802 |
+| Medicine                        | Aard- en Levenswetenschappen AND Geneeskunde AND Tandheelkunde (ACTA) | 1780 |
 | Social Sciences and Economics   | Sociale Wetenschappen AND Economische Wetenschappen en Bedrijfskunde | 654 |
 | Law                             | Rechtsgeleerdheid                 | 219 |
 | Arts & Humanities               | Godgeleerdheid AND Geesteswetenschappen | 307 |
