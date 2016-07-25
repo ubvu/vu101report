@@ -20,3 +20,4 @@ source(paste(getwd(),"/CreeerOAsupportPerDiscipline.R",sep=""))
 #Laad functies
 source(paste(getwd(),"/FunctionWrapAxis.R",sep=""))
 source(paste(getwd(),"/FunctionPlotTable.R",sep=""))
+source(paste(getwd(),"/FunctionPlotDemographics.R",sep=""))
