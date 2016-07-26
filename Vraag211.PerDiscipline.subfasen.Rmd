@@ -48,10 +48,10 @@ for(d in 1:length(Disciplines))
       labs <- Tools[match(as.character(colnames(ToolUse.Subphase.j)),Tools[,"Variable.name"]),"Tool.name"]
       wr.lab <- wrap.labels(labs, 10)
       #plot
-      barplot(ToolUse.Subphase.j[d,]/respondenten.per.discipline[d],beside=TRUE,
+      barplot((ToolUse.Subphase.j[d,]/respondenten.per.discipline[d])*100,beside=TRUE,
               main=paste(Disciplines[d],"(N=",respondenten.per.discipline[d],")"," - ",SubPhases.Phase.i[j]),
               names.arg=wr.lab,las=3,cex.names=0.7,col=Kleuren[i],
-              ylim=c(0,1),cex.lab=if(n.rows==1){0.8},
+              ylim=c(0,100),cex.lab=if(n.rows==1){0.8},
               ylab=paste("% tool users in ",Disciplines[d]))
     }
     cat("\n")

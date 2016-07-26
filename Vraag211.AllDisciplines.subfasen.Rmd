@@ -70,9 +70,9 @@ for(i in 1:length(PhaseResearchCycle))
     labs <- Tools[match(as.character(colnames(ToolUse.Subphase.j)),Tools[,"Variable.name"]),"Tool.name"]
     wr.lab <- wrap.labels(labs, 10)
     #plot
-    barplot(ToolUse.Subphase.j/respondenten.per.discipline,beside=TRUE,main=SubPhases.Phase.i[j],
+    barplot((ToolUse.Subphase.j/respondenten.per.discipline)*100,beside=TRUE,main=SubPhases.Phase.i[j],
       names.arg=wr.lab,las=3,cex.names=0.7,col=Kleuren.disciplines,
-      ylim=c(0,1),cex.lab=if(n.rows==1){0.8},
+      ylim=c(0,100),cex.lab=if(n.rows==1){0.8},
       ylab="% tool users in disciplines")
   }
   cat("![Discipline Colors Legend](./images/disciplines-colors-legend-7col-mid.png)*Legend for the Discipline Colors*")
