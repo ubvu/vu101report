@@ -3,7 +3,7 @@
 # ---- LaadVariabelen ----
 
 ResearchRoles<- c("PhD student","Postdoc","Professor / Associate professor / Assistant professor","Librarian")
-TenureStatus<- c("non-tenured","tenured")
+TenureStatus<- c("tenured","non-tenured")
 
 PhaseResearchCycle<- c("Discovery","Analysis","Writing","Publication","Outreach","Assessment")
 Disciplines<- c("ArtsHumanities","EngineeringTechnology","Law","LifeSciences","Medicine","PhysicalSciences","SocialSciencesEconomics")
