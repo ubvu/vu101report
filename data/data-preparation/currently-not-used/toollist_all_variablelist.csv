@@ -1,0 +1,25 @@
+ID,identification number
+NAME,name of the tool
+URL,link to homepage of tool website
+WEBLAUNCHYEAR,"date/year of launch on web, when absent date/year of founding/creation"
+PRIMEPHASEALPHA,"primary workflow phase name that the tool addresses (out of 30, see below )"
+PRIMEPHASENUMBER,"primary workflow phase number that the tool addresses (out of 30, see below )"
+FUNCTIONFREE,description of what the tool is or does
+UI_FUNCTIONFREE,user input on: description of what the tool is or does
+FUNCTIONCONTROLLED,description of what the tool is or does (controlled)
+GEOCATEGORY,"effect of tool on scholarly communication: whether it makes that more (O)pen, E(fficient) or G(ood), where ""Good"" means ""reproducible"" or ""fair"""
+UI_GEOCATEGORY,"user input on: effect of tool on scholarly communication: whether it makes that more (O)pen, E(fficient) or G(ood), where ""Good"" means ""reproducible"" or ""fair"""
+UI_FIELDUSE_AH,used or can be used in Arts & Humanities (user input field)
+UI_FIELDUSE_SS,used or can be used in Social Sciences (including law/economics)  (user input field)
+UI_FIELDUSE_LF,used or can be used in Life Sciences (user input field)
+UI_FIELDUSE_PT,used or can be used in Physical Sciences & Technology (user input field)
+TWITTERACCOUNT,link to Twitter profile
+TWITTERFOLLOW_20150501,number of Twitter followers on 20150501
+ACTIVEPRE,usability in preparation phase of research workflow
+ACTIVEDIS,usability in discovery phase of research workflow
+ACTIVEANA,usability in analysis phase of research workflow
+ACTIVEWRI,usability in writing phase of research workflow
+ACTIVEPUB,usability in publication pase of research workflow
+ACTIVEOUT,usability in outreach phase of research workflow
+ACTIVEASS,usability in assessment phase of research workflow
+UI_REMARKS,remarks (user input field)

@@ -1,0 +1,173 @@
+[
+  {
+    "op": "core/multivalued-cell-split",
+    "description": "Split multi-valued cells in column Please fill in your research role [anonymized]",
+    "columnName": "Please fill in your research role [anonymized]",
+    "keyColumnName": "#",
+    "separator": ",",
+    "mode": "plain"
+  }
+ ,
+ {
+   "op": "core/multivalued-cell-split",
+   "description": "Split multi-valued cells in column Please specify the other tool(s) that you use for searching literature / data etc. (separated with comma's)",
+   "columnName": "Please specify the other tool(s) that you use for searching literature / data etc. (separated with comma's)",
+   "keyColumnName": "#",
+   "separator": ",",
+   "mode": "plain"
+ }
+,
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column Please specify the other tool(s)/way(s) that you use to get access to literature (separated with comma's)",
+  "columnName": "Please specify the other tool(s)/way(s) that you use to get access to literature (separated with comma's)",
+  "keyColumnName": "#",
+  "separator": ",",
+  "mode": "plain"
+}
+,
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column Please specify the other tool(s) that you use to get alerts / recommendations (separated with comma's)",
+  "columnName": "Please specify the other tool(s) that you use to get alerts / recommendations (separated with comma's)",
+  "keyColumnName": "#",
+  "separator": ",",
+  "mode": "plain"
+}
+,
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column Please specify the other tool(s) that you use to read / view / annotate(separated with comma's)",
+  "columnName": "Please specify the other tool(s) that you use to read / view / annotate(separated with comma's)",
+  "keyColumnName": "#",
+  "separator": ",",
+  "mode": "plain"
+}
+,
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column Please specify the other tool(s) that you use to analyze data / texts etc. (separated with comma's)",
+  "columnName": "Please specify the other tool(s) that you use to analyze data / texts etc. (separated with comma's)",
+  "keyColumnName": "#",
+  "separator": ",",
+  "mode": "plain"
+}
+,
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column Please specify the other tool(s) that you use to share notebooks / protocols / workflows (separated with comma's)",
+  "columnName": "Please specify the other tool(s) that you use to share notebooks / protocols / workflows (separated with comma's)",
+  "keyColumnName": "#",
+  "separator": ",",
+  "mode": "plain"
+}
+,
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column Please specify the other tool(s) that you use to write / prepare your manuscript (separated with comma's)",
+  "columnName": "Please specify the other tool(s) that you use to write / prepare your manuscript (separated with comma's)",
+  "keyColumnName": "#",
+  "separator": ",",
+  "mode": "plain"
+}
+,
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column Please specify the other tool(s) that you use for reference management (separated with comma's)",
+  "columnName": "Please specify the other tool(s) that you use for reference management (separated with comma's)",
+  "keyColumnName": "#",
+  "separator": ",",
+  "mode": "plain"
+}
+,
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column Please specify the other tool(s) that you use to archive/share publications (separated with comma's)",
+  "columnName": "Please specify the other tool(s) that you use to archive/share publications (separated with comma's)",
+  "keyColumnName": "#",
+  "separator": ",",
+  "mode": "plain"
+}
+,
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column Please specify the other tool(s) that you use to archive/share data &amp; code (separated with comma's)",
+  "columnName": "Please specify the other tool(s) that you use to archive/share data &amp; code (separated with comma's)",
+  "keyColumnName": "#",
+  "separator": ",",
+  "mode": "plain"
+}
+,
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column Please specify the other tool(s) that you use to decide which journal to submit your manuscript to (separated with comma's)",
+  "columnName": "Please specify the other tool(s) that you use to decide which journal to submit your manuscript to (separated with comma's)",
+  "keyColumnName": "#",
+  "separator": ",",
+  "mode": "plain"
+}
+,
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column Please specify the other tool(s) that you use to publish (separated with comma's)",
+  "columnName": "Please specify the other tool(s) that you use to publish (separated with comma's)",
+  "keyColumnName": "#",
+  "separator": ",",
+  "mode": "plain"
+}
+,
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column Please specify the other tool(s) that you use to archive/share posters & presentations (separated with comma's)",
+  "columnName": "Please specify the other tool(s) that you use to archive/share posters & presentations (separated with comma's)",
+  "keyColumnName": "#",
+  "separator": ",",
+  "mode": "plain"
+}
+,
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column Please specify the other tool(s) that you use to tell about your research outside academia (separated with comma's)",
+  "columnName": "Please specify the other tool(s) that you use to tell about your research outside academia (separated with comma's)",
+  "keyColumnName": "#",
+  "separator": ",",
+  "mode": "plain"
+}
+,
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column Please specify the other researcher profile(s)  you use (separated with comma's)",
+  "columnName": "Please specify the other researcher profile(s)  you use (separated with comma's)",
+  "keyColumnName": "#",
+  "separator": ",",
+  "mode": "plain"
+}
+,
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column Please specify the other tool(s) that you use for peer review beyond that organized by journals (please separate with comma's)",
+  "columnName": "Please specify the other tool(s) that you use for peer review beyond that organized by journals (please separate with comma's)",
+  "keyColumnName": "#",
+  "separator": ",",
+  "mode": "plain"
+}
+,
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column Please specify the other tool(s) that you use to measure impact (separated with comma's)",
+  "columnName": "Please specify the other tool(s) that you use to measure impact (separated with comma's)",
+  "keyColumnName": "#",
+  "separator": ",",
+  "mode": "plain"
+}
+,
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column What do you think will be the most important development in scholarly communication in the coming years?",
+  "columnName": "What do you think will be the most important development in scholarly communication in the coming years?",
+  "keyColumnName": "#",
+  "separator": ",",
+  "mode": "plain"
+}
+
+]
