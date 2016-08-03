@@ -20,7 +20,7 @@ for(d in 1:length(Disciplines))
       ColNames.SubPhase.j <- as.character(Tools[which(Tools[,"SubPhase"]==SubPhases.Phase.i[j]),"Variable.name"])
       #selecteer tools van subphase j uit phase i in ToolUse.per.Discipline
       ToolUse.Subphase.j<-ToolUse.per.discipline[,ColNames.SubPhase.j]
-      ToolUse.Subphase.j.OECD<-ToolUse.OECDvsVU[,ColNames.SubPhase.j]
+      ToolUse.Subphase.j.OECD<-ToolUse.per.discipline.OECD[,ColNames.SubPhase.j]
       
       #sort tools from ToolUse.Subphase.j by difference in tooluse 
       ToolUse.Subphase.j<-ToolUse.Subphase.j[,order(-ToolUse.Subphase.j[d,])]
@@ -31,14 +31,16 @@ for(d in 1:length(Disciplines))
       wr.lab <- wrap.labels(labs, 10)
       #plot
       plotdata<- cbind((ToolUse.Subphase.j[d,]/respondenten.per.discipline[d])*100,
-                       (ToolUse.Subphase.j["totaal.VU",]/sum(respondenten.per.discipline))*100,
-                       (ToolUse.Subphase.j.OECD["OECD",]/respondenten.OECDvsVU[1])*100)
+                   (ToolUse.Subphase.j["totaal.VU",]/sum(respondenten.per.discipline))*100,
+                   (ToolUse.Subphase.j.OECD[d,]/respondenten.per.discipline.OECD[d])*100)
       colnames(plotdata) <- c(Disciplines[d],"VU","OECD")
+      
       barplot(t(plotdata),beside=TRUE,main=paste(Disciplines[d],SubPhases.Phase.i[j],sep=' - '),
               names.arg=wr.lab,las=3,cex.names=0.7,col=c(Kleuren[i],Kleuren.VU,Kleuren.OECD),
               ylim=c(0,100),cex.lab=if(n.rows==1){0.8},
-              ylab=paste("Aantal gebruikers in ",Disciplines[d]))
+              ylab=paste("% of of respondents ",Disciplines[d]))
     }
   }
 }
 
+  

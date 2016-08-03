@@ -21,7 +21,7 @@ VU101<-
 #column01="PhysicalSciences": discipline, gekozen door participant         
 #column01="SocialSciencesEconomics": discipline, gekozen door participant
 #column01="firstpub": datum van eerste publicatie, ingevuld door participant (allemaal NA)
-#column01="imp_dev": ??? (allemaal NA)                  
+#column01="imp_dev": ??? (allemaal NA) -> MdZ: "important developments"             
 #column01="supportOA": boolean:0=ondersteund Open Access niet;1=ondersteund Open Access wel
 #column01="supportOS": boolean:0=ondersteund Open Science niet;1=ondersteund Open Science wel       
 #after that one tool per column; #boolean in cellen: 
