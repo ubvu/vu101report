@@ -19,7 +19,7 @@ insheet using "./01 data raw/KAGGLE/survey_cleaned.csv", ///
 	
 // rename variables to correspond with data in <02 preparing-surveydata-for-analysis - matthijs/101innov.csv>
 // lots of renaming, include script in separate file
-include "./01 data raw/KAGGLE/tool_rename.doi"
+include "./02 data cleaning/BIG101surveydata-cleaning/tool_rename.doi"
 
 // ========================================================= Demographics =====
 // =============================================================================
@@ -85,6 +85,7 @@ destring ArtsHumanities, replace
 local fields PhysicalSciences EngineeringTechnology LifeSciences ///
 	Medicine SocialSciencesEconomics Law ArtsHumanities
 foreach ff of local fields	{
+	confirm numeric v `ff'
 	assert inlist(`ff',0,1)
 }
 
@@ -302,7 +303,7 @@ replace `varname'="1" if `varname'=="iAnnotate"
 replace `varname'="0" if mi(`varname')
 destring `varname', replace
 
-local varname tool_read_readcube
+local varname tool_read_readCube
 // rename ReadCube `varname'
 lab var `varname' "Read/view/annotate: ReadCube"
 replace `varname'="1" if `varname'=="ReadCube"
@@ -391,12 +392,6 @@ lab var tool_analysis_other "Analyze data: other"
 
 // ========================================================== Share tools =====
 // =============================================================================
-
-local varname tool_share_resgate
-lab var `varname' "Share protocols: ResearchGate"
-replace `varname'="1" if `varname'=="ResearchGate"
-replace `varname'="0" if mi(`varname')
-destring `varname', replace
 
 local varname tool_share_osf
 // rename OpenScienceFramework `varname'
@@ -562,6 +557,12 @@ lab var tool_ref_other "Reference management: other"
 
 // ====================================== Archive/share publications tools =====
 // =============================================================================
+
+local varname tool_archpub_resgate
+lab var `varname' "Archive publications: ResearchGate"
+replace `varname'="1" if `varname'=="ResearchGate"
+replace `varname'="0" if mi(`varname')
+destring `varname', replace
 
 local varname tool_archpub_arxiv
 // rename arXiv `varname'
@@ -738,7 +739,7 @@ replace `varname'="1" if `varname'=="Topical journal (traditional publisher)"
 replace `varname'="0" if mi(`varname')
 destring `varname', replace
 
-local varname tool_pub_topicoa
+local varname tool_pub_topicOA
 // rename TopicaljournalOApublisher `varname'
 lab var `varname' "Publication channel: Topical journal, OA"
 replace `varname'="1" if `varname'=="Topical journal (OA publisher)"
@@ -752,7 +753,7 @@ replace `varname'="1" if `varname'=="Megajournal (traditional publisher)"
 replace `varname'="0" if mi(`varname')
 destring `varname', replace
 
-local varname tool_pub_megaoa
+local varname tool_pub_megaOA
 // rename MegajournalOApublisher `varname'
 lab var `varname' "Publication channel: Mega journal, OA"
 replace `varname'="1" if `varname'=="Megajournal (OA publisher)"
@@ -1166,8 +1167,8 @@ order ID role research_role research_role_ifother country field
 drop nfields
 compress
 save "./01 data raw/KAGGLE/BIG101surveydata-cleaned.dta", replace
-outsheet using "./01 data raw/KAGGLE/BIG101surveydata-cleaned.csv", delim(";") replace
-export excel using "./01 data raw/KAGGLE/BIG101surveydata-cleaned.xlsx", nolabel replace
+export delimited using "./01 data raw/KAGGLE/BIG101surveydata-cleaned.csv", delim(";") replace
+export excel using "./01 data raw/KAGGLE/BIG101surveydata-cleaned.xlsx", first(var) nolabel replace 
 
 local line=c(linesize)
 set linesize 90
@@ -1218,7 +1219,7 @@ keep if ///
 	country=="United States"
 
 compress
-save "./01 data raw/KAGGLE/BIG101surveydata-cleaned-OECD.dta", clear
-outsheet using "./01 data raw/KAGGLE/BIG101surveydata-cleaned-OECD.csv", delim(";") replace
-export excel using "./01 data raw/KAGGLE/BIG101surveydata-cleaned-OECD.xlsx", nolabel replace
+save "./01 data raw/KAGGLE/BIG101surveydata-cleaned-OECD.dta", replace
+export delimited using "./01 data raw/KAGGLE/BIG101surveydata-cleaned-OECD.csv", delim(";") replace
+export excel using "./01 data raw/KAGGLE/BIG101surveydata-cleaned-OECD.xlsx", first(var) nolabel replace 
 exit
