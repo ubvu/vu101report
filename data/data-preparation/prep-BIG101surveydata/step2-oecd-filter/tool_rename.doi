@@ -54,7 +54,7 @@ cap noi rename journalys tool_submit_journalysis
 cap noi rename kudos tool_pop_kudos
 cap noi rename latex tool_write_latex
 cap noi rename matlab tool_analysis_matlab
-cap noi rename megaoa tool_pub_megaoa
+cap noi rename megaoa tool_pub_megaOA
 cap noi rename megatrad tool_pub_megatrad
 cap noi rename mendalert tool_alert_mendeley
 cap noi rename mendread tool_read_mendeley
@@ -119,10 +119,10 @@ cap noi rename pubpeer tool_review_pubpeer
 cap noi rename qoam tool_submit_qoam
 cap noi rename rtool tool_analysis_r
 cap noi rename ropensci tool_analysis_ropen
-cap noi rename readcube tool_read_readcube
+cap noi rename readcube tool_read_readCube
 cap noi rename refme tool_ref_refme
 cap noi rename refworks tool_ref_refworks
-cap noi rename rgatesharepub tool_share_resgate
+cap noi rename rgatesharepub tool_archpub_resgate
 cap noi rename rgatealert tool_alert_resgate
 cap noi rename res4life tool_access_res4life
 cap noi rename resblog tool_pop_resblog
@@ -144,7 +144,7 @@ cap noi rename sparrho tool_alert_sparrho
 cap noi rename speaker tool_archpres_speakerdeck
 cap noi rename spss tool_analysis_spss
 cap noi rename ssrn tool_archpub_ssrn
-cap noi rename jtopoa tool_pub_topicoa
+cap noi rename jtopoa tool_pub_topicOA
 cap noi rename jtoptrad tool_pub_topictrad
 cap noi rename twitter tool_pop_twit
 cap noi rename utopdocs tool_read_utopia
