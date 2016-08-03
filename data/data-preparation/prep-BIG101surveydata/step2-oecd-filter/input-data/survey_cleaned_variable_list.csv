@@ -1,0 +1,195 @@
+column,variable name,full name / survey question,survey question number,input type,multiple answers allowed?
+A,ID,Identification number,n/a,alphanumerical ID (automatically assigned),n/a
+B,ROLE,What is your research role?,1A,selection of preset answers,yes
+C,ROLESPECCL,Please fill in your research role [anonymized],1A,"free text specification of ""others"" option",n/a
+D,COUNTRYCL,"What is the country of your current (or last) affiliation? [anonymized, cleaned]",1B,"open question, free text",n/a
+E,PHYS,What discipline(s) are you working in - Physical Sciences,1C,preset answer,yes
+F,ENGTECH,What discipline(s) are you working in - Engineering & Technology,1C,preset answer,yes
+G,LIFE,What discipline(s) are you working in - Life Sciences,1C,preset answer,yes
+H,MED,What discipline(s) are you working in - Medicine,1C,preset answer,yes
+I,SOCEC,What discipline(s) are you working in - Social Sciences & Economics,1C,preset answer,yes
+J,LAW,What discipline(s) are you working in - Law,1C,preset answer,yes
+K,ARTHUM,What discipline(s) are you working in - Arts & Humanities,1C,preset answer,yes
+L,PUBYEAR,From which year dates your first scholarly publication?,1D,selection of preset answers,no
+M,GSCHOLSEARCH,What tools/sites do you use to search literature / data etc. - Google Scholar,2A,preset answer,yes
+N,WOSSEARCH,What tools/sites do you use to search literature / data etc. - Web of Science,2A,preset answer,yes
+O,SCOPSEARCH,What tools/sites do you use to search literature / data etc. - Scopus,2A,preset answer,yes
+P,MENDSEARCH,What tools/sites do you use to search literature / data etc. - Mendeley,2A,preset answer,yes
+Q,WORLDCAT,What tools/sites do you use to search literature / data etc. - WorldCat,2A,preset answer,yes
+R,PUBMED,What tools/sites do you use to search literature / data etc. - PubMed,2A,preset answer,yes
+S,PAPERI,What tools/sites do you use to search literature / data etc. - Paperity,2A,preset answer,yes
+T,SEARCHOTHCL,What tools/sites do you use to search literature / data etc. - (and also) others,2A,preset answer,yes
+U,SEARCHSPECCL,Please specify the other tool(s) that you use for searching literature / data etc. (separated with comma's),2A,"free text specification of ""others"" option",yes
+V,INSTACC,What tools/sites do you use to get access to literature / data etc. - Institutional access,2B,preset answer,yes
+W,PAYVIEW,What tools/sites do you use to get access to literature / data etc. - Pay per view on publisher platform,2B,preset answer,yes
+X,RGATEACCESS,What tools/sites do you use to get access to literature / data etc. - ResearchGate,2B,preset answer,yes
+X,RES4LIFE,What tools/sites do you use to get access to literature / data etc. - Research4Life,2B,preset answer,yes
+Z,OABUT,What tools/sites do you use to get access to literature / data etc. - Open Access Button,2B,preset answer,yes
+AA,DEEPDYVE,What tools/sites do you use to get access to literature / data etc. - Deepdyve,2B,preset answer,yes
+AB,MAILAUTH,What tools/sites do you use to get access to literature / data etc. - E-mail the author,2B,preset answer,yes
+AC,ACCESSOTHCL,What tools/sites do you use to get access to literature / data etc. - (and also) others,2B,preset answer,yes
+AD,ACCESSSPECCL,Please specify the other tool(s)/way(s) that you use to get access to literature (separated with comma's),2B,"free text specification of ""others"" option",yes
+AE,GSCHOLALERT,What tools/sites do you use to get alerts/recommendations - Google Scholar,2C,preset answer,yes
+AF,JRNLTOCS,What tools/sites do you use to get alerts/recommendations - JournalTOCs,2C,preset answer,yes
+AG,BROWZINE,What tools/sites do you use to get alerts/recommendations - Browzine,2C,preset answer,yes
+AH,MENDALERT,What tools/sites do you use to get alerts/recommendations - Mendeley,2C,preset answer,yes
+AI,F1000PRI,What tools/sites do you use to get alerts/recommendations - F1000 Prime,2C,preset answer,yes
+AJ,SPARRHO,What tools/sites do you use to get alerts/recommendations - Sparrho,2C,preset answer,yes
+AK,RGATEALERT,What tools/sites do you use to get alerts/recommendations - ResearchGate,2C,preset answer,yes
+AL,ALERTOTH,What tools/sites do you use to get alerts/recommendations - (and also) others,2C,preset answer,yes
+AM,ALERTSPECCL,Please specify the other tool(s) that you use to get alerts / recommendations (separated with comma's),2C,"free text specification of ""others"" option",yes
+AN,ACROBAT,What tools/sites do you use to read/view/annotate - Acrobat Reader,2D,preset answer,yes
+AO,HTMLVIEW,What tools/sites do you use to read/view/annotate - using HTML view,2D,preset answer,yes
+AP,IANNOTATE,What tools/sites do you use to read/view/annotate - iAnnotate,2D,preset answer,yes
+AQ,READCUBE,What tools/sites do you use to read/view/annotate - ReadCube,2D,preset answer,yes
+AR,UTOPDOCS,What tools/sites do you use to read/view/annotate - UtopiaDocs,2D,preset answer,yes
+AS,MENDREAD,What tools/sites do you use to read/view/annotate - Mendeley,2D,preset answer,yes
+AT,HYPOTHES,What tools/sites do you use to read/view/annotate - Hypothes.is,2D,preset answer,yes
+AU,READOTHCL,What tools/sites do you use to read/view/annotate - (and also) others,2D,preset answer,yes
+AV,READSPECCL,What tools/sites do you get access to read/view/annotate - Please specify the other tool(s) that you use to read / view / annotate(separated with comma's),2D,"free text specification of ""others"" option",yes
+AW,RTOOL,What tools/sites do you use to analyze data / texts - R,3A,preset answer,yes
+AX,SPSS,What tools/sites do you use to analyze data / texts - SPSS,3A,preset answer,yes
+AY,MATLAB,What tools/sites do you use to analyze data / texts - Matlab,3A,preset answer,yes
+AZ,EXCEL,What tools/sites do you use to analyze data / texts - Excel,3A,preset answer,yes
+BA,IPYTHON,What tools/sites do you use to analyze data / texts -  iPython Notebook,3A,preset answer,yes
+BB,ROPENSCI,What tools/sites do you use to analyze data / texts - ROpenSci,3A,preset answer,yes
+BC,DHBOX,What tools/sites do you use to analyze data / texts - DHbox,3A,preset answer,yes
+BD,ANALYZOTHCL,What tools/sites do you use to analyze data / texts - (and also) others,3A,preset answer,yes
+BE,ANALYZSPECCL,Please specify the other tool(s) that you use to analyze data / texts etc. (separated with comma's),3A,"free text specification of ""others"" option",yes
+BF,OPSCIFRAM,What tools/sites do you use to share notebooks / protocols / workflows - Open Science Framework,3B,preset answer,yes
+BG,MYEXP,What tools/sites do you use to share notebooks / protocols / workflows - myExperiment,3B,preset answer,yes
+BH,BENCHLING,What tools/sites do you use to share notebooks / protocols / workflows - BenchLing,3B,preset answer,yes
+BI,PROTOCIO,What tools/sites do you use to share notebooks / protocols / workflows - Protocols.io,3B,preset answer,yes
+BJ,BENCHFLY,What tools/sites do you use to share notebooks / protocols / workflows - Benchfly,3B,preset answer,yes
+BK,SCIPROT,What tools/sites do you use to share notebooks / protocols / workflows - Scientific Protocols,3B,preset answer,yes
+BL,PROTOCONL,What tools/sites do you use to share notebooks / protocols / workflows - Protocol Online,3B,preset answer,yes
+BM,NOTEOTHCL,What tools/sites do you use to share notebooks / protocols / workflows - (and also) others,3B,preset answer,yes
+BN,NOTESPECCL,Please specify the other tool(s) that you use to share notebooks / protocols / workflows (separated with comma's),3B,"free text specification of ""others"" option",yes
+BO,WORD,What tools/sites do you use to write / prepare your manuscript - Word,4A,preset answer,yes
+BP,GTDRIVE,What tools/sites do you use to write / prepare your manuscript - Google Drive/Docs,4A,preset answer,yes
+BQ,AUTHOREA,What tools/sites do you use to write / prepare your manuscript - Authorea,4A,preset answer,yes
+BR,LATEX,What tools/sites do you use to write / prepare your manuscript - LaTeX,4A,preset answer,yes
+BS,SCRIVEN,What tools/sites do you use to write / prepare your manuscript - Scrivener,4A,preset answer,yes
+BT,OVERLEAF,What tools/sites do you use to write / prepare your manuscript - Overleaf (=WriteLaTeX),4A,preset answer,yes
+BU,SCALAR,What tools/sites do you use to write / prepare your manuscript - Scalar,4A,preset answer,yes
+BV,WRITEOTHCL,What tools/sites do you use to write / prepare your manuscript - (and also) others,4A,preset answer,yes
+BW,WRITESPECCL,Please specify the other tool(s) that you use to write / prepare your manuscript (separated with comma's),4A,"free text specification of ""others"" option",yes
+BX,ENDNOTE,What tools/sites do you use for reference management - EndNote,4B,preset answer,yes
+BY,ZOTERO,What tools/sites do you use for reference management - Zotero,4B,preset answer,yes
+BZ,REFWORKS,What tools/sites do you use for reference management - RefWorks,4B,preset answer,yes
+CA,MENDREF,What tools/sites do you use for reference management - Mendeley,4B,preset answer,yes
+CB,PAPERS,What tools/sites do you use for reference management - Papers,4B,preset answer,yes
+CC,REFME,What tools/sites do you use for reference management - REfME,4B,preset answer,yes
+CD,CITAVI,What tools/sites do you use for reference management - Citavi,4B,preset answer,yes
+CE,REFOTHCL,What tools/sites do you use for reference management - (and also) others,4B,preset answer,yes
+CF,REFSPECCL,Please specify the other tool(s) that you use for reference management (separated with comma's),4B,"free text specification of ""others"" option",yes
+CG,ARXIV,What tools/sites do you use to archive/share publications - arXiv,5A,preset answer,yes
+CH,PMC,What tools/sites do you use to archive/share publications - PubMed Central,5A,preset answer,yes
+CI,INREP,What tools/sites do you use to archive/share publications - Institutional repository,5A,preset answer,yes
+CJ,BIORXIV,What tools/sites do you use to archive/share publications - bioRxiv,5A,preset answer,yes
+CK,WORKPAP,What tools/sites do you use to archive/share publications - I share working papers,5A,preset answer,yes
+CL,RGATESHAREPUB,What tools/sites do you use to archive/share publications - ResearchGate,5A,preset answer,yes
+CM,SSRN,What tools/sites do you use to archive/share publications - SSRN,5A,preset answer,yes
+CN,SHAREPUBOTHCL,What tools/sites do you use to archive/share publications - (and also) others,5A,preset answer,yes
+CO,SHAREPUBSPECCL,Please specify the other tool(s) that you use to archive/share publications (separated with comma's),5A,"free text specification of ""others"" option",yes
+CP,GITHUB,What tools/sites do you use to archive/share data & code - GitHub,5B,preset answer,yes
+CQ,FIGSDATA,What tools/sites do you use to archive/share data & code - Figshare,5B,preset answer,yes
+CR,ZENODATA,What tools/sites do you use to archive/share data & code - Zenodo,5B,preset answer,yes
+CS,DRYAD,What tools/sites do you use to archive/share data & code - Dryad,5B,preset answer,yes
+CT,DATAVERSE,What tools/sites do you use to archive/share data & code - Dataverse,5B,preset answer,yes
+CU,PANGAEA,What tools/sites do you use to archive/share data & code - Pangaea,5B,preset answer,yes
+CV,BITBUCK,What tools/sites do you use to archive/share data & code - BitBucket,5B,preset answer,yes
+CW,DATAOTHCL,What tools/sites do you use to archive/share data & code - (and also) others,5B,preset answer,yes
+CX,DATASPECCL,Please specify the other tool(s) that you use to archive/share data &amp; code (separated with comma's),5B,"free text specification of ""others"" option",yes
+CY,JCRIFSEL,"What tools/sites do you use to decide which journal to submit your
+manuscript to - JCR (impact factors)",5C,preset answer,yes
+CZ,DOAJ,"What tools/sites do you use to decide which journal to submit your
+manuscript to - DOAJ",5C,preset answer,yes
+DA,SCOPSEL,"What tools/sites do you use to decide which journal to submit your
+manuscript to - Scopus",5C,preset answer,yes
+DB,SHERPAROM,"What tools/sites do you use to decide which journal to submit your
+manuscript to - Sherpa Romeo",5C,preset answer,yes
+DC,QOAM,"What tools/sites do you use to decide which journal to submit your
+manuscript to - QOAM",5C,preset answer,yes
+DD,SCIMAGO,"What tools/sites do you use to decide which journal to submit your
+manuscript to - SCImago Journal Rank",5C,preset answer,yes
+DE,JOURNALYS,"What tools/sites do you use to decide which journal to submit your
+manuscript to - Journalysis",5C,preset answer,yes
+DF,JRNLOTHCL,"What tools/sites do you use to decide which journal to submit your
+manuscript to - (and also) others",5C,preset answer,yes
+DG,JRNLSPECCL,Please specify the other tool(s) that you use to decide which journal to submit your manuscript to (separated with comma's),5C,"free text specification of ""others"" option",yes
+DH,JTOPTRAD,What tools/sites do you use to publish - Topical journal (traditional publisher),5D,preset answer,yes
+DI,JTOPOA,What tools/sites do you use to publish - Topical journal (OA publisher),5D,preset answer,yes
+DJ,MEGATRAD,What tools/sites do you use to publish - Megajournal (traditional publisher),5D,preset answer,yes
+DK,MEGAOA,What tools/sites do you use to publish - Megajournal (OA publisher),5D,preset answer,yes
+DL,DATAJRNL,What tools/sites do you use to publish - Data journal,5D,preset answer,yes
+DM,WINNOWER,What tools/sites do you use to publish - Winnower,5D,preset answer,yes
+DN,F1000RES,What tools/sites do you use to publish - F1000Research,5D,preset answer,yes
+DO,PUBLOTHCL,What tools/sites do you use to publish - (and also) others,5D,preset answer,yes
+DP,PUBLSPECCL,Please specify the other tool(s) that you use to publish (separated with comma's),5D,"free text specification of ""others"" option",yes
+DQ,SPEAKER,What tools/sites do you use to archive/share posters & presentations - Speakerdeck,6A,preset answer,yes
+DR,SLIDSHA,What tools/sites do you use to archive/share posters & presentations - Slideshare,6A,preset answer,yes
+DS,F1000POS,What tools/sites do you use to archive/share posters & presentations - F1000Posters,6A,preset answer,yes
+DT,SCIOPPO,What tools/sites do you use to archive/share posters & presentations - ScienceOpen Posters,6A,preset answer,yes
+DU,FIGSPOST,What tools/sites do you use to archive/share posters & presentations - Figshare,6A,preset answer,yes
+DV,ZENOPOST,What tools/sites do you use to archive/share posters & presentations - Zenodo,6A,preset answer,yes
+DW,VIMEO,What tools/sites do you use to archive/share posters & presentations - Vimeo,6A,preset answer,yes
+DX,POSTOTHCL,What tools/sites do you use to archive/share posters & presentations - (and also) others,6A,preset answer,yes
+DY,POSTSPECCL,Please specify the other tool(s) that you use to archive/share posters & presentations (separated with comma's),6A,"free text specification of ""others"" option",yes
+DZ,WIKIPEDIA,What tools/sites do you use to tell about your research outside academia - Wikipedia,6B,preset answer,yes
+EA,RESBLOG,What tools/sites do you use to tell about your research outside academia - ResearchBlogging.org,6B,preset answer,yes
+EB,WORDPRESS,What tools/sites do you use to tell about your research outside academia - Wordpress,6B,preset answer,yes
+EC,KUDOS,What tools/sites do you use to tell about your research outside academia - Kudos,6B,preset answer,yes
+ED,FAMELAB,What tools/sites do you use to tell about your research outside academia - FameLab,6B,preset answer,yes
+EE,PINTSCI,What tools/sites do you use to tell about your research outside academia - Pint of Science,6B,preset answer,yes
+EF,TWITTER,What tools/sites do you use to tell about your research outside academia - Twitter,6B,preset answer,yes
+EG,TELLOTHCL,What tools/sites do you use to tell about your research outside academia - (and also) others,6B,preset answer,yes
+EH,TELLSPECCL,Please specify the other tool(s) that you use to tell about your research outside academia (separated with comma's),6B,"free text specification of ""others"" option",yes
+EI,SCHOLARCIT,What researcher profiles do you use - Google Scholar Citations,6C,preset answer,yes
+EJ,RGATEPROF,What researcher profiles do you use - ResearchGate,6C,preset answer,yes
+EK,ORCID,What researcher profiles do you use - ORCID,6C,preset answer,yes
+EL,ACADEMIA,What researcher profiles do you use - Academia.edu,6C,preset answer,yes
+EM,RESID,What researcher profiles do you use - ResearcherID,6C,preset answer,yes
+EN,INSTPAGE,What researcher profiles do you use - Profile page at own institution,6C,preset answer,yes
+EO,MYSCIWORK,What researcher profiles do you use - My Science Work,6C,preset answer,yes
+EP,RESPROFOTHCL,What researcher profiles do you use - (and also) others,6C,preset answer,yes
+EQ,RESPROFSPECCL,Please specify the other researcher profile(s)Â  you use (separated with comma's),6C,"free text specification of ""others"" option",yes
+ER,PERRSCI,"What tools/sites do you use for peer review beyond that organized by
+journals -  Peerage of Science",7A,preset answer,yes
+ES,PUBLONS,"What tools/site do you use for peer review beyond that organized by
+journals -  Publons",7A,preset answer,yes
+ET,PMCCOMMONS,"What tools/site do you use for peer review beyond that organized by
+journals -  PubMed Commons",7A,preset answer,yes
+EU,PUBPEER,"What tools/site do you use for peer review beyond that organized by
+journals -  PubPeer",7A,preset answer,yes
+EV,PAPARCRIT,"What tools/site do you use for peer review beyond that organized by
+journals -  PaperCritic",7A,preset answer,yes
+EW,RUBRIQ,"What tools/site do you use for peer review beyond that organized by
+journals -  RubriQ",7A,preset answer,yes
+EX,KARMA,"What tools/site do you use for peer review beyond that organized by
+journals -  Academic Karma",7A,preset answer,yes
+EY,PROTHCL,"What tools/site do you use for peer review beyond that organized by
+journals -  (and also) others",7A,preset answer,yes
+EZ,PRSPECCL,Please specify the other tool(s) that you use for peer review beyond that organized by journals (please separate with comma's),7A,"free text specification of ""others"" option",yes
+FA,JCRIFIMP,What tools/sites do you use to measure impact - JCR (impact factor),7B,preset answer,yes
+FB,ALTMETRIC,What tools/sites do you use to measure impact - Altmetric,7B,preset answer,yes
+FC,SCOPID,What tools/sites do you use to measure impact - Scopus,7B,preset answer,yes
+FD,IMPSTOR,What tools/sites do you use to measure impact - ImpactStory,7B,preset answer,yes
+FE,PLOSALM,What tools/sites do you use to measure impact - PLoS article level metrics,7B,preset answer,yes
+FF,WOSIMP,What tools/sites do you use to measure impact - Web of Science,7B,preset answer,yes
+FG,HARZPOP,What tools/sites do you use to measure impact - Harzing Publish or Perish,7B,preset answer,yes
+FH,IMPACTOTHCL,What tools/sites do you use to measure impact - (and also) others,7B,preset answer,yes
+FI,IMPACTSPECCL,Please specify the other tool(s) that you use to measure impact (separated with comma's),7B,"free text specification of ""others"" option",yes
+FJ,LANG1,Language-specific tools 1 (dependent on language version of survey),8 (only in non-English versions),preset answer,yes
+FK,LANG2,Language-specific tools 2 (dependent on language version of survey),8 (only in non-English versions),preset answer,yes
+FL,LANG3,Language-specific tools 3 (dependent on language version of survey),8 (only in non-English versions),preset answer,yes
+FM,LANG4,Language-specific tools 4 (dependent on language version of survey),8 (only in non-English versions),preset answer,yes
+FN,LANG5,Language-specific tools 5 (dependent on language version of survey),8 (only in non-English versions),preset answer,yes
+FO,LANG6,Language-specific tools 6 (dependent on language version of survey),8 (only in non-English versions),preset answer,yes
+FP,LANG7,Language-specific tools 7 (dependent on language version of survey),8 (only in non-English versions),preset answer,yes
+FQ,LANGOTHCL,Language-specific tools other,8 (only in non-English versions),preset answer,yes
+FR,LANGSPECCL,Language-specific tools specify other,8 (only in non-English versions),"free text specification of ""others"" option",yes
+FS,DEVELOPCL,What do you think will be the most important development in scholarly communication in the coming years?,8A (9A for non-English versions),"open question, free text",n/a
+FT,OPENACC,Do you support the goal of Open Access?,8B (9B for non-English versions),selection of preset answers,no
+FU,OPENSCI,Do you support the goals of Open Science?,8C (9C for non-English versions),selection of preset answers,no
+FW,LANGUAGE,Language version of survey,n/a,automatically assigned,n/a

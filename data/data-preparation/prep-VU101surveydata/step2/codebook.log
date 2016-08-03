@@ -1,0 +1,2316 @@
+------------------------------------------------------------------------------------------
+      name:  codebook
+       log:  C:\Users\mzn203\surfdrive\UBVU\101 Innovations\101-Innovations\codebook.log
+  log type:  text
+ opened on:   5 Apr 2016, 14:05:32
+
+. codebook
+
+------------------------------------------------------------------------------------------
+ID                                                                                       #
+------------------------------------------------------------------------------------------
+
+                  type:  string (str32)
+
+         unique values:  531                      missing "":  0/531
+
+              examples:  "3437811d84d67223bf3b44e6bd16494c"
+                         "644d8718ed69e6c5a30764509d4d1d3e"
+                         "957cad8c3949b2e28045f178c02bbc7f"
+                         "c836ea83a17f97bc7400ca86a83981cd"
+
+------------------------------------------------------------------------------------------
+role                                                 What is your research_role? (cleaned)
+------------------------------------------------------------------------------------------
+
+                  type:  string (str53)
+
+         unique values:  7                        missing "":  0/531
+
+            tabulation:  Freq.  Value
+                             3  "Bachelor/Master student"
+                             1  "Industry / Government"
+                            18  "Librarian"
+                            12  "Other"
+                           238  "PhD student"
+                            71  "Postdoc"
+                           188  "Professor / Associate professor /
+                                Assistant professor"
+
+               warning:  variable has embedded blanks
+
+------------------------------------------------------------------------------------------
+research_role                                              Q1: What is your research role?
+------------------------------------------------------------------------------------------
+
+                  type:  string (str53)
+
+         unique values:  7                        missing "":  0/531
+
+            tabulation:  Freq.  Value
+                             3  "Bachelor/Master student"
+                             1  "Industry / Government"
+                            18  "Librarian"
+                            21  "Other"
+                           230  "PhD student"
+                            70  "Postdoc"
+                           188  "Professor / Associate professor /
+                                Assistant professor"
+
+               warning:  variable has embedded blanks
+
+------------------------------------------------------------------------------------------
+research_role_ifother                        Q2: What is your research role? (if Q1=other)
+------------------------------------------------------------------------------------------
+
+                  type:  string (str46)
+
+         unique values:  18                       missing "":  510/531
+
+              examples:  ""
+                         ""
+                         ""
+                         ""
+
+               warning:  variable has embedded blanks
+
+------------------------------------------------------------------------------------------
+country                       Q3: What is the country of your current or last affiliation?
+------------------------------------------------------------------------------------------
+
+                  type:  string (str32)
+
+         unique values:  9                        missing "":  1/531
+
+            tabulation:  Freq.  Value
+                             1  ""
+                             1  "Brazil"
+                             1  "Democratic Republic of the Congo"
+                             2  "Germany"
+                             1  "India"
+                             1  "Italy"
+                             1  "Latvia"
+                           519  "Netherlands"
+                             1  "Turkey"
+                             3  "United States"
+
+               warning:  variable has embedded blanks
+
+------------------------------------------------------------------------------------------
+field                                                                       Research Field
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  field
+
+                 range:  [1,8]                        units:  1
+         unique values:  8                        missing .:  0/531
+
+            tabulation:  Freq.   Numeric  Label
+                            18         1  Physical Sciences
+                            18         2  Engineering & Technology
+                            83         3  Life Sciences
+                           125         4  Medicine
+                           124         5  Social Sciences and Economics
+                            16         6  Law
+                            39         7  arts and Humanities
+                           108         8  Multiple
+
+------------------------------------------------------------------------------------------
+ArtsHumanities                                                           Arts & Humanities
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           476  0
+                            55  1
+
+------------------------------------------------------------------------------------------
+EngineeringTechnology                                             Engineering & Technology
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           496  0
+                            35  1
+
+------------------------------------------------------------------------------------------
+Law                                                                                    Law
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           505  0
+                            26  1
+
+------------------------------------------------------------------------------------------
+LifeSciences                                                                 Life Sciences
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           387  0
+                           144  1
+
+------------------------------------------------------------------------------------------
+Medicine                                                                          Medicine
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           350  0
+                           181  1
+
+------------------------------------------------------------------------------------------
+PhysicalSciences                                                         Physical Sciences
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           492  0
+                            39  1
+
+------------------------------------------------------------------------------------------
+SocialSciencesEconomics                                        Social Sciences & Economics
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           355  0
+                           176  1
+
+------------------------------------------------------------------------------------------
+firstpub                                                         Year of first publication
+------------------------------------------------------------------------------------------
+
+                  type:  string (str25)
+
+         unique values:  6                        missing "":  2/531
+
+            tabulation:  Freq.  Value
+                             2  ""
+                            70  "1991-2000"
+                            55  "2001-2005"
+                            79  "2006-2010"
+                           168  "2011-2016"
+                            96  "I haven't published (yet)"
+                            61  "before 1991"
+
+               warning:  variable has embedded blanks
+
+------------------------------------------------------------------------------------------
+imp_dev                              Most important development in scholarly communication
+------------------------------------------------------------------------------------------
+
+                  type:  string (str593)
+
+         unique values:  261                      missing "":  192/531
+
+              examples:  ""
+                         "?? open access"
+                         "Open access"
+                         "mendeley"
+
+               warning:  variable has embedded blanks
+
+------------------------------------------------------------------------------------------
+supportOA                                                      Do you support Open Access?
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [-1,1]                       units:  1
+         unique values:  3                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                            12  -1
+                            67  0
+                           452  1
+
+------------------------------------------------------------------------------------------
+supportOS                                                     Do you support Open Science?
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [-1,1]                       units:  1
+         unique values:  3                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                            16  -1
+                           130  0
+                           385  1
+
+------------------------------------------------------------------------------------------
+tool_access_author                              Access to literature: directly from author
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           334  0
+                           197  1
+
+------------------------------------------------------------------------------------------
+tool_access_deepdyve                                        Access to literature: Deepdyve
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           528  0
+                             3  1
+
+------------------------------------------------------------------------------------------
+tool_access_institutional                       Access to literature: Institutional Access
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                            28  0
+                           503  1
+
+------------------------------------------------------------------------------------------
+tool_access_oabutton                              Access to literature: Open Access Button
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           362  0
+                           169  1
+
+------------------------------------------------------------------------------------------
+tool_access_other                                              Access to literature: other
+------------------------------------------------------------------------------------------
+
+                  type:  string (str141)
+
+         unique values:  41                       missing "":  463/531
+
+              examples:  ""
+                         ""
+                         ""
+                         ""
+
+               warning:  variable has embedded blanks
+
+------------------------------------------------------------------------------------------
+tool_access_other_orig                         Access to literature: other (original data)
+------------------------------------------------------------------------------------------
+
+                  type:  string (str167)
+
+         unique values:  62                       missing "":  460/531
+
+              examples:  ""
+                         ""
+                         ""
+                         ""
+
+               warning:  variable has embedded blanks
+
+------------------------------------------------------------------------------------------
+tool_access_ppv                   Access to literature: pay per view on publisher platform
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           488  0
+                            43  1
+
+------------------------------------------------------------------------------------------
+tool_access_res4life                                   Access to literature: Research4Life
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           529  0
+                             2  1
+
+------------------------------------------------------------------------------------------
+tool_access_resgate                                     Access to literature: ResearchGate
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           225  0
+                           306  1
+
+------------------------------------------------------------------------------------------
+tool_alert_browzine                                                   Get alerts: Browzine
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           515  0
+                            16  1
+
+------------------------------------------------------------------------------------------
+tool_alert_f1000                                                   Get alerts: F1000 Prime
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           526  0
+                             5  1
+
+------------------------------------------------------------------------------------------
+tool_alert_gs                                                   Get alerts: Google Scholar
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           361  0
+                           170  1
+
+------------------------------------------------------------------------------------------
+tool_alert_mendeley                                                   Get alerts: Mendeley
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           494  0
+                            37  1
+
+------------------------------------------------------------------------------------------
+tool_alert_other                                                         Get alerts: other
+------------------------------------------------------------------------------------------
+
+                  type:  string (str178)
+
+         unique values:  57                       missing "":  393/531
+
+              examples:  ""
+                         ""
+                         ""
+                         "Newsletters from specific journals"
+
+               warning:  variable has embedded blanks
+
+------------------------------------------------------------------------------------------
+tool_alert_other_orig                                    Get alerts: other (original data)
+------------------------------------------------------------------------------------------
+
+                  type:  string (str127)
+
+         unique values:  108                      missing "":  387/531
+
+              examples:  ""
+                         ""
+                         ""
+                         "None"
+
+               warning:  variable has embedded blanks
+
+------------------------------------------------------------------------------------------
+tool_alert_resgate                                               Get alerts: Research Gate
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           324  0
+                           207  1
+
+------------------------------------------------------------------------------------------
+tool_alert_sparrho                                                     Get alerts: Sparrho
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           529  0
+                             2  1
+
+------------------------------------------------------------------------------------------
+tool_alert_toc                                                    Get alerts: Journal TOCs
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           444  0
+                            87  1
+
+------------------------------------------------------------------------------------------
+tool_analysis_dhbox                                                    Analyze data: DHbox
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           529  0
+                             2  1
+
+------------------------------------------------------------------------------------------
+tool_analysis_excel                                                    Analyze data: Excel
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           161  0
+                           370  1
+
+------------------------------------------------------------------------------------------
+tool_analysis_ipython                                       Analyze data: iPython Notebook
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           513  0
+                            18  1
+
+------------------------------------------------------------------------------------------
+tool_analysis_matlab                                                  Analyze data: Matlab
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           445  0
+                            86  1
+
+------------------------------------------------------------------------------------------
+tool_analysis_other                                                    Analyze data: other
+------------------------------------------------------------------------------------------
+
+                  type:  string (str50)
+
+         unique values:  107                      missing "":  328/531
+
+              examples:  ""
+                         ""
+                         ""
+                         "Libre Office,Ubuntu,GraphPad"
+
+               warning:  variable has embedded blanks
+
+------------------------------------------------------------------------------------------
+tool_analysis_other_orig                               Analyze data: other (original data)
+------------------------------------------------------------------------------------------
+
+                  type:  string (str71)
+
+         unique values:  153                      missing "":  328/531
+
+              examples:  ""
+                         ""
+                         ""
+                         "MaxQda"
+
+               warning:  variable has embedded blanks
+
+------------------------------------------------------------------------------------------
+tool_analysis_r                                                            Analyze data: R
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           405  0
+                           126  1
+
+------------------------------------------------------------------------------------------
+tool_analysis_ropen                                           Analyze data: R Open Science
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           524  0
+                             7  1
+
+------------------------------------------------------------------------------------------
+tool_analysis_spss                                                      Analyze data: SPSS
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           216  0
+                           315  1
+
+------------------------------------------------------------------------------------------
+tool_archcode_bitbucket                                            Archive code: BitBucket
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           517  0
+                            14  1
+
+------------------------------------------------------------------------------------------
+tool_archcode_dataverse                                            Archive code: Dataverse
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           522  0
+                             9  1
+
+------------------------------------------------------------------------------------------
+tool_archcode_dryad                                                    Archive code: Dryad
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           522  0
+                             9  1
+
+------------------------------------------------------------------------------------------
+tool_archcode_figshare                                              Archive code: FigShare
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           515  0
+                            16  1
+
+------------------------------------------------------------------------------------------
+tool_archcode_github                                                  Archive code: GitHub
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           490  0
+                            41  1
+
+------------------------------------------------------------------------------------------
+tool_archcode_other                                                    Archive code: other
+------------------------------------------------------------------------------------------
+
+                  type:  string (str76)
+
+         unique values:  36                       missing "":  447/531
+
+              examples:  ""
+                         ""
+                         ""
+                         ""
+
+               warning:  variable has embedded blanks
+
+------------------------------------------------------------------------------------------
+tool_archcode_other_orig                               Archive code: other (original data)
+------------------------------------------------------------------------------------------
+
+                  type:  string (str66)
+
+         unique values:  60                       missing "":  446/531
+
+              examples:  ""
+                         ""
+                         ""
+                         ""
+
+               warning:  variable has embedded blanks
+
+------------------------------------------------------------------------------------------
+tool_archcode_pangaea                                                Archive code: Pangaea
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           530  0
+                             1  1
+
+------------------------------------------------------------------------------------------
+tool_archcode_zenodo                                                  Archive code: Zenodo
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           526  0
+                             5  1
+
+------------------------------------------------------------------------------------------
+tool_archpres_f1000                                    Archive presentations: F1000Posters
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           525  0
+                             6  1
+
+------------------------------------------------------------------------------------------
+tool_archpres_figshare                                     Archive presentations: Figshare
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           516  0
+                            15  1
+
+------------------------------------------------------------------------------------------
+tool_archpres_other                                           Archive presentations: other
+------------------------------------------------------------------------------------------
+
+                  type:  string (str28)
+
+         unique values:  18                       missing "":  457/531
+
+              examples:  ""
+                         ""
+                         ""
+                         ""
+
+               warning:  variable has embedded blanks
+
+------------------------------------------------------------------------------------------
+tool_archpres_other_orig                      Archive presentations: other (original data)
+------------------------------------------------------------------------------------------
+
+                  type:  string (str78)
+
+         unique values:  49                       missing "":  454/531
+
+              examples:  ""
+                         ""
+                         ""
+                         ""
+
+               warning:  variable has embedded blanks
+
+------------------------------------------------------------------------------------------
+tool_archpres_slideshare                                 Archive presentations: Slideshare
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           497  0
+                            34  1
+
+------------------------------------------------------------------------------------------
+tool_archpres_sop                              Archive presentations: Science Open Posters
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,0]                        units:  1
+         unique values:  1                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           531  0
+
+------------------------------------------------------------------------------------------
+tool_archpres_speakerdeck                               Archive presentations: Speakerdeck
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           525  0
+                             6  1
+
+------------------------------------------------------------------------------------------
+tool_archpres_vimeo                                           Archive presentations: Vimeo
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           520  0
+                            11  1
+
+------------------------------------------------------------------------------------------
+tool_archpres_zenodo                                         Archive presentations: Zenodo
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           529  0
+                             2  1
+
+------------------------------------------------------------------------------------------
+tool_archpub_arxiv                                             Archive publications: arXiv
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           510  0
+                            21  1
+
+------------------------------------------------------------------------------------------
+tool_archpub_bioRxiv                                         Archive publications: bioRxiv
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           526  0
+                             5  1
+
+------------------------------------------------------------------------------------------
+tool_archpub_institrepo                     Archive publications: Institutional repository
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           440  0
+                            91  1
+
+------------------------------------------------------------------------------------------
+tool_archpub_isharewp                         Archive publications: I share working papers
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           498  0
+                            33  1
+
+------------------------------------------------------------------------------------------
+tool_archpub_other                                             Archive publications: other
+------------------------------------------------------------------------------------------
+
+                  type:  string (str61)
+
+         unique values:  36                       missing "":  438/531
+
+              examples:  ""
+                         ""
+                         ""
+                         ""
+
+               warning:  variable has embedded blanks
+
+------------------------------------------------------------------------------------------
+tool_archpub_other_orig                        Archive publications: other (original data)
+------------------------------------------------------------------------------------------
+
+                  type:  string (str49)
+
+         unique values:  65                       missing "":  438/531
+
+              examples:  ""
+                         ""
+                         ""
+                         ""
+
+               warning:  variable has embedded blanks
+
+------------------------------------------------------------------------------------------
+tool_archpub_pubmed                                   Archive publications: PubMed Central
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           465  0
+                            66  1
+
+------------------------------------------------------------------------------------------
+tool_archpub_resgate                                    Archive publications: ResearchGate
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           261  0
+                           270  1
+
+------------------------------------------------------------------------------------------
+tool_archpub_ssrn                                               Archive publications: SSRN
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           510  0
+                            21  1
+
+------------------------------------------------------------------------------------------
+tool_impact_altmet                                               Measure impact: Altmetric
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           490  0
+                            41  1
+
+------------------------------------------------------------------------------------------
+tool_impact_hpop                                 Measure impact: Harzing Publish or Perish
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           515  0
+                            16  1
+
+------------------------------------------------------------------------------------------
+tool_impact_is                                                 Measure impact: ImpactStory
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           529  0
+                             2  1
+
+------------------------------------------------------------------------------------------
+tool_impact_jcr                                        Measure impact: JCR (impact factor)
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           383  0
+                           148  1
+
+------------------------------------------------------------------------------------------
+tool_impact_other                                                    Measure impact: other
+------------------------------------------------------------------------------------------
+
+                  type:  string (str77)
+
+         unique values:  13                       missing "":  484/531
+
+              examples:  ""
+                         ""
+                         ""
+                         ""
+
+               warning:  variable has embedded blanks
+
+------------------------------------------------------------------------------------------
+tool_impact_other_orig                               Measure impact: other (original data)
+------------------------------------------------------------------------------------------
+
+                  type:  string (str60)
+
+         unique values:  35                       missing "":  479/531
+
+              examples:  ""
+                         ""
+                         ""
+                         ""
+
+               warning:  variable has embedded blanks
+
+------------------------------------------------------------------------------------------
+tool_impact_plos                                Measure impact: PLoS article level metrics
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           503  0
+                            28  1
+
+------------------------------------------------------------------------------------------
+tool_impact_scopus                                                  Measure impact: Scopus
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           483  0
+                            48  1
+
+------------------------------------------------------------------------------------------
+tool_impact_wos                                             Measure impact: Web of Science
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           345  0
+                           186  1
+
+------------------------------------------------------------------------------------------
+tool_pop_famelab                                            Popular communication: FameLab
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           530  0
+                             1  1
+
+------------------------------------------------------------------------------------------
+tool_pop_kudos                                                Popular communication: Kudos
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           528  0
+                             3  1
+
+------------------------------------------------------------------------------------------
+tool_pop_other                                                Popular communication: other
+------------------------------------------------------------------------------------------
+
+                  type:  string (str65)
+
+         unique values:  31                       missing "":  430/531
+
+              examples:  ""
+                         ""
+                         ""
+                         ""
+
+               warning:  variable has embedded blanks
+
+------------------------------------------------------------------------------------------
+tool_pop_other_orig                           Popular communication: other (original data)
+------------------------------------------------------------------------------------------
+
+                  type:  string (str69)
+
+         unique values:  61                       missing "":  428/531
+
+              examples:  ""
+                         ""
+                         ""
+                         ""
+
+               warning:  variable has embedded blanks
+
+------------------------------------------------------------------------------------------
+tool_pop_pos                                        Popular communication: Pint of Science
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           528  0
+                             3  1
+
+------------------------------------------------------------------------------------------
+tool_pop_resblog                               Popular communication: ResearchBlogging.org
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           524  0
+                             7  1
+
+------------------------------------------------------------------------------------------
+tool_pop_twit                                               Popular communication: Twitter
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           413  0
+                           118  1
+
+------------------------------------------------------------------------------------------
+tool_pop_wiki                                             Popular communication: Wikipedia
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           482  0
+                            49  1
+
+------------------------------------------------------------------------------------------
+tool_pop_wordpress                                        Popular communication: Wordpress
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           464  0
+                            67  1
+
+------------------------------------------------------------------------------------------
+tool_profile_academia                                     Researcher profile: Academia.edu
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           426  0
+                           105  1
+
+------------------------------------------------------------------------------------------
+tool_profile_gsc                              Researcher profile: Google Scholar Citations
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           321  0
+                           210  1
+
+------------------------------------------------------------------------------------------
+tool_profile_instit                    Researcher profile: Profile page at own institution
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           415  0
+                           116  1
+
+------------------------------------------------------------------------------------------
+tool_profile_msw                                       Researcher profile: My Science Work
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           530  0
+                             1  1
+
+------------------------------------------------------------------------------------------
+tool_profile_orcid                                               Researcher profile: ORCID
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           418  0
+                           113  1
+
+------------------------------------------------------------------------------------------
+tool_profile_other                                               Researcher profile: other
+------------------------------------------------------------------------------------------
+
+                  type:  string (str105)
+
+         unique values:  12                       missing "":  473/531
+
+              examples:  ""
+                         ""
+                         ""
+                         ""
+
+               warning:  variable has embedded blanks
+
+------------------------------------------------------------------------------------------
+tool_profile_other_orig                          Researcher profile: other (original data)
+------------------------------------------------------------------------------------------
+
+                  type:  string (str105)
+
+         unique values:  33                       missing "":  470/531
+
+              examples:  ""
+                         ""
+                         ""
+                         ""
+
+               warning:  variable has embedded blanks
+
+------------------------------------------------------------------------------------------
+tool_profile_resgate                                      Researcher profile: ResearchGate
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           190  0
+                           341  1
+
+------------------------------------------------------------------------------------------
+tool_profile_resid                                        Researcher profile: ResearcherID
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           483  0
+                            48  1
+
+------------------------------------------------------------------------------------------
+tool_pub_dataj                                           Publication channel: Data journal
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           530  0
+                             1  1
+
+------------------------------------------------------------------------------------------
+tool_pub_f1000                                          Publication channel: F1000Research
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           525  0
+                             6  1
+
+------------------------------------------------------------------------------------------
+tool_pub_megaoa                                      Publication channel: Mega journal, OA
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           400  0
+                           131  1
+
+------------------------------------------------------------------------------------------
+tool_pub_megatrad                           Publication channel: Mega journal, traditional
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           424  0
+                           107  1
+
+------------------------------------------------------------------------------------------
+tool_pub_other                                                  Publication channel: other
+------------------------------------------------------------------------------------------
+
+                  type:  string (str137)
+
+         unique values:  11                       missing "":  512/531
+
+              examples:  ""
+                         ""
+                         ""
+                         ""
+
+               warning:  variable has embedded blanks
+
+------------------------------------------------------------------------------------------
+tool_pub_other_orig                             Publication channel: other (original data)
+------------------------------------------------------------------------------------------
+
+                  type:  string (str145)
+
+         unique values:  24                       missing "":  506/531
+
+              examples:  ""
+                         ""
+                         ""
+                         ""
+
+               warning:  variable has embedded blanks
+
+------------------------------------------------------------------------------------------
+tool_pub_topicoa                                  Publication channel: Topical journal, OA
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           321  0
+                           210  1
+
+------------------------------------------------------------------------------------------
+tool_pub_topictrad                       Publication channel: Topical journal, traditional
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           138  0
+                           393  1
+
+------------------------------------------------------------------------------------------
+tool_pub_winnower                                            Publication channel: Winnower
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           530  0
+                             1  1
+
+------------------------------------------------------------------------------------------
+tool_read_acro                                          Read/view/annotate: Acrobat Reader
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                            48  0
+                           483  1
+
+------------------------------------------------------------------------------------------
+tool_read_html                                               Read/view/annotate: HTML view
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           335  0
+                           196  1
+
+------------------------------------------------------------------------------------------
+tool_read_hypothesis                                       Read/view/annotate: Hypothes.is
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           530  0
+                             1  1
+
+------------------------------------------------------------------------------------------
+tool_read_iannotate                                          Read/view/annotate: iAnnotate
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           502  0
+                            29  1
+
+------------------------------------------------------------------------------------------
+tool_read_mendeley                                            Read/view/annotate: Mendeley
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           410  0
+                           121  1
+
+------------------------------------------------------------------------------------------
+tool_read_other                                                  Read/view/annotate: other
+------------------------------------------------------------------------------------------
+
+                  type:  string (str84)
+
+         unique values:  31                       missing "":  451/531
+
+              examples:  ""
+                         ""
+                         ""
+                         ""
+
+               warning:  variable has embedded blanks
+
+------------------------------------------------------------------------------------------
+tool_read_other_orig                             Read/view/annotate: other (original data)
+------------------------------------------------------------------------------------------
+
+                  type:  string (str84)
+
+         unique values:  58                       missing "":  451/531
+
+              examples:  ""
+                         ""
+                         ""
+                         ""
+
+               warning:  variable has embedded blanks
+
+------------------------------------------------------------------------------------------
+tool_read_readcube                                            Read/view/annotate: ReadCube
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           501  0
+                            30  1
+
+------------------------------------------------------------------------------------------
+tool_read_utopia                                            Read/view/annotate: UtopiaDocs
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           528  0
+                             3  1
+
+------------------------------------------------------------------------------------------
+tool_ref_citavi                                               Reference management: Citavi
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           526  0
+                             5  1
+
+------------------------------------------------------------------------------------------
+tool_ref_endnote                                             Reference management: EndNote
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           335  0
+                           196  1
+
+------------------------------------------------------------------------------------------
+tool_ref_mendeley                                           Reference management: Mendeley
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           369  0
+                           162  1
+
+------------------------------------------------------------------------------------------
+tool_ref_other                                                 Reference management: other
+------------------------------------------------------------------------------------------
+
+                  type:  string (str176)
+
+         unique values:  22                       missing "":  417/531
+
+              examples:  ""
+                         ""
+                         ""
+                         "Bibtex"
+
+               warning:  variable has embedded blanks
+
+------------------------------------------------------------------------------------------
+tool_ref_other_orig                            Reference management: other (original data)
+------------------------------------------------------------------------------------------
+
+                  type:  string (str176)
+
+         unique values:  46                       missing "":  417/531
+
+              examples:  ""
+                         ""
+                         ""
+                         "Bibtex"
+
+               warning:  variable has embedded blanks
+
+------------------------------------------------------------------------------------------
+tool_ref_papers                                               Reference management: Papers
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           511  0
+                            20  1
+
+------------------------------------------------------------------------------------------
+tool_ref_refme                                                 Reference management: REfME
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           526  0
+                             5  1
+
+------------------------------------------------------------------------------------------
+tool_ref_refworks                                           Reference management: RefWorks
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           499  0
+                            32  1
+
+------------------------------------------------------------------------------------------
+tool_ref_zotero                                               Reference management: Zotero
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           500  0
+                            31  1
+
+------------------------------------------------------------------------------------------
+tool_review_ak                                                 Peer review: Academic Karma
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           530  0
+                             1  1
+
+------------------------------------------------------------------------------------------
+tool_review_other                                                       Peer review: other
+------------------------------------------------------------------------------------------
+
+                  type:  string (str127)
+
+         unique values:  11                       missing "":  496/531
+
+              examples:  ""
+                         ""
+                         ""
+                         ""
+
+               warning:  variable has embedded blanks
+
+------------------------------------------------------------------------------------------
+tool_review_other_orig                                  Peer review: other (original data)
+------------------------------------------------------------------------------------------
+
+                  type:  string (str127)
+
+         unique values:  21                       missing "":  491/531
+
+              examples:  ""
+                         ""
+                         ""
+                         ""
+
+               warning:  variable has embedded blanks
+
+------------------------------------------------------------------------------------------
+tool_review_papercritic                                           Peer review: PaperCritic
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           529  0
+                             2  1
+
+------------------------------------------------------------------------------------------
+tool_review_pos                                            Peer review: Peerage of Science
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           525  0
+                             6  1
+
+------------------------------------------------------------------------------------------
+tool_review_publons                                                   Peer review: Publons
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           527  0
+                             4  1
+
+------------------------------------------------------------------------------------------
+tool_review_pubmed                                             Peer review: PubMed Commons
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           525  0
+                             6  1
+
+------------------------------------------------------------------------------------------
+tool_review_pubpeer                                                   Peer review: PubPeer
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,0]                        units:  1
+         unique values:  1                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           531  0
+
+------------------------------------------------------------------------------------------
+tool_review_rubriq                                                     Peer review: RubriQ
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           529  0
+                             2  1
+
+------------------------------------------------------------------------------------------
+tool_search_gs                                           Search literature: Google Scholar
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                            41  0
+                           490  1
+
+------------------------------------------------------------------------------------------
+tool_search_mendeley                                           Search literature: Mendeley
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           433  0
+                            98  1
+
+------------------------------------------------------------------------------------------
+tool_search_other_orig                            Search literature: other (original data)
+------------------------------------------------------------------------------------------
+
+                  type:  string (str200)
+
+         unique values:  142                      missing "":  374/531
+
+              examples:  ""
+                         ""
+                         ""
+                         "Migratieweb"
+
+               warning:  variable has embedded blanks
+
+------------------------------------------------------------------------------------------
+tool_search_paperity                                           Search literature: Paperity
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           517  0
+                            14  1
+
+------------------------------------------------------------------------------------------
+tool_search_pubmed                                               Search literature: PubMed
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           217  0
+                           314  1
+
+------------------------------------------------------------------------------------------
+tool_search_scopus                                               Search literature: Scopus
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           480  0
+                            51  1
+
+------------------------------------------------------------------------------------------
+tool_search_worldcat                                           Search literature: WorldCat
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           493  0
+                            38  1
+
+------------------------------------------------------------------------------------------
+tool_search_wos                                          Search literature: Web of Science
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           294  0
+                           237  1
+
+------------------------------------------------------------------------------------------
+tool_share_benchfly                                              Share protocols: Benchfly
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           530  0
+                             1  1
+
+------------------------------------------------------------------------------------------
+tool_share_benchling                                            Share protocols: BenchLing
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           527  0
+                             4  1
+
+------------------------------------------------------------------------------------------
+tool_share_myexp                                             Share protocols: myExperiment
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           530  0
+                             1  1
+
+------------------------------------------------------------------------------------------
+tool_share_osf                                     Share protocols: Open Science Framework
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           506  0
+                            25  1
+
+------------------------------------------------------------------------------------------
+tool_share_other                                                    Share protocols: other
+------------------------------------------------------------------------------------------
+
+                  type:  string (str85)
+
+         unique values:  40                       missing "":  454/531
+
+              examples:  ""
+                         ""
+                         ""
+                         ""
+
+               warning:  variable has embedded blanks
+
+------------------------------------------------------------------------------------------
+tool_share_other_orig                               Share protocols: other (original data)
+------------------------------------------------------------------------------------------
+
+                  type:  string (str96)
+
+         unique values:  68                       missing "":  428/531
+
+              examples:  ""
+                         ""
+                         ""
+                         ""
+
+               warning:  variable has embedded blanks
+
+------------------------------------------------------------------------------------------
+tool_share_protocolonline                                 Share protocols: Protocol Online
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           528  0
+                             3  1
+
+------------------------------------------------------------------------------------------
+tool_share_protocolsio                                       Share protocols: Protocols.io
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           529  0
+                             2  1
+
+------------------------------------------------------------------------------------------
+tool_share_scipro                                    Share protocols: Scientific Protocols
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           523  0
+                             8  1
+
+------------------------------------------------------------------------------------------
+tool_submit_doaj                                                     Where to submit: DOAJ
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           509  0
+                            22  1
+
+------------------------------------------------------------------------------------------
+tool_submit_jcr                                      Where to submit: JCR (impact factors)
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           374  0
+                           157  1
+
+------------------------------------------------------------------------------------------
+tool_submit_journalysis                                       Where to submit: Journalysis
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           522  0
+                             9  1
+
+------------------------------------------------------------------------------------------
+tool_submit_other                                                   Where to submit: other
+------------------------------------------------------------------------------------------
+
+                  type:  string (str105)
+
+         unique values:  37                       missing "":  445/531
+
+              examples:  ""
+                         ""
+                         ""
+                         ""
+
+               warning:  variable has embedded blanks
+
+------------------------------------------------------------------------------------------
+tool_submit_other_orig                              Where to submit: other (original data)
+------------------------------------------------------------------------------------------
+
+                  type:  string (str123)
+
+         unique values:  70                       missing "":  440/531
+
+              examples:  ""
+                         ""
+                         ""
+                         ""
+
+               warning:  variable has embedded blanks
+
+------------------------------------------------------------------------------------------
+tool_submit_qoam                                                     Where to submit: QOAM
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           528  0
+                             3  1
+
+------------------------------------------------------------------------------------------
+tool_submit_sci                                      Where to submit: SCImago Journal Rank
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           514  0
+                            17  1
+
+------------------------------------------------------------------------------------------
+tool_submit_scopus                                                 Where to submit: Scopus
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           492  0
+                            39  1
+
+------------------------------------------------------------------------------------------
+tool_submit_sherpa                                           Where to submit: Sherpa Romeo
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           518  0
+                            13  1
+
+------------------------------------------------------------------------------------------
+tool_write_authorea                                             Write manuscript: Authorea
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           523  0
+                             8  1
+
+------------------------------------------------------------------------------------------
+tool_write_gdocs                                       Write manuscript: Google Drive/Docs
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           390  0
+                           141  1
+
+------------------------------------------------------------------------------------------
+tool_write_latex                                                   Write manuscript: LaTeX
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           462  0
+                            69  1
+
+------------------------------------------------------------------------------------------
+tool_write_other                                                   Write manuscript: other
+------------------------------------------------------------------------------------------
+
+                  type:  string (str70)
+
+         unique values:  32                       missing "":  483/531
+
+              examples:  ""
+                         ""
+                         ""
+                         ""
+
+               warning:  variable has embedded blanks
+
+------------------------------------------------------------------------------------------
+tool_write_other_orig                              Write manuscript: other (original data)
+------------------------------------------------------------------------------------------
+
+                  type:  string (str79)
+
+         unique values:  43                       missing "":  483/531
+
+              examples:  ""
+                         ""
+                         ""
+                         ""
+
+               warning:  variable has embedded blanks
+
+------------------------------------------------------------------------------------------
+tool_write_overleaf                                             Write manuscript: Overleaf
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           521  0
+                            10  1
+
+------------------------------------------------------------------------------------------
+tool_write_scalar                                                 Write manuscript: Scalar
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,0]                        units:  1
+         unique values:  1                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           531  0
+
+------------------------------------------------------------------------------------------
+tool_write_scrivener                                           Write manuscript: Scrivener
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                           522  0
+                             9  1
+
+------------------------------------------------------------------------------------------
+tool_write_word                                                  Write manuscript: MS word
+------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/531
+
+            tabulation:  Freq.  Value
+                            32  0
+                           499  1
+
+. log close codebook
+      name:  codebook
+       log:  C:\Users\mzn203\surfdrive\UBVU\101 Innovations\101-Innovations\codebook.log
+  log type:  text
+ closed on:   5 Apr 2016, 14:05:34
+------------------------------------------------------------------------------------------

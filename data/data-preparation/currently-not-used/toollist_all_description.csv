@@ -1,0 +1,26 @@
+"title:","400+ Tools and innovations in scholarly communication ",
+"description:","web based tools a researcher can use",
+"authors:","Bianca Kramer & Jeroen Bosman (and you?)",
+"contact:","@MsPhelps & @JeroenBosman, both at Utrecht University Library",
+"url:","https://docs.google.com/spreadsheets/d/1KUMSeq_Pzp4KveZ7pb5rddcssk1XBTiLHniD0d3nDqo",
+"friendly url:","http://bit.ly/innoscholcomm-list",
+"related to poster:","http://dx.doi.org/10.6084/m9.figshare.1286826",
+"related to website:","https://innoscholcomm.silk.co/",
+"part of project:","https://101innovations.wordpress.com/",
+"background:","This is a shared database that grew out of the ""101 innovations in scholarly communication"" project. When we published the 101 list of selected innovations our database already contained some 200 innovations/tools. The 101 selection was strictly on innovativeness and thus did not contain recent tools if they where not innovative compared to older ones with the same functionality, even if the more recent ones were more popular or well-known. The database shared here has dropped that strict innovativeness criterion and thus contains multiple tools offering basically the same functionality. The masterfile that this database is derived from is still being worked on. Additional fields may become available here in a later stage.",
+"how to use:","The second worksheet tab of this file contains data on over 600 tools and innovations in scholarly communication. You can find tools by workflow phase (see also below) and find some details on each of the tools. You are also warmly invited to add tools or give suggestions/corrections/updates for field values. Please use the *green* user input columns and leave the data itself as it is. When adding, you are welcome to leave your name, but it is not required. Please do not sort/hide/move rows or columns. If you need to do that, please make your own copy of the worksheet to work on.",
+"publication date:","20150301, last updated 20160603",
+"availability:","20150301 through at least 20151231; from 20160101 until transfer to a more permanent open and free home",
+"license:","CC-BY 4.0",
+"current inclusion criteria:","is end-user tool; is aimed at or working on scholarly information; is web-based; is multidisciplinary or targets broad fields",
+"current exclusion criteria:","is software/app/browser extension that has to be installed; is a standard or programming language; is field specific tool that can not easily be applied in other fields or scaled to work for other fields; has active use limited to certain groups e.g. institutional repositories",
+"variables:","ID, NAME, URL, WEBLAUNCHYEAR, PRIMEPHASEALPHA, PRIMEPHASENUMBER, FUNCTIONFREE, FUNCTIONCONTROLLLED, GEOCATEGORY, FIELDUSE_AH, FIELDUSE_SS, FIELDUSE_LF, FIELDUSE_PT, TWITTERACCOUNT, TWITTERFOLLOW_20150301, ACTIVEDIS, ACTIVEANA, ACTIVEWRI, ACTIVEPUB, ACTIVEOUT, ACTIVEASS, UI_REMARKS",
+,,
+,"creators + title","link"
+"apart from our own explorations we have used these invaluable tool lists and resources","Crouzier: Digital Tools for researchers","http://connectedresearchers.com/online-tools-for-researchers/"
+,"Dirt Directory: Dirt Directory Digital research Tools","http://dirtdirectory.org/"
+,"Force11: Force11 Resource and Tool Catalog","https://www.force11.org/catalog"
+,"LabWorm: tools","https://labworm.com/discover"
+,"SciCrunch: resources","https://scicrunch.org/browse/resourcedashboard"
+,"Tennant & Mounce: Open Glossary","https://docs.google.com/document/d/1-6ZokH_dyeMYB5vXJNgSnzu6EtWtKrvgpB8nNHfZynU"
+,"Wikipedia: Comparison of research networking tools and research profiling systems","http://en.wikipedia.org/wiki/Comparison_of_research_networking_tools_and_research_profiling_systems"

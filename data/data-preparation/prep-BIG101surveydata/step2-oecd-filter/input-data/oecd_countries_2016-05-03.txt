@@ -1,0 +1,37 @@
+# Members of the OECD (Organisation for Economic Co-operation and Development) as of 2016-06-03
+# Source: http://www.oecd.org/about/membersandpartners/list-oecd-member-countries.htm
+# Lists the names as they appear the 101 survey, this may differ from the names listed in the source.
+Australia
+Austria
+Belgium
+Canada
+Chile
+Czech Republic
+Denmark
+Estonia
+Finland
+France
+Germany
+Greece
+Hungary
+Iceland
+Ireland
+Israel
+Italy
+Japan
+Luxembourg
+Mexico
+Netherlands
+New Zealand
+Norway
+Poland
+Portugal
+Slovakia
+Slovenia
+South Korea
+Spain
+Sweden
+Switzerland
+Turkey
+United Kingdom
+United States

@@ -41,8 +41,8 @@ for(i in 1:length(PhaseResearchCycle))
 
   #plot data Extreme.differences en gebruik hierboven gedefinieerde labelnamen
   barplot(Extreme.differences[1:2,],beside=TRUE,horiz=T,main=PhaseResearchCycle[i],
-    names.arg=wr.lab,las=1,cex.names=0.7,col=rep(Kleuren[i],2),density=c(20,1000),
-    xlim=c(0,max(ToolUse.per.TenureStatus[1:2,])),
-    xlab="% tool users [filled bars: tenured] \n [hatched bars: non-tenured]")
+   names.arg=wr.lab,las=1,cex.names=0.7,col=rep(Kleuren[i],2),density=c(1000,20),
+          xlim=c(0,max(ToolUse.per.TenureStatus[1:2,])),
+    xlab="% tool users [hatched bars: non-tenured] \n [filled bars: tenured]")
 }
 ```

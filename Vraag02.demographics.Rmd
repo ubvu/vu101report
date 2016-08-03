@@ -10,13 +10,14 @@ These demographics form the baseline of our study.
 | Netherlands | 2041 |
 | VU and VUmc | 531 |
 
-```{r echo=FALSE, warning=FALSE, error=FALSE, fig.keep='all'}
+```{r echo=FALSE, warning=FALSE, error=FALSE, fig.keep='first'}
 plot_main <- c("respondents: geographical groups")
 plot_labels <- c("World Wide", "OECD", "Netherlands", "VU&VUmc")
 plot_values <- c(20663, 15752, 2041, 531)
 plot_colors <- cm.colors(length(plot_values))
 
 demographicsplot(plot_main, plot_labels, plot_values, plot_colors)
+
 ```
 
 ![Survey Respondents Worldwide](./images/101world.png)
