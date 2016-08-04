@@ -1,24 +1,53 @@
-## Tool usage grouped by discipline and grouped by research activity
 
-- *Discovery* ...
+In the sections below we show the tool usage for each research discipline next to each other. 
+This gives us the opportunity to see if there is a discipline usign a tool more or less than others.
 
-- *Analysis* ...
-
-- *Writing* ...
-
-- *Publication* ...
-
-- *Outreach* ...
-
-![Discipline Colors Legend](./images/disciplines-colors-legend-7col-mid.png)
-
-```{r}
+```{r Vraag211.AllDisciplines.subfasen.Rmd, echo=FALSE,results='asis'}
 #Vraag211.AllDisciplines.subfasen.R
 
+# Explanatory text
 
+d <- c("##Discovery
+- For **reading articles** the majority of the disciplines use pdf, half of them read online in a browser. Also Mendeley is pretty known,  but lesser in Law and Arts & Humanities, where they seem to prefer to use iAnnotate instead. ReadCube seems to have a targeted audience for Physics and Engineering. Hypothesis and UtopiaDocs are promising tools young tools and haven't have a big uptake yet.
+- Google Scholar is overwhelmingly used for **searching literature** by all disciplines, adding to that for medicine and life sciences pubmed is widely used. World Cat is mostly used by Law and Art & Humanities. From the two competing bibliographic databases Scopus and Web of Science, the later has -not surprisingly because the VU Library has a license-  more uptake, especially by Physics and Social sciences and Economics. We are surprised that Scopus is used, where people should get access from elsewhere. Most users from Scopus are in Physics and Engineering. Compared to [OECD countries](#6_vuvumc_vs_oecd_countries_), these countries use Scopus almost a factor three more than VU and VUmc. Mendeley however, also an Elsevier product as Scopus, is used as an alternative to search for literature, mostly by Life sciences.
+- The **alert services** to discover new literature is less known, or lesser used because of the annoying over abundance of e-mails in the mailbox. To tackle this problem young services like F1000 Prime provides hand picked curated recommendations from senior researchers. And Sparrho uses adaptive algorithms to present only articles relevant for your specific research field from a wide variety of sources.
+- To gain **access to literature** all disciplines rely on the subscriptions for on-campus access. When not on campus or then journals fall out of the subscription packages alternative methods are used, like ResearchGate, and asking the author directly where the relationships are close. These results are no different compared to other [OECD countries](#6_vuvumc_vs_oecd_countries_). Even the browser plugin Open Access Button is used, mostly in medicine and life sciences, to gain access to toll gated literature, either by searching for the open access alternative / author version, or by finding the e-mail address of the author. Pay per view is rarely used, but also the model for renting articles in services like Deepdyve - a Spotify model for scientific articles - is still an unknown anomaly in scholarly communication. One could wonder which legal alternative will increase, when subscriptions for on campus access end.",
+"##Analysis
+- **Sharing** the method or workflow for the analysis is nowadays common practice to be a part of the article. To have a separate platform for sharing  the analysis to make the research more easily reproducible is not common practice yet. This might be because there is no honor in reproducing research, but in advancing science with new findings. But these platforms can also be used to pre-register a hypothesis and method. We see in Social science an more familiarity of the Open Science Framework where there is more attention to pre-registration of hypothesis and replication studies. Also in medicine there is a little bit of familiarity with a service like scientific protocols.
+
+    - *Other sharing methods mentioned*: Evernote, OneNote, Google Keep, Media Wiki, Google Drive, SURFdrive, Apple iCloud, Dropbox, E-mail, Institutional shared folders, Basecamp, GitHub, E-Notebook, eLabjournal.com, ResearchGate, Mindly, Paper, Trello, Design paper, Netherlands Trial Register, project websites, Podio, Clinical trial.com (edit:clinicaltrials.gov)
+- For the **analysis** Many disciplines use their specific tool for analysis.  Excel is the common tool for at least 50 per cent of the Law and Arts&Humanities communities, and even more for the other disciplines. iPhython, R and Matlab are uses mostly by the Physics and Engineering&Technology, where R is also known by Life scientists. And SPSS is the commercial package that is used intensely in medicine, social-science&economics and life sciences. Unknow yet but interesting for digital humanities is the DHbox and R open science both with ready-to-go configurations of computational tools, the first as runtime environment in the cloud with R and iPython, the other an extensive software library for R.
+In the survey the following tools are mentioned by VU and VUmc researchers in different disciplines. Some of them were mentioned frequently like Nvivo or across disciplines like Atlas.TI.
+
+    - *Physics:* Fortran, Wolfram Mathematica, Linux, GAMS, ArcGIS, Origin, Gradeprofiler, Python, Java, C++, Comprehensive Meta-analysis (CMA), SAS, Mplus, Galaxy, PQ method, Atlas.TI, open office spreadsheet, Glotaran, R package TIMP
+    - *Engineering & Technology:* Atlas.TI, OpenRefine, Python, Oxmetrics, Semantic web platforms, ACQknowledge, GraphPad, open office spreadsheet, Java, Glotaran, R package TIMP
+    - *Medicine:* MaxQDA, Atlas.TI, ReviewManager, GraphPad Prism, SAS, Mplus, Apple Numbers, Stata, Comprehensive Meta-analysis (CMA), StatView, Review Manager (systematic reviews), FSL, Flowjo, MS Access, Snapgene, Accurri Analysis, instrument specific software, MLWIN, MS Word, Mindmeister, clonemanager, softmax, Vinci, Galaxy, Python, Java, C++, ACQknowledge, openMx, Plink, wolfram mathematica, PQ method, Libre Offic, picture analysis, Statistica, Spike/Signal
+    - *Social Science & Economics:* Atlas.TI, Mplus, STATA, QSR Nvivo, MaxQDA, C++, SAS, Review Manager (systematic reviews), Comprehensive Meta-analysis (CMA), Python, MS Word, Transana, Mlwin, Oxmetrics, QGIS, Amos, Lyx, winedt, JASP, Wolfram Mathematica, Gephi, UCINET, NodeXL, ORA, ConText, Netdraw (social network analysis software), AmCat (Amsterdam Content Analysis Toolkit), Python package Pandas, ArcGIS, MaxQDA, GAMS, SAS, MaxQda, Atlas.TI, Mindmeister, SmartPLS, Dedoose, Lingo software, maxima, EQS, PQ method, MS Access, fs/QCA software, Lisrel.
+    - *Law:* Atlas.TI, MS Word, various text mining tools
+    - *Arts & Humanities:* MS Access, MS Word, MPlus, Atlas.TI, Python, MaxQDA, Concordance software e.g. AntConc, AmCat (Amsterdam Content Analysis Toolkit)",
+"##Writing
+- MS Word is the most favorite office tool for **writing**, but Engineering and technology use Google docs and Overleaf more often for collaborative writing than other disciplines.
+- For **managing references** Endnote is the most popular for all disciplines except in Engineering&Technology, where they prefer Mendeley. Endnote and Mendeley have a a similar user base, except that Mendeley is being used vastly more by [younger researchers](#72_details:_tenures_vs_non-tenures_grouped_by_research_activities). Something to look into in the future, but we can imagine that many Phd candidates want something that works right after a download, instead of getting a license token from university administration. Where Mendeley is used lesser by Arst&Humanities, this group does use the open source reference manager Zotero much more than the other disciplines.",
+"##Publication
+- Despite the fact that all disciplines **publish** in traditional journals, it are researchers in medicine and life sciences who publish in OA topical- and mega-journals.
+- To **decide what journal to submit** an article the Journal Citation Ranking is still a leading indicator for most disciplines, except for researchers in Law, where they seem to lead in journal assessement platforms with an open access focus like the directory of open access journals (DOAJ), quality open access market (QOAM), Sherpa/Romeo and Journalysis. Also mentioned was the Eigenfactor.org, advise from supervisors and peers, the metrics from Google Scholar, similarities and reputation from authors in reference lists  
+- Most disciplines recognize ResearchGate as a place for **archiving and sharing publications**. Archiving scientific output to safeguard the corpus for future generations is not as common practice yet for all disciplines, but Physics and Engineering&Technology mostly use arXiv for years to publish prepints as a function to speed-up the scientific process and at the same time claim their finding at that particular date. Other expected patterns that are visible are Lifesciences and Medicine use PubmedCentral, and the institutional repository is known across all disciplines. Strangely SSRN is used by Law a lot more than expected in Social sciences. We expected BioRXiv to be familiar among the Life sciences, but the service just started a few years ago.
+- Although a plentitude of platforms are available to **share and archive data, code and presentations**, only Github and Bitbucket are mainly used by one discipline; Engineering&Technology. Other suggestions were given to share code, data and presentations: Open Science Framework (OSF), Dropbox, Onedrive, SURFdrive, SURFsara.nl, Institutional shared folder, SPSS, Survey Monkey, External Hard Drive, E-mail, EDUgroepen.nl, Openclinica, Mendeley Data, SVN, GEO, Gitlab, EGA, tranSMART, B2SHARE, own website, supplement of papers, Academia.edu, dedicated repositories, wetransfer. For archiving data in a discipline the best place to start is the [Re](http:\\RE3data.org)gistry of [Re](http:\\RE3data.org)search Data [Re](http:\\RE3data.org)positories at [RE3data.org](http:\\RE3data.org)",
+"##Outreach
+- We see that Engineering & Technology use Google Scholar Citations for **researcher profiles** more than other disciplines. This might be related to the recent obligation from the faculty of sciences to use this channel as the official outlet of their academic work. Again ResearchGate pops up as a platform that is broadly used to display your work in all disciplines. Only where we see two dips for Arts & Humanities and Law at ResearchGate, we see them re-appear as spikes at Academia.edu. Also we see that these disciplines are less familiar with ORCiD than the other disciplines. The profiles at our own institution are familiar, but we hear complains about the lack of control and speed researches have to influence these pages. That's why we respondents also mentioned *own website* a number of times.
+- Twitter is the most popular outlet for **mentioning scientific findings to the public** by Arts&Humanities and Social&Economics, but also Engineering&Technology like to use to show off their achievements. The same groups like to inform the public by placing infrormation on their work  on websites or blogging platforms like Wordpress. In smaller numbers, but fairly distributed across all disciplines improve Wikipedia with their findings. The startup GrowKudos.com, which manages the distribution and measurement the impact of your work on blogs and social media networks (Tw,Fb,Ln), is still very unknown. Other mentions for public outlets were Newspapers, Facebook and Linked-in.
+- To **archive posters and presentations** is not common practice, but only for Engineering&Technology they use Slideshare, Figshare and Vimeo. Also mentioned was Prezi, Dropbox, Youtube, own website, ResearchGate and Academia.edu.",
+"##Assessement
+- Using  services for **peer review organized beyond that by journals** is very unknown territory. The common practice is to go with the review process organised by a journal. Decoupling this process makes it possible to validate the research and maintain trust in the scientific findings, but publish and spread it to multiple platforms creating greater reach. Other methods mentioned was *discuss with peers*.
+- To **measure the impact of one's output**, Lifesciences, Medicine, Physics and Social&Economics look at the Journal Citation Reports (JRC) and Web of Science as a reference. Other mentions were Google Scholar citation index and in Social&Economics the Eigenfactor. Also InspireBeta.net in high energy physics is a [good example for profile metrics](http://inspirehep.net/author/profile/P.J.Mulders.1); pre-print/post-print ratio, citation breakdown in clusters, filter on self-citation, publication type, co-authors, keyword frequencies, publication timeline graph, etc. And the [ERIM journal list (EJL)](http://www.erim.eur.nl/about-erim/erim-journals-list-ejl/) from the Erasmus University is a good example of assessment for impact, but scaled to a discipline specific area with their own additional criteria.")
+
+explanation.tekst <- c(paste(d,sep=''))
 
 for(i in 1:length(PhaseResearchCycle))
 { 
+  # plaats tekst in loops
+  cat(explanation.tekst[i], "\n")
+  
   # Print heading
   par(mar = c(6,6,4,1) +0.1)
   #selecteer SubPhases behoorden bij PhaseResearchCyclie[i]
@@ -41,10 +70,13 @@ for(i in 1:length(PhaseResearchCycle))
     labs <- Tools[match(as.character(colnames(ToolUse.Subphase.j)),Tools[,"Variable.name"]),"Tool.name"]
     wr.lab <- wrap.labels(labs, 10)
     #plot
-    barplot(ToolUse.Subphase.j/respondenten.per.discipline,beside=TRUE,main=SubPhases.Phase.i[j],
+    barplot((ToolUse.Subphase.j/respondenten.per.discipline)*100,beside=TRUE,main=SubPhases.Phase.i[j],
       names.arg=wr.lab,las=3,cex.names=0.7,col=Kleuren.disciplines,
-      ylim=c(0,1),cex.lab=if(n.rows==1){0.8},
+      ylim=c(0,100),cex.lab=if(n.rows==1){0.8},
       ylab="% tool users in disciplines")
   }
+  cat("![Discipline Colors Legend](./images/disciplines-colors-legend-7col-mid.png)*Legend for the Discipline Colors*")
+  cat("\n")
+  cat("\n")
 }
 ```

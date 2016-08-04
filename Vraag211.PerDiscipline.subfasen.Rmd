@@ -1,14 +1,27 @@
-# Detailed overview for each discipline
 
-```{r}
+In this overview we show the graphs focussed on each discipline in each research phase. Next to these bars we will place additional bars, where you can compare the discipline against the OECD averages for that discipline, and the VU&VUmc average.
+
+
+```{r Vraag211.PerDiscipline.subfasen.Rmd, echo=FALSE,results='asis'}
 #Vraag211.PerDiscipline.subfasen.R
 
-
+# Discipline header
+discipline.tekst <- c(paste(Disciplines,sep=''))
 
 for(d in 1:length(Disciplines))
 { 
+  # Discipline tekst in loops plaatsen
+  cat("##", discipline.tekst[d], "(N=",respondenten.per.discipline[d],")", "\n")
+  
+  # Research phase header tekst
+  researchphase.tekst <- c(paste(PhaseResearchCycle,sep=''))  
+  
   for(i in 1:length(PhaseResearchCycle))
   { 
+    
+    # Research phase tekst in loops plaatsen
+    cat("###", researchphase.tekst[i], "\n")
+    
     # Print heading
     par(mar = c(6,6,4,1) +0.1)
     #selecteer SubPhases behoorden bij PhaseResearchCyclie[i]
@@ -19,7 +32,7 @@ for(d in 1:length(Disciplines))
     # WIN GRAPH DISABLED FOR KNITR COMPATIBILITY!
     # win.graph(14,n.rows*4)
     
-    par(mfrow=c(n.rows,2))
+   par(mfrow=c(n.rows,2))
     for(j in 1:length(SubPhases.Phase.i))
     {
       par(mar = c(6,6,4,1) +0.1)
@@ -27,21 +40,31 @@ for(d in 1:length(Disciplines))
       ColNames.SubPhase.j <- as.character(Tools[which(Tools[,"SubPhase"]==SubPhases.Phase.i[j]),"Variable.name"])
       #selecteer tools van subphase j uit phase i in ToolUse.per.Discipline
       ToolUse.Subphase.j<-ToolUse.per.discipline[,ColNames.SubPhase.j]
+      ToolUse.Subphase.j.OECD<-ToolUse.per.discipline.OECD[,ColNames.SubPhase.j]
       
-      #sort tools from ToolUse.Subphase.j by difference in tooluse between tenure-groups
+      #sort tools from ToolUse.Subphase.j by difference in tooluse 
       ToolUse.Subphase.j<-ToolUse.Subphase.j[,order(-ToolUse.Subphase.j[d,])]
-
+      ToolUse.Subphase.j.OECD<-ToolUse.Subphase.j.OECD[,colnames(ToolUse.Subphase.j)]
+      
       #define axis labels
       labs <- Tools[match(as.character(colnames(ToolUse.Subphase.j)),Tools[,"Variable.name"]),"Tool.name"]
       wr.lab <- wrap.labels(labs, 10)
       #plot
-      barplot(ToolUse.Subphase.j[d,]/respondenten.per.discipline[d],beside=TRUE,
-              main=paste(Disciplines[d],"(N=",respondenten.per.discipline[d],")"," - ",SubPhases.Phase.i[j]),
-              names.arg=wr.lab,las=3,cex.names=0.7,col=Kleuren[i],
-              ylim=c(0,1),cex.lab=if(n.rows==1){0.8},
-              ylab=paste("% tool users in ",Disciplines[d]))
+      plotdata<- cbind((ToolUse.Subphase.j[d,]/respondenten.per.discipline[d])*100,
+                   (ToolUse.Subphase.j["totaal.VU",]/sum(respondenten.per.discipline))*100,
+                   (ToolUse.Subphase.j.OECD[d,]/respondenten.per.discipline.OECD[d])*100)
+      colnames(plotdata) <- c(Disciplines[d],"VU","OECD")
+      
+      barplot(t(plotdata),beside=TRUE,main=paste(Disciplines[d],SubPhases.Phase.i[j],sep=' - '),
+              names.arg=wr.lab,las=3,cex.names=0.7,col=c(Kleuren[i],Kleuren.VU,Kleuren.OECD),
+              ylim=c(0,100),cex.lab=if(n.rows==1){0.8},
+              ylab=paste("% of of respondents ",Disciplines[d]))
     }
+    cat("\n")
+    cat("\n")
   }
+  cat("\n")
+  cat("\n")
 }
 
 ```  
