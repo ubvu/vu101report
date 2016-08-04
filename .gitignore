@@ -31,3 +31,6 @@ vignettes/*.pdf
 # Temporary files created by R markdown
 *.utf8.md
 *.knit.md
+
+# png output files (remade everytime the Rmd file is run)
+Report-vu101_files/figure-html/*.png
