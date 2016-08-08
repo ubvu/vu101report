@@ -16,6 +16,7 @@
 
 # RStudio files
 .Rproj.user/
+.Rproj  
 
 # produced vignettes
 vignettes/*.html
@@ -34,3 +35,6 @@ vignettes/*.pdf
 
 # png output files (remade everytime the Rmd file is run)
 Report-vu101_files/figure-html/*.png
+
+# markdown output file, easy to check but no need to track
+Report-vu101.md

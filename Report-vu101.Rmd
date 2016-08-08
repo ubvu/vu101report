@@ -4,6 +4,7 @@ author: "[Maurice Vanderfeesten![ORCID](./images/ORCiD-icon16x16.png)](http://or
 date: "July 19, 2016"
 output:
   html_document:
+    keep_md: true
     toc: true # table of content true
     toc_float: true # make the toc float
     depth: 3  # upto three depths of headings (specified by #, ## and ###)
