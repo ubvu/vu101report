@@ -4,13 +4,13 @@ author: "[Maurice Vanderfeesten![ORCID](./images/ORCiD-icon16x16.png)](http://or
 date: "July 19, 2016"
 output:
   html_document:
-    keep_md: true
-    toc: true # table of content true
-    toc_float: true # make the toc float
-    depth: 3  # upto three depths of headings (specified by #, ## and ###)
-    number_sections: true  ## if you want number sections at each table header
-    theme: yeti  # many options for theme, this one is my favorite.
-    highlight: tango  # specifies the syntax highlighting style
+    depth: 3
+    highlight: tango
+    keep_md: yes
+    number_sections: yes
+    theme: yeti
+    toc: yes
+    toc_float: yes
 ---
 <!-- preparing all data for plots -->
 
