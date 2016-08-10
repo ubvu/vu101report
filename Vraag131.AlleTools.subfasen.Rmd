@@ -1,7 +1,4 @@
 
-
-
-
 ```{r Vraag131.AlleTools.subfasen.Rmd, echo=FALSE,results='asis'}
 #Vraag131.AlleTools.subfasen.R
 

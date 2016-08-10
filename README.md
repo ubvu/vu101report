@@ -11,4 +11,5 @@ Main input file is `Report-vu101.Rmd`, output is [`Report-vu101.html`](https://r
 
 ----
 
+<<<<<<< 136d71d566ce87725aa94e5bb74c3f15a3fc2019
 The VU University Library wants her services to be closely connected to the scholarly communication processes of the VU researcher. This report is part of a larger project working on improving services.

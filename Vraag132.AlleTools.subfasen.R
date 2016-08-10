@@ -1,7 +1,7 @@
 
 
 for(i in 1:length(PhaseResearchCycle))
-{ 
+{
   # Print heading
   par(mar = c(6,6,4,1) +0.1)
   #selecteer SubPhases behoorden bij PhaseResearchCyclie[i]
@@ -16,7 +16,7 @@ for(i in 1:length(PhaseResearchCycle))
     ColNames.SubPhase.j <- as.character(Tools[which(Tools[,"SubPhase"]==SubPhases.Phase.i[j]),"Variable.name"])
     #selecteer tools van subphase j uit phase i in ToolUse.per.TenureStatus
     ToolUse.Subphase.j<-(ToolUse.OECDvsVU[,ColNames.SubPhase.j]/respondenten.OECDvsVU)*100
-    
+
     #sort tools from ToolUse.Subphase.j by difference in tooluse in OECD-countries
     ToolUse.Subphase.j<-ToolUse.Subphase.j[,order(-ToolUse.Subphase.j[1,])]
     #define axis labels

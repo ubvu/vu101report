@@ -1,6 +1,7 @@
 ## Open Intention for Tenures vs Non-tenures
 
 Despite of people are not always familiar with the tools that they can use for engaging in Open Science, they overall have the intent to be supportive in favor of Open Acces an Open Science.
+
 ```{r}
 #Vraag222.OAsupport.R
 
@@ -9,16 +10,16 @@ Despite of people are not always familiar with the tools that they can use for e
 # win.graph(14,7)
 par(mfrow=c(1,2))
 i=1
-xx <- barplot(support.per.role[,i],xlab="carreer group",ylim=c(0,119), 
-              main=paste(colnames(support.per.role)[i]," per carreer group",sep=""), 
+xx <- barplot(support.per.role[,i],xlab="carreer group",ylim=c(0,119),
+              main=paste(colnames(support.per.role)[i]," per carreer group",sep=""),
               cex.names = 0.7,horiz=F,las=1,ylab="% support",col=Kleuren)
-text(x=xx, y=support.per.role[,i],label=paste('n=',respondenten.per.rol,sep=''), 
+text(x=xx, y=support.per.role[,i],label=paste('n=',respondenten.per.rol,sep=''),
      pos=3, cex=0.8)
 i=2
-xx <- barplot(support.per.role[,i],xlab="carreer group",ylim=c(0,119), 
-              main=paste(colnames(support.per.role)[i]," per carreer group",sep=""), 
+xx <- barplot(support.per.role[,i],xlab="carreer group",ylim=c(0,119),
+              main=paste(colnames(support.per.role)[i]," per carreer group",sep=""),
               cex.names = 0.7,horiz=F,las=1,ylab="% support",col=Kleuren)
-text(x=xx, y=support.per.role[,i],label=paste('n=',respondenten.per.rol,sep=''), 
+text(x=xx, y=support.per.role[,i],label=paste('n=',respondenten.per.rol,sep=''),
      pos=3, cex=0.8)
 ```
 
@@ -59,13 +60,13 @@ Once there is access to a paper there is a hope one can engage with more interac
  * tools that aggregate scattered knowledge in papers;
  * More clarity about the quality of journals.
  * Researchgate as primary tool
- 
+
 * Access
 
  * open access online, platform for sharing between researcher without paying
  * scientific articles as 'free' pdf in the 'cloud'
  * Researchgate as primary tool
- 
+
 * Read
 
  * Projects like Reader which allow much more interaction with papers
@@ -87,7 +88,7 @@ Research is so diverse and heterogeneous, there is no one tool to nail the job, 
  * More concurrence
  * It should be making Science reproducible again: better description of the methods, better quality data and  structured obtained knowledge should be required for any publication.
  * Publication based on preregistration of protocols/experiments
- 
+
 * Analyzing
 
  * One important concept in marketing is the idea of "super segmentation". Lots of excellent tools are coming available, but they are differentials relevant for different people, and different people need to integrate them. It will become a challenge how to integrate that most optimally. My suspicion is that the university- slow as it is- won't be able to handle this development. So either the universities adapt and let people operate in start-up like enterprises within the university, or good researchers break away from universities

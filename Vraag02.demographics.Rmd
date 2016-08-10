@@ -137,7 +137,7 @@ We split the number of the Science faculty to respresent the disciplines of Phys
 The percentage of responses are calculated by relating the number of VU respondents on the survey for each discipline, to the total number of academic staff that could have filled out the survey for that discipline.
 
 | Survey Discipline               |  Number of VU respondents (from survey) | Faculty | Number of VU scientific personnel (calculated potential) | \| | % of response |
-| ------------------------------: | :----- | --------------------------------: | :-----| :---: | -----: | 
+| ------------------------------: | :----- | --------------------------------: | :-----| :---: | -----: |
 | Physical Sciences               |  39    | Sciences (0.5) (1)                | 195 | \| | 20% |
 | Engineering and Technology      |  35    | Sciences (0.5) (2)                | 195 | \| | 18% |
 | Life Sciences                   |  144   | Behavioural and Movement Sciences AND Earth and Lifesciences (3) | 872 | \| | 17% |
@@ -154,4 +154,3 @@ plot_colors <- brewer.pal(length(plot_values),"Dark2")
 
 demographicsplot(plot_main, plot_labels, plot_values, plot_colors)
 ```
-

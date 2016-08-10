@@ -24,7 +24,7 @@ The results in this report are ment as conversational material with the facultie
 <!-- De onderstaande resultaten zijn bedoeld als gespreksstof met de faculteiten om de dienstverlening te verbeteren, vernieuwen en te veranderen, zodat ze beter aansluit bij de fases van de onderzoekspraktijk van de onderzoekers. -->
 
 ## Interactive annotating
-To bring tools for advancing scholarly communication our selves, we added web anotation to this report using [Hypothes.is](http://Hypothes.is) 
+To bring tools for advancing scholarly communication our selves, we added web anotation to this report using [Hypothes.is](http://Hypothes.is)
 As a reader you can also can make public and private annotations on this URL of this report. (See top-right corner) You can start highlighting the content in this document and save your thoughts for later, or to share with others, right from the browser as you read along. We do encourage you to do so. (In case you save the html file, be aware that web annotations are based on the web address, if the address changes, the annotations will not move with it.)
 
 <!-- inserting Javascript for interactive annotation with Hypothes.is -->
@@ -42,9 +42,9 @@ Our goal is to improve library services, so we first asked library employees whi
 All these questions can be found in this document containing the [VU101 research questions](https://docs.google.com/document/d/1p3k5PLXtJNvGviWvsBoPZ4dbgGU9Fa_dHb08iOdvC6Q/edit?usp=sharing). You can also fnid here the prioritation of what questions should be treated first, and the others if time was left for further research.
 
 <!-- # Aanpak
-Er zijn [onderzoeksvragen](https://docs.google.com/document/d/1p3k5PLXtJNvGviWvsBoPZ4dbgGU9Fa_dHb08iOdvC6Q/edit?usp=sharing) door de vak- en thema specialisten opgesteld. Dit zijn de vragen die nodig zijn om het gesprek te voeren. Voor elke vraag is een raamwerk gemaakt waarbinnen het antwoord vanuit de enquete resultaten kan worden gegeven. Vanuit het oogpunt tijd, is gekozen om alleen de vragen te beantwoorden met de hoogste urgentie. 
+Er zijn [onderzoeksvragen](https://docs.google.com/document/d/1p3k5PLXtJNvGviWvsBoPZ4dbgGU9Fa_dHb08iOdvC6Q/edit?usp=sharing) door de vak- en thema specialisten opgesteld. Dit zijn de vragen die nodig zijn om het gesprek te voeren. Voor elke vraag is een raamwerk gemaakt waarbinnen het antwoord vanuit de enquete resultaten kan worden gegeven. Vanuit het oogpunt tijd, is gekozen om alleen de vragen te beantwoorden met de hoogste urgentie.
 
-De vragen moeten antwoord geven voor twee vraag-categoriën:
+De vragen moeten antwoord geven voor twee vraag-categoriÃ«n:
 1. Het toolgebruik binnen de VU in haar geheel
 2. Het toolgebruik binnen Disciplines
 
@@ -53,7 +53,7 @@ Met name de laatste vraag-categorie is interessant voor vak- en themaspecialiste
 ## Data gathering
 Next, we need VU and VUmc researchers to fill in the survey. For this we needed a method to filter these researchers from the data, and we needed to communicate the survey to this specific target group.
 
-For filtering VU and VUmc researchers out of the survey data, we asked the lead researchers to add a hash [7V4u8a] to the survey URL. This custom url can be used in communicating the survey. To monitor the survey activities in realtime ourselves, we created a short URL from the custom URL: [http://bit.ly/vu101innovations] . This url is used in communication to VU and VUmc researchers. 
+For filtering VU and VUmc researchers out of the survey data, we asked the lead researchers to add a hash [7V4u8a] to the survey URL. This custom url can be used in communicating the survey. To monitor the survey activities in realtime ourselves, we created a short URL from the custom URL: [http://bit.ly/vu101innovations] . This url is used in communication to VU and VUmc researchers.
 
 To communicate this survey to this specific targetgroup within the VU and VUmc, we asked the research portfolio managers to distribute this survey in an e-mail from the faculty secretaries. This resulted in 543 visitors in January, and an extra of 296 after a reminder in February, as you can see in the diagram below.
 
@@ -76,16 +76,16 @@ De VU en VUmc hebben samen ongeveer 6000 personen wetenschappelijke staf. -->
 In April we got the anonymised and cleaned (eg. removed whitespaces) data from the lead researchers. One set with all the data, and one with only respondents from the VU and VUmc.
 We prepared the data for making plots by the following procedure; changing collumns representng a tool from a string value to a bolean value, next adding a boolean to the tool column where the name of the tool has been written down in the free text field for that respondent. Then we added boolean values to the respondents who are affiliated to an institution in a OECD country. After that we marked which column belongs to what research phase in the scolarly communication cycle (Discovery, Analysis, Writing, Publication, Outreach, Assessment), and within these phases what columns represent what reearch activity (eg. searching literature, writing collaboratively, sharing data, ...) After that we labeled what tool are supported by the VU library. Extra information from the tool database (eg. tool age, twitter followers and open science category) could be taken into account for making additional correllations, but due to time limitation we left this out of the answers for now.
 
-```{r, out.width = 500, fig.retina = NULL , echo=FALSE, error=FALSE, warning=FALSE, message=FALSE} 
+```{r, out.width = 500, fig.retina = NULL , echo=FALSE, error=FALSE, warning=FALSE, message=FALSE}
 knitr::include_graphics("./images/vu101-data-scaffold.png")
 ```
 
 *Data Scaffold: survey dataset enriched with additional data for making plots.*
 
-## Data plots, coding and report rendering 
+## Data plots, coding and report rendering
 We chose R as the language to make plots, and the report in this HTML file. For each question we have made a plot in a separate R file to ease the procedure of collaboration, code-commenting and debugging. Then we nested this plot in the R-Markdown (.rdm) format where we could add commenting text like you read here now. All .rdm files are nested in a master report. This allowed us to make a report that immediately updates the plots when the code changes, keeping the graphs in sync with the latest code and data. In the end it saved us time, and makes the repoducibility of this report as easy as possible.
 
-```{r, out.width = 500, fig.retina = NULL , echo=FALSE, error=FALSE, warning=FALSE, message=FALSE} 
+```{r, out.width = 500, fig.retina = NULL , echo=FALSE, error=FALSE, warning=FALSE, message=FALSE}
 knitr::include_graphics("./images/vu101-code-scaffold.png")
 ```
 
