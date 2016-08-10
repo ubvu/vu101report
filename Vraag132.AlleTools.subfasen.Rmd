@@ -1,10 +1,10 @@
 <!-- # VU&VUmc vs OECD countries -->
 
-Despite the fact that the survey has responses from many different countries, we limit the analysis to the 34 [OECD member states](http://www.oecd.org/about/membersandpartners/list-oecd-member-countries.htm) (checked 3 May 2016), as these countries are more similar to the Netherlands, and comparison is more meaningful. For example, respondents from countries with low GDP often use Zotero (free of charge), while EndNote (paid) is used more in countries with a higher GDP.
+The 101 Innovations survey received responses from many different countries. This makes it possible to compare responses from VU & VUmc faculty with international averages. We limit the comparison to the 34 [OECD member states](http://www.oecd.org/about/membersandpartners/list-oecd-member-countries.htm) (checked 3 May 2016; note that the list also includes the Netherlands). Although this list comprises many different countries, these countries are more comparable to the Netherlands than the complete list, and allow for a more meaningful comparison. For example, respondents from countries with low GDP often use Zotero (free of charge), while EndNote (paid) is used more in countries with a higher GDP.
 
-The figures below compare respondents from VU University to respondents from OECD countries. OECD respondents are indicated with solid colored bars, VU respondent bars are hashed. All data is reported in percentages, that is, a solid bar up to 80 for google Scholar in the **Discovery_search** graph indicates that 80 per cent of all VU respondents reported using Google Scholar for Search in the Discovery process. We report all tools per subactivity.
+In the subsections below, we discuss the different research phases in turn. In each of the figures, hatched bars represent responses from VU and VUmc staff, and filled bars represent all other respondents from OECD countries. All data is represented as the percentage of all respondents in that group. For example, in the graph for `Discovery_search` it is shown that about forty percent of all OECD respondents have indicated using PubMed for Search, and about fifty percent of all VU&VUmc staff.
 
-Overall, differences between OECD and VU repondents are not very large, but there are a few tools that stand out.
+Overall, differences between OECD and VU repondents are not very large, and it is difficult to discern structural deviations at the VU from the OECD averages. One thing that is noteworthy and of possible interest to the Library is that usage of Mendeley for discovery and reference management is higher at the VU than in other OECD countries, despite access to the Endnote application.
 
 <!--
  - betere legenda maken;
