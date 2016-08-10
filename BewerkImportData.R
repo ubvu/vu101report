@@ -69,6 +69,9 @@ colnames(Tools)[dim(Tools)[2]]<- "SubPhase"
 
 #verwijder tool-kolommen met vrije tekst (te herkennen aan "other" in kolomnaam)
 All101<- All101[,-grep("other",colnames(All101))]
+#verwijder tool-kolommen met language tekst (deze zijn grotendeels leeg en geven NA - te herkennen aan "lang" in kolomnaam)
+All101<- All101[,-grep("lang",colnames(All101))]
+
 ##splits All101-database(OECD) in VU en non-vu
 All101.nonVU<- All101[which(All101[,'ID']%in%VU.IDs[,1]==F),]
 All101.VU<- All101[which(All101[,'ID']%in%VU.IDs[,1]),]

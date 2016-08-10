@@ -11,6 +11,7 @@ source(paste(getwd(),"/BewerkImportData.R",sep=""))
 
 #Creeer nieuwe databases
 source(paste(getwd(),"/CreeerToolUsePerDiscipline.R",sep=""))
+source(paste(getwd(),"/CreeerToolUsePerDisciplineOECD.R",sep=""))
 source(paste(getwd(),"/CreeerToolUsePerRole.R",sep=""))
 source(paste(getwd(),"/CreeerToolUsePerTenureStatus.R",sep=""))
 source(paste(getwd(),"/CreeerToolUseOECDvsVU.R",sep=""))
@@ -20,3 +21,4 @@ source(paste(getwd(),"/CreeerOAsupportPerDiscipline.R",sep=""))
 #Laad functies
 source(paste(getwd(),"/FunctionWrapAxis.R",sep=""))
 source(paste(getwd(),"/FunctionPlotTable.R",sep=""))
+source(paste(getwd(),"/FunctionPlotDemographics.R",sep=""))
