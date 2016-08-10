@@ -19,7 +19,7 @@ Overall, differences between OECD and VU repondents are not very large, and it i
 #Vraag131.AlleTools.subfasen.R
 
 d <- c("##Discovery
-Mendeley is used relatively often at the VU for reading and searching",
+The triplets of VU and VUmc favourites---Acrobat Reader, Google Scholar, institutional access--- are favoured in the OECD as well. For searching, PubMed and Mendeley are used more often by VU staff, while Scopus is used less (no surprise here, since the VU has no subscription at the time of the survey). ",
 "##Analysis
 Use of SPSS as a tool for analysis is much larger at the VU than for the OECD average.",
 "##Writing
@@ -37,7 +37,7 @@ for(i in 1:length(PhaseResearchCycle))
 {
   # plaats tekst in loops
   cat(explanation.tekst[i], "\n")
-  
+
   # Print heading
   par(mar = c(6,6,4,1) +0.1)
   #selecteer SubPhases behoorden bij PhaseResearchCyclie[i]
