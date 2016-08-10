@@ -19,8 +19,8 @@ Overall, differences between OECD and VU repondents are not very large, and it i
 #Vraag131.AlleTools.subfasen.R
 
 d <- c("##Discovery
-<<<<<<< 136d71d566ce87725aa94e5bb74c3f15a3fc2019
-The triplets of VU and VUmc favourites---Acrobat Reader, Google Scholar, institutional access--- are popular in the OECD as well. For searching, PubMed and Mendeley are used more often by VU staff, while Scopus is used less (no surprise here, since the VU has no subscription at the time of the survey).",
+
+The triplet of VU and VUmc favourites---Acrobat Reader, Google Scholar, institutional access--- are popular in the OECD as well. For searching, PubMed and Mendeley are used more often by VU staff, while Scopus is used less (no surprise here, since the VU has no subscription at the time of the survey).",
 "##Analysis
 Use of SPSS as a tool for analysis is almost twice as large at the VU than for the OECD average.",
 "##Writing
