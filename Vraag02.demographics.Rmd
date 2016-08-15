@@ -11,7 +11,7 @@ These demographics form the baseline of our study.
 | VU and VUmc | 531 |
 
 ```{r echo=FALSE, warning=FALSE, error=FALSE, fig.keep='first'}
-plot_main <- c("respondents: geographical groups")
+plot_main <- c("All respondents: geographical groups")
 plot_labels <- c("World Wide", "OECD", "Netherlands", "VU&VUmc")
 plot_values <- c(20663, 15752, 2041, 531)
 plot_colors <- cm.colors(length(plot_values))
@@ -36,7 +36,7 @@ demographicsplot(plot_main, plot_labels, plot_values, plot_colors)
 | Arts & Humanities | 55 |
 
 ```{r echo=FALSE, warning=FALSE, error=FALSE, fig.keep='all'}
-plot_main <- c("respondents: Discipline groups")
+plot_main <- c("VU respondents: Discipline groups")
 plot_labels <- c("Physical", "Engi&Tech", "LiveSci", "Medicine", "Socia&Econ","Law","Arts&Hum")
 plot_values <- c(39, 35, 144, 181, 176,26,55)
 plot_colors <- cm.colors(length(plot_values))
@@ -50,6 +50,15 @@ demographicsplot(plot_main, plot_labels, plot_values, plot_colors)
 | Number of PostDoc's | 70 |
 | Number of (Associate, Assistant) Professors | 188 |
 
+```{r echo=FALSE, warning=FALSE, error=FALSE, fig.keep='all'}
+plot_main <- c("VU respondents: Career groups")
+plot_labels <- c("PhDs", "PostDocs", "(Associate and Assistant) Professors")
+plot_values <- c(230, 70, 188)
+plot_colors <- cm.colors(length(plot_values))
+
+demographicsplot(plot_main, plot_labels, plot_values, plot_colors)
+```
+
 | First publication year | Value |
 | --- | ---: |
 | before 1991 | 61 |
@@ -58,6 +67,15 @@ demographicsplot(plot_main, plot_labels, plot_values, plot_colors)
 | 2006-2010 | 79 |
 | 2011-2016 | 168 |
 | not published (yet) | 96 |
+
+```{r echo=FALSE, warning=FALSE, error=FALSE, fig.keep='all'}
+plot_main <- c("VU respondents: First publication")
+plot_labels <- c("before 1991", "1991-2000", "2001-2005", "2006-2010", "2011-2016","not published (yet)")
+plot_values <- c(61, 70, 55, 79, 168, 96)
+plot_colors <- cm.colors(length(plot_values))
+
+demographicsplot(plot_main, plot_labels, plot_values, plot_colors)
+```
 
 | Country of affiliation | Value |
 | --- | ---: |
@@ -71,31 +89,69 @@ demographicsplot(plot_main, plot_labels, plot_values, plot_colors)
 | Latvia | 1 |
 | Turkey | 1 |
 
+```{r echo=FALSE, warning=FALSE, error=FALSE, fig.keep='all'}
+plot_main <- c("VU respondents: Affiliation country")
+plot_labels <- c("Netherlands", "United States", "Germany", "Brazil", "DR of Congo","India", "Italy", "Latvia", "Turkey")
+plot_values <- c(519, 3, 2, 1, 1, 1, 1, 1, 1)
+plot_colors <- cm.colors(length(plot_values))
+
+demographicsplot(plot_main, plot_labels, plot_values, plot_colors)
+```
+
 ## Organisation demographics VU&VUmc
 Below the numbers are given for the active scientific personel on 30th of June 2016 for the VU. For VUmc (Medicine), numbers from annual report 2015 are used.
 
-| Faculty | Number of scientific personnel |
-| --- | ---: |
-| Godgeleerdheid | 86 |
-| Geesteswetenschappen | 221 |
-| Rechtsgeleerdheid | 219 |
-| Sociale Wetenschappen | 224 |
-| Economische Wetenschappen en Bedrijfskunde | 430 |
-| Exacte Wetenschappen | 390 |
-| Aard- en Levenswetenschappen | 450 |
-| Gedrags- en Bewegingswetenschappen | 422 |
-| Geneeskunde (VUmc) | 1079 |
-| Tandheelkunde (ACTA) | 251 |
+| Faculty                                     | Number of scientific personnel |
+| --------------------------------------------| ---: |
+| Theology (Godgeleerdheid) (1)               | 86   |
+| Humanities (Geesteswetenschappen) (2)       | 221  |
+| Law (Rechtsgeleerdheid) (3)                 | 219  |
+| Social Sciences (Sociale Wetenschappen) (4) | 224  |
+| Economics and Business Administration (Economische Wetenschappen en Bedrijfskunde) (5) | 430 |
+| Sciences (Exacte Wetenschappen) (6)         | 390  |
+| Earth and Life Sciences (Aard- en Levenswetenschappen) (7) | 450 |
+| Behavioural and Movement Sciences (Gedrags- en Bewegingswetenschappen) (8) | 422 |
+| Medicine (Geneeskunde) (VUmc) (9)           | 1079 |
+| Dentistry (Tandheelkunde) (ACTA) (10)       | 251  |
+
+```{r echo=FALSE, warning=FALSE, error=FALSE, fig.keep='all'}
+plot_main <- c("VU employees: Number of Academic staff")
+plot_labels <- c("Theo1", "Human2", "Law3", "Social4", "Econ5", "Sci6", "EarthLife7", "BehaMove8", "Medic9", "Dent10")
+plot_values <- c(86, 221, 219, 224, 430, 390, 450, 422, 1079, 251)
+plot_colors <- cm.colors(length(plot_values))
+
+demographicsplot(plot_main, plot_labels, plot_values, plot_colors)
+```
 
 ## Survey disciplines and faculty
-To normalize the numbers, and calculating the representation of the the survey respontents to the faculties, the following divisions are used.
+In this table we put the number of respondents from each discipline next to the number of academic staff of each faculty.  To know the response rate for each discipline, we need to know the number of VU respondents for each disipline and the total number of VU potential respondents that could have filled out the survey.
 
-| Survey Discipline               | Faculty                           | Number of scientific personnel |
-| ------------------------------- | --------------------------------- | -----: |
-| Physical Sciences               | Exacte wetenschappen              | 195 |
-| Engineering and Technology      | Exacte wetenschappen              | 195 |
-| Life Sciences                   | Aard- en Levenswetenschappen      | 450 |
-| Medicine                        | Aard- en Levenswetenschappen AND Geneeskunde AND Tandheelkunde (ACTA) | 1780 |
-| Social Sciences and Economics   | Sociale Wetenschappen AND Economische Wetenschappen en Bedrijfskunde | 654 |
-| Law                             | Rechtsgeleerdheid                 | 219 |
-| Arts & Humanities               | Godgeleerdheid AND Geesteswetenschappen | 307 |
+For the first number we count the numbers of disciplines in VU respondents data. For the potential total response size for each discipline, we try to match the discipline from the survey to the faculties. This way we get an impression of the response rate of each faculty.
+
+We realise that the seperation and unifications are made some what artificial, and we have to remind the reader that one respondent could select multiple disciplines.
+
+To know the total number of academic staff that could have filled out the survey for that discipline, we used the number of VU scientific personel to represent a survey discipline is calculated by splitting or joining the number of academic staff at a faculty.
+
+We split the number of the Science faculty to respresent the disciplines of Physical sciences and Tecnology and Engineering. And we joined the faculties Behavioural and Movement Sciences AND Earth and Lifesciences to represent the respondents for the discipline Life Sciences. Also we joined the faculties Medicine AND Dentistry to represent respondents from Medicine. Faculties Social Sciences AND Economics and Business Administration were joined to represent respondents from Social Sciences and Economics. Also the faculties Theology AND Humanities were joined to represent the respondents from Arts & Humanities.
+
+The percentage of responses are calculated by relating the number of VU respondents on the survey for each discipline, to the total number of academic staff that could have filled out the survey for that discipline.
+
+| Survey Discipline               | Faculty                           | Number of VU scientific personnel (calculated potential) | Number of VU respondents (from survey) | % of response |
+| ------------------------------- | --------------------------------- | -----:                            | -----:                   | -----:                | 
+| Physical Sciences               | Sciences (0.5) (1)                | 195                               | 39                       | 20%                   |
+| Engineering and Technology      | Sciences (0.5) (2)                | 195 | 35 | 18% |
+| Life Sciences                   | Behavioural and Movement Sciences AND Earth and Lifesciences (3) | 872 | 144 | 17% |
+| Medicine                        | Medicine AND Dentistry (ACTA) (4) | 1330 | 188 | 14% |
+| Social Sciences and Economics   | Social Sciences AND Economics and Business Administration (5) | 654 | 176 | 27% |
+| Law                             | Law (6)                           | 219 | 26 | 12% |
+| Arts & Humanities               | Theology AND Humanities (7)       | 307 | 55 | 18% |
+
+```{r echo=FALSE, warning=FALSE, error=FALSE, fig.keep='all'}
+plot_main <- c("VU academic staff: response rate from faculties")
+plot_labels <- c("SciPhys1", "SciEngTech2", "BehMovEarLif3", "MedDent4", "SocialEcon5", "Law6", "TheoHuman7")
+plot_values <- c(20, 18, 17, 14, 27, 12, 18)
+plot_colors <- cm.colors(length(plot_values))
+
+demographicsplot(plot_main, plot_labels, plot_values, plot_colors)
+```
+
