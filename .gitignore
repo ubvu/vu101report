@@ -16,6 +16,7 @@
 
 # RStudio files
 .Rproj.user/
+*.Rproj
 
 # produced vignettes
 vignettes/*.html
@@ -31,3 +32,12 @@ vignettes/*.pdf
 # Temporary files created by R markdown
 *.utf8.md
 *.knit.md
+
+# png output files (remade everytime the Rmd file is run with html output)
+Report-vu101_files/figure-html/*.png
+
+# pdf output files (remade everytime the Rmd file is run with pdf output)
+Report-vu101_files/figure-latex/*.pdf
+
+# markdown output file, easy to check but no need to track
+Report-vu101.md
