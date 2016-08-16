@@ -37,7 +37,7 @@ The charts below show which tools are used most often, as indicated by the respo
 ```{r child="Vraag131.AlleTools.subfasen.Rmd", echo=FALSE, fig.width=9, out.width=910}
 ```
 
-# VU&VUmc vs OECD countries <!-- (1.3.2) {.tabset .tabset-fade} --> 
+# Comparing VU&VUmc to OECD averages <!-- (1.3.2) {.tabset .tabset-fade} -->
 
 ```{r child="Vraag132.AlleTools.subfasen.Rmd", echo=FALSE, fig.width=9, out.width=910}
 ```
