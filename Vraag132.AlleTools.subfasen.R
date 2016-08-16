@@ -26,6 +26,6 @@ for(i in 1:length(PhaseResearchCycle))
     barplot(ToolUse.Subphase.j,beside=TRUE,main=SubPhases.Phase.i[j],
       names.arg=wr.lab,las=3,cex.names=0.7,col=rep(Kleuren[i],2),density=c(1000,20),
       ylim=c(0,100),cex.lab=if(n.rows==1){0.8},
-      ylab="[filled bars= EOCD countries] \n [hatched bars = VU&VUmc] \n % tool users")
+      ylab="[filled bars= OECD countries] \n [hatched bars = VU&VUmc] \n % tool users")
   }
 }
