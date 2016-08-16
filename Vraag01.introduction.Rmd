@@ -25,7 +25,7 @@ The results in this report are ment as conversational material with the facultie
 
 ## Interactive annotating
 To bring tools for advancing scholarly communication our selves, we added web anotation to this report using [Hypothes.is](http://Hypothes.is) 
-As a reader you can also can make public and private annotations on this URL of this report. (See top-right corner) You can start highlighing the content in this document and save your thoughts right from the browser as you read for later, or share with others. We do so encourage you to do so. (In case you save the html file, be aware that web annotations are based on the web address, if the address changes, the annotations will not move with it.)
+As a reader you can also can make public and private annotations on this URL of this report. (See top-right corner) You can start highlighting the content in this document and save your thoughts for later, or to share with others, right from the browser as you read along. We do encourage you to do so. (In case you save the html file, be aware that web annotations are based on the web address, if the address changes, the annotations will not move with it.)
 
 <!-- inserting Javascript for interactive annotation with Hypothes.is -->
 <script language="JavaScript" async defer src="https://hypothes.is/embed.js"></script>
