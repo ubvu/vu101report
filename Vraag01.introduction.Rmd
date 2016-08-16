@@ -59,7 +59,7 @@ To communicate this survey to this specific targetgroup within the VU and VUmc, 
 
 ![*Web activity of the VU101survey: Number of visits; 543 in January, 296 in February.*](./images/vu101response-aantallen.png "VU101 webactivity, 543 in January, 296 in February")
 
-In total we had 839 visits to this short URL. As you can see in the results section, 531 people finaly filled in the survey, from a population of 3772 people scientific staff at VU and VUmc. Whis is respectively 22% and 14%.
+From a population of 3772 people academic staff at VU and VUmc; we had in total 839 visits (22%) to this short URL. As you can see in the results section, 531 people (14%) finaly filled in the survey.
 
 <!-- Met deze enquete hebben we meegelift bij een bestaand onderzoek van Kramer, B. and J. Bosman, *Innovations in scholarly communication - global survey on research tool usage* [version 1; referees: awaiting peer review]. F1000Research 2016, 5:692
 [(doi: 10.12688/f1000research.8414.1)](http://dx.doi.org/10.12688/f1000research.8414.1)
