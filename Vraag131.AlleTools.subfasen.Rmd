@@ -8,16 +8,18 @@
 # Explanatory text
 
 d <- c("##Discovery
-Acrobat Reader, Google Scholar, and Institutional Access are all used by approximately 500 respondents. Looking at the more detailed figures showing all tools per research activity, it becomes clear that these tools are not direct competitors: each are leading tools in different research activities. Acrobat Reader is a very poular tool for reading, Google Scholar for searching literature, and Institutional Access to gain access to academic literature.",
-"##Analysis 
-Excel is most widely used within the VU, with SPSS a close second, and R a more distant third. These tools fall within the same activity class, and could be considered rival tools. It is notable that very few reseachers use tools to share there analysis, and it would be interesting to see how this evolves in the future.",
+Acrobat Reader, Google Scholar, and Institutional Access are each used by nearly VU respondents. Looking at the more detailed figures showing all tools per research activity, it becomes clear that these tools are not direct competitors: each are leading tools in different research activities. Acrobat Reader is a very popular tool for reading, Google Scholar for searching literature, and Institutional Access to gain access to academic literature.",
+"##Analysis
+Excel is most widely used within the VU, with SPSS a close second, and R a more distant third. These tools fall within the same activity class, and could be considered rival tools. This is only partially true: closer inspection shows that nearly 80 per cent of SPSS users indicate that they also use Excel, and about 66 per cent of Excel users also use SPSS. Users of `R` also use Excel often, although the opposite is not true. SPSS users are unlikely to use `R` as well, although many `R` users do analysis in SPSS as well.
+It is notable that very few reseachers use tools to share there analysis (and, presumably, do not share their analysis). t would be interesting to see how this evolves in the future.",
 "##Writing
-Microsoft Word is the most popular writing tool by far, and nearly all respondents indicate that they use Word. The second and third most popular tools in the Writing category are reference managers: Endnote and Mendeley. Endnote is supported by the Library, but Mendeley has only slightly fewer users.",
+Unsurprisingly, Microsoft Word is the most popular writing tool by far, and nearly all respondents indicate that they use Word. Nearly all non-Word-users write in LaTeX or Overleaf (which is web-base LaTeX). Google Docs is used in conjunction with Word in 26% of cases; for most others, Word is the only tool for writing. The second and third most popular tools in the Writing category are reference managers: Endnote and Mendeley. Endnote is supported by the Library, but Mendeley has only slightly fewer users. Endnote and Mendely users really are separate categories: very few researchers use both. More than 30 per cent of respondents do not indicate using a reference manager at all.",
 "##Publication
-Unsurprisingly, the traditional topical journal (ie, 'closed' access) is still the leading outlet for academic work; more than eighty per cent of respondents with at least one publication indicate they have published in such a journal. The second and third most popular tools, ResearchGate and Open Access topical journals, are Open Access outlets. Note that ResearchGate is seen as a tool for archival, rather than publication.",
+Unsurprisingly, the traditional topical journal (ie, 'closed' access) is still the leading outlet for academic work; more than eighty per cent of respondents with at least one publication indicate they have published in such a journal. We see no indications that researchers make a very strict choice for either traditional or Open Access outlets, as most respondents indicate having published in both types.
+Note that ResearchGate is seen as a tool for archival, rather than publication. From the point of view of the Library, it could be important to make more clear the benefits of the institutional repository. Of course, suing the VU repository does not preclude using ResearchGate as well.",
 "##Outreach
 Generally, outreach to other academics is more popular than outreach to a broader public. ResearchGate and Google Scholar profiles are the most popular tools in this category. Twitter, and to a lesser extent WordPress, are used as tools for outreach to a broader public. Very few researchers make their presentations available for others.",
-"##Assessment 
+"##Assessment
 In the assessment phase, researchers mostly use Thomson reuters' Web of Science Journal Citation Reports to measure impact. Scopus is used as well, but much less often, presumably because the VU does not offer access to it. Alternative ('open') ways of peer review have very few users.")
 
 explanation.tekst <- c(paste(d,sep=''))
@@ -26,7 +28,7 @@ for(i in 1:length(PhaseResearchCycle))
 {
   # plaats tekst in loops
   cat(explanation.tekst[i], "\n")
-  
+
   ##PLOTS
 
   SubPhases.Phase.i<-SubPhases[grep(PhaseResearchCycle[i],SubPhases)]
@@ -49,7 +51,7 @@ for(i in 1:length(PhaseResearchCycle))
   wr.lab <- wrap.labels(labs, 10)
   fill <- Tools[match(as.character(names(ToolUse.SubPhase.j)),Tools[,"Variable.name"]),"UB.support"]
 
-  # plot gebruikers top 3 in horizontale bargraph 
+  # plot gebruikers top 3 in horizontale bargraph
   barplot(ToolUse.SubPhase.j, main=SubPhases.Phase.i[j],ylim=c(0,max(ToolUse.totaal)),
           ylab="[filled bar=available@library] \n N tool users",
           cex.names=0.7,cex.main=1,las=2,cex.lab=if(n.rows==1){0.8},
