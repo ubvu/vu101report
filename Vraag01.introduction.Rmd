@@ -1,6 +1,6 @@
 <!-- English or Dutch? First part of the report is written in dutch, then switches to English. Axis titles in the figures are also in Dutch -->
 
-![101Innovationslogo](./images/vu101header.png)
+![](./images/vu101header.png "VU 101 Innovations in Scholarly Communication")
 
 # Introduction
 
@@ -59,7 +59,7 @@ To communicate this survey to this specific targetgroup within the VU and VUmc, 
 
 ![*Web activity of the VU101survey: Number of visits; 543 in January, 296 in February.*](./images/vu101response-aantallen.png "VU101 webactivity, 543 in January, 296 in February")
 
-In total we had 839 visits to this short URL. As you can see in the results section, 531 people finaly filled in the survey, from a population of 3772 people scientific staff at VU and VUmc. Whis is respectively 22% and 14%.
+From a population of 3772 people academic staff at VU and VUmc; we had in total 839 visits (22%) to this short URL. As you can see in the results section, 531 people (14%) finaly filled in the survey.
 
 <!-- Met deze enquete hebben we meegelift bij een bestaand onderzoek van Kramer, B. and J. Bosman, *Innovations in scholarly communication - global survey on research tool usage* [version 1; referees: awaiting peer review]. F1000Research 2016, 5:692
 [(doi: 10.12688/f1000research.8414.1)](http://dx.doi.org/10.12688/f1000research.8414.1)
@@ -76,12 +76,20 @@ De VU en VUmc hebben samen ongeveer 6000 personen wetenschappelijke staf. -->
 In April we got the anonymised and cleaned (eg. removed whitespaces) data from the lead researchers. One set with all the data, and one with only respondents from the VU and VUmc.
 We prepared the data for making plots by the following procedure; changing collumns representng a tool from a string value to a bolean value, next adding a boolean to the tool column where the name of the tool has been written down in the free text field for that respondent. Then we added boolean values to the respondents who are affiliated to an institution in a OECD country. After that we marked which column belongs to what research phase in the scolarly communication cycle (Discovery, Analysis, Writing, Publication, Outreach, Assessment), and within these phases what columns represent what reearch activity (eg. searching literature, writing collaboratively, sharing data, ...) After that we labeled what tool are supported by the VU library. Extra information from the tool database (eg. tool age, twitter followers and open science category) could be taken into account for making additional correllations, but due to time limitation we left this out of the answers for now.
 
-![*Data Scaffold: survey dataset enriched with additional data for making plots.*](./images/vu101-data-scaffold.png "Data Scaffold, enriching data for creating plots.")
+```{r, out.width = 500, fig.retina = NULL , echo=FALSE, error=FALSE, warning=FALSE, message=FALSE} 
+knitr::include_graphics("./images/vu101-data-scaffold.png")
+```
+
+*Data Scaffold: survey dataset enriched with additional data for making plots.*
 
 ## Data plots, coding and report rendering 
 We chose R as the language to make plots, and the report in this HTML file. For each question we have made a plot in a separate R file to ease the procedure of collaboration, code-commenting and debugging. Then we nested this plot in the R-Markdown (.rdm) format where we could add commenting text like you read here now. All .rdm files are nested in a master report. This allowed us to make a report that immediately updates the plots when the code changes, keeping the graphs in sync with the latest code and data. In the end it saved us time, and makes the repoducibility of this report as easy as possible.
 
-![*Code Scaffold: From data to Report; making separate plots from data, put plots in each question, include commentary, and placing each question in the report.*](./images/vu101-code-scaffold.png "Code Scaffold; nesting files creating plots, incuding commentary")
+```{r, out.width = 500, fig.retina = NULL , echo=FALSE, error=FALSE, warning=FALSE, message=FALSE} 
+knitr::include_graphics("./images/vu101-code-scaffold.png")
+```
+
+*Code Scaffold: From data to Report; making separate plots from data, put plots in each question, include commentary, and placing each question in the report.*
 
 # Results
 Below you can find the results. The result-sections are based on the research questions. In each section you can find the plots with some commentary information explaining what the plot is about, and what results are expected and unexpected.
