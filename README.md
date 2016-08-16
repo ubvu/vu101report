@@ -1,5 +1,5 @@
 # VU 101 Innovations ins Scholarly Communications - Analysis Report
-[![](./images/vu101innovations.png "Discovery, Analysis, Writing, Publication, Outreach en Assessment")](https://rawgit.com/ubvu/vu101report/master/Report-vu101.html)
+[![](./images/vu101header.png "Discovery, Analysis, Writing, Publication, Outreach en Assessment")](https://rawgit.com/ubvu/vu101report/master/Report-vu101.html)
 
 This repository collects all files to compile the report for the analysis of the 101 Innovations for VU University Amsterdam.
 
