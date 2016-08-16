@@ -136,15 +136,15 @@ We split the number of the Science faculty to respresent the disciplines of Phys
 
 The percentage of responses are calculated by relating the number of VU respondents on the survey for each discipline, to the total number of academic staff that could have filled out the survey for that discipline.
 
-| Survey Discipline               | Faculty                           | Number of VU scientific personnel (calculated potential) | Number of VU respondents (from survey) | % of response |
-| ------------------------------- | --------------------------------- | -----:                            | -----:                   | -----:                | 
-| Physical Sciences               | Sciences (0.5) (1)                | 195                               | 39                       | 20%                   |
-| Engineering and Technology      | Sciences (0.5) (2)                | 195 | 35 | 18% |
-| Life Sciences                   | Behavioural and Movement Sciences AND Earth and Lifesciences (3) | 872 | 144 | 17% |
-| Medicine                        | Medicine AND Dentistry (ACTA) (4) | 1330 | 188 | 14% |
-| Social Sciences and Economics   | Social Sciences AND Economics and Business Administration (5) | 654 | 176 | 27% |
-| Law                             | Law (6)                           | 219 | 26 | 12% |
-| Arts & Humanities               | Theology AND Humanities (7)       | 307 | 55 | 18% |
+| Survey Discipline               |  Number of VU respondents (from survey) | Faculty | Number of VU scientific personnel (calculated potential) | \| | % of response |
+| ------------------------------: | :----- | --------------------------------: | :-----| :---: | -----: | 
+| Physical Sciences               |  39    | Sciences (0.5) (1)                | 195 | \| | 20% |
+| Engineering and Technology      |  35    | Sciences (0.5) (2)                | 195 | \| | 18% |
+| Life Sciences                   |  144   | Behavioural and Movement Sciences AND Earth and Lifesciences (3) | 872 | \| | 17% |
+| Medicine                        |  188   | Medicine AND Dentistry (ACTA) (4) | 1330 | \| | 14% |
+| Social Sciences and Economics   |  176   | Social Sciences AND Economics and Business Administration (5) | 654 | \| | 27% |
+| Law                             |  26    | Law (6)                           | 219 | \| |  12% |
+| Arts & Humanities               |  55    | Theology AND Humanities (7)       | 307 | \| |  18% |
 
 ```{r echo=FALSE, warning=FALSE, error=FALSE, fig.keep='all'}
 plot_main <- c("VU academic staff: response rate from faculties")
