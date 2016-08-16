@@ -3,6 +3,12 @@
 # NB: Voordat je dit script runt ga naar "Session" en kies "Set 
 # working directory" en vervolgens "to source file location".
 
+### Load the package or install if not present
+if (!require("RColorBrewer")) {
+  install.packages("RColorBrewer")
+  library(RColorBrewer)
+}
+
 
 #Laad en bewerk import data en variabelen
 source(paste(getwd(),"/LaadVariabelen.R",sep=""))
