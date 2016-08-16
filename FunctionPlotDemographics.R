@@ -11,7 +11,7 @@
 # plot_colors <- cm.colors(length(plot_values))
 #
 # call the function
-# demographicsplot(plot_main, plot_labels, plot_values, plort_colors)
+# demographicsplot(plot_main, plot_labels, plot_values, plot_colors)
 #
 ######
 
