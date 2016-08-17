@@ -4,7 +4,7 @@ The 101 Innovations survey received responses from many different countries. Thi
 
 In the subsections below, we discuss the different research phases in turn. In each of the figures, hatched bars represent responses from VU and VUmc staff, and filled bars represent all other respondents from OECD countries. All data is represented as the percentage of all respondents in that group. For example, in the graph for `Discovery_search` it is shown that about forty percent of all OECD respondents have indicated using PubMed for Search, and about fifty percent of all VU&VUmc staff.
 
-Overall, differences between OECD and VU repondents are not very large, and it is difficult to discern structural deviations at the VU from the OECD averages. One thing that is noteworthy and of possible interest to the Library is that usage of Mendeley for discovery and reference management is higher at the VU than in other OECD countries, despite access to the Endnote application.
+Overall, differences between OECD and VU respondents are not very large, and it is difficult to discern structural deviations at the VU from the OECD averages. One thing that is noteworthy and of possible interest to the Library is that usage of Mendeley for discovery and reference management is higher at the VU than in other OECD countries, despite access to the Endnote application.
 
 <!--
  - betere legenda maken;
@@ -19,7 +19,7 @@ Overall, differences between OECD and VU repondents are not very large, and it i
 #Vraag131.AlleTools.subfasen.R
 
 d <- c("##Discovery
-The triplets of VU and VUmc favourites---Acrobat Reader, Google Scholar, institutional access--- are popular in the OECD as well. For searching, PubMed and Mendeley are used more often by VU staff, while Scopus is used less (no surprise here, since the VU has no subscription at the time of the survey).",
+The triplet of VU and VUmc favourites---Acrobat Reader, Google Scholar, institutional access--- are popular in the OECD as well. For searching, PubMed and Mendeley are used more often by VU staff, while Scopus is used less (no surprise here, since the VU has no subscription at the time of the survey).",
 "##Analysis
 Use of SPSS as a tool for analysis is almost twice as large at the VU than for the OECD average.",
 "##Writing

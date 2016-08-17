@@ -7,9 +7,8 @@ The response (N=341, 64%) was  most of the times very elaborate, where they coul
 We first marked all answers if they express a threat or opportunity, and on which research phase the answer was related to. Next we filtered to show all Senior researchers (N=188, 35%), to get a perception of their worries and hopes for the future of Scholarly Communication.
 
 ### Worries
-The professors expressed their worries (N=6, 1%) for the following, that
-The number of journals and locations where publications can be found will increase, and if journals disappear in cases where knowledge is democratised in a wikipedia fashion, it is hard to trust or distinguish quality of a scientific paper or fact.  (Related to Discovery-Search and Assessment-Review)
-In the realm of communicating through journals as the only option for publishing, we see that on one hand there are worries about open access journals who ask to high of a price to publish, and on the other hand there are worries about the quality of open access journals, not only to read, but also to publish. (Related to Discovery-Access and Publication-Submit)  In other words, the current perception is that there lacks a system that can create a market to increase the quality and trustworthiness of open access journals and reduce the price for publishing. ([DOAJ.org](DOAJ.org) and [QOAM.eu](QOAM.eu) are means for making quality of open access journals transparent.)
+The professors expressed their worries (N=6, 1%) for the following, that The number of journals and locations where publications can be found will increase, and if journals disappear in cases where knowledge is democratised in a wikipedia fashion, it is hard to trust or distinguish quality of a scientific paper or fact.  (Related to Discovery-Search and Assessment-Review.)
+In the realm of communicating through journals as the only option for publishing, we see that on one hand there are worries about open access journals who ask a high price to publish, and on the other hand there are worries about the quality of open access journals, not only to read, but also to publish. (Related to Discovery-Access and Publication-Submit)  In other words, the current perception is that there lacks a system that can create a market to increase the quality and trustworthiness of open access journals and reduce the price for publishing. ([DOAJ.org](DOAJ.org) and [QOAM.eu](QOAM.eu) are means for making quality of open access journals transparent.)
 
 * The Wikipedification of science: everybody's opinion will be counted equally. With devastating effect.
 * First Open Access pest will continue to explosively grow; Then, we will all be shocked about the mess, discuss how this was possible and try (but fail) to find those to blame; Return to pay for quality system instead of pay for publishing-no-matter-how-bad
@@ -24,8 +23,10 @@ The hopes the professors (N=53, 10%) expressed that the future of scholarly comm
 
 #### Discovery
 As a researcher one needs to know what is the latest on your field, but do not need to be swamped in irrelevant information, and once a relevant paper is found there must be the ability to read it without restriction.
+
 The ultimate hope is that there is no need to read through all the papers but to get alerted to only the latest and necessary information for your current research domain, from the complete scientific corpus, open accessible for knowledge aggregators, and human provenance readers. But in terms of more traditional scholarly communication, there is a hope for more clarity on the quality of the scientific content, so that the few papers that remaining in the scientific corpus are more high in quality, or at least can be filtered on quality standards. When found there is the hope that one day there will be no need to pay and gain free access to all that scientific content.
-Once there is access to a paper there is a hope one can engage with more interaction to the content - see for example [readcube.com](readcube.com), [utopiadocs.com](utopiadocs.com) - and interaction with other readers - see for example [hypothes.is](hypothes.is) -
+
+Once there is access to a paper there is a hope one can engage with more interaction to the content ---see for example [readcube.com](readcube.com), [utopiadocs.com](utopiadocs.com)--- and interaction with other readers ---see for example [hypothes.is](hypothes.is).
 
 ##### sample of answers:
 
@@ -33,7 +34,7 @@ Once there is access to a paper there is a hope one can engage with more interac
  * reduction of output (less is more)
  * tools that aggregate scattered knowledge in papers;
  * More clarity about the quality of journals.
- * Researchgate as primary tool
+ * ResearchGate as primary tool
 * Access
  * open access online, platform for sharing between researcher without paying
  * scientific articles as 'free' pdf in the 'cloud'
@@ -46,25 +47,25 @@ Once there is access to a paper there is a hope one can engage with more interac
 #### Analysis
 When designing doing the operation of the research, the hopes are that there will be more emphasis on replication by working in concurrence, preregistering protocols and experiment designs. See for example [osf.io](https://cos.io/prereg/), [protocols.io](protocols.io), [scientificprotocols](https://protocols.scienceexchange.com/)
 
-Also the hope is that working in concurrence forces to deliver improved descriptions of methods and increase the quality of the data. The hope is expressed that this will be required for any valid publication.
+Also the hope is that working in concurrence forces researchers to deliver improved descriptions of methods and increase the quality of the data. The hope is expressed that this will be required for any valid publication.
 
-Research is so diverse and heterogeneous, there is no one tool to nail the job, but the scientific endeavor needs different tools for different research groups in different phases. To excel in science, the hope is that the university will apply 'super segmentation', to give researchers access to the best tools for the right task, at the right moment. The [101 research tools data base](http://bit.ly/innoscholcomm-list) could be a start for this.
+Research is so diverse and heterogeneous, there is no single tool to nail the job, but the scientific endeavor needs different tools for different research groups in different phases. To excel in science, the hope is that the university will apply 'super segmentation', to give researchers access to the best tools for the right task, at the right moment. The [101 research tools data base](http://bit.ly/innoscholcomm-list) could be a start for this.
 
 ##### sample of answers:
 * Sharing
  * More emphasis on replication
  * More concurrence
- * It should be making Science reproducible again: better description of the methods, better quality data and  structured obtained knowledge should be required for any publication.
+ * It should be making science reproducible again: better description of the methods, better quality data and  structured obtained knowledge should be required for any publication.
  * Publication based on preregistration of protocols/experiments
 * Analyzing
- * One important concept in marketing is the idea of "super segmentation". Lots of excellent tools are coming available, but they are differentials relevant for different people, and different people need to integrate them. It will become a challenge how to integrate that most optimally. My suspicion is that the university- slow as it is- won't be able to handle this development. So either the universities adapt and let people operate in start-up like enterprises within the university, or good researchers break away from universities
+ * One important concept in marketing is the idea of "super segmentation". Lots of excellent tools are coming available, but they are differences relevant for different people, and different people need to integrate them. It will become a challenge how to integrate that most optimally. My suspicion is that the university ---slow as it is--- won't be able to handle this development. So either the universities adapt and let people operate in start-up like enterprises within the university, or good researchers break away from universities.
 
 #### Writing
 The hopes for scholarly communication in the writing phase is that researchers hope for more responsive communication,  without losing credit for their contributions. Writing could be done in smaller iterations, where the feedback helps in building up towards completing a milestone. This is like contributions in the open source software industry where working with nightly-build and milestone releases is common practice.
 
 One example of a platform that are built with responsive communication, version control, collaborative editing for mixed teams with LaTeX and rich-text writers, and commenting during drafting or after publishing, is [overleaf.com](overleaf.com)
 
-Also the hopes are to get support in making complex material easier to fathom by visualisations and animations.
+Also the hopes are to get support in making complex material easier to understand by visualisations and animations.
 
 ##### sample of answers:
 * Write
@@ -73,19 +74,19 @@ Also the hopes are to get support in making complex material easier to fathom by
  * Supporting written material by animation.
 
 #### Publication
-Hopes are that for deciding where to submit a paper other indicators than the journal impact factor will be considered like: author's right to open access the publication, the publication limit or APC budgets, quality factors of a journal - see [qoam.eu](qoam.eu) and [doaj.org](doaj.org) - , data appliance policy, or even the necessity of publishing with a journal as intermediate can be questioned.
+Hopes are that for deciding where to submit a paper other indicators than the journal impact factor will be considered like: author's right to open access the publication, the publication limit or APC budgets, quality factors of a journal ---see [qoam.eu](www.qoam.eu) and [doaj.org](www.doaj.org)---, data appliance policy, or even the necessity of publishing with a journal as intermediate can be questioned.
 
-For publishing text hopes are up for open access, removing gatekeepers and enabling text- and datamining, but there is more to that. Hopes are also up for faster publication rates of smaller research deliverables in other outlets than journals, by disseminating and claiming ideas in pre-print-proofs, preregistering the research design or hypothesis, store the findings with the processed/intermediate data along with the code/tool/app/container including the raw data used for processing, publish the final results with links to the data, and evaluate results and data in peer-review channels. Some examples of platforms that are built for "publish now, review later" - [f1000research.com](f1000research.com) - , preregistering and sharing intermediate results - [osf.io](https://cos.io/prereg/) -,
+For publishing text hopes are up for open access, removing gatekeepers and enabling text- and datamining, but there is more to that. Hopes are also up for faster publication rates of smaller research deliverables in other outlets than journals, by disseminating and claiming ideas in pre-print-proofs, preregistering the research design or hypothesis, store the findings with the processed/intermediate data along with the code/tool/app/container including the raw data used for processing, publish the final results with links to the data, and evaluate results and data in peer-review channels. [F1000research.com](www.f1000research.com) is an example of a platform that uses the "publish now, review later" model; [osf.io](https://cos.io/prereg/) allows researchers to pre-register hypotheses and share intermediate results.
 
 For hopes related to storing data, have a look at [re3data.org](http://service.re3data.org/search) for a complete overview of data repositories worldwide where you can filter on subject, quality seals, persistency policy, reuse licenses and more.
 
-Of course big-data lovers have hopes that peer reviewed results can be fuel to create knowlets and nanopublications, to create big-data knowledge graphs to improve scientific discovery methods, and emphasize research opportunities in networks across researchers. - [nanopub.org](nanopub.org) -
+Of course big-data lovers have hopes that peer reviewed results can be fuel to create knowlets and nanopublications, to create big-data knowledge graphs to improve scientific discovery methods, and emphasize research opportunities in networks across researchers. See for exsample [nanopub.org](www.nanopub.org).
 
 ##### sample of answers:
 * Submit
  * The manner in which publishers contract with institutions and authors about access and publishing.
  * Journals will lose dominance in favor of direct online publication, review and discussion
- * A cap on the # of papers published per researcher, to promote quality over quantity
+ * A cap on the number of papers published per researcher, to promote quality over quantity
  * More clarity about the quality of journals.
  * Elsevier will loose marketshare
 * Publishing
@@ -117,7 +118,7 @@ Of course big-data lovers have hopes that peer reviewed results can be fuel to c
  * Publication in the form of tools, apps to interpret data
 
 #### Outreach
-Hopes are to make it easier to advertise and track your own work on social networks like researchgate, academia.edu, twitter, and linked-in. For managing and tracking your outlets see for example [growkudos.com](growkudos.com), or other online trainings and workshops.
+Hopes are to make it easier to advertise and track your own work on social networks like researchgate, academia.edu, twitter, and linked-in. For managing and tracking your outlets see for example [growkudos.com](www.growkudos.com), or other online trainings and workshops.
 
 Also the hopes are, in this phase to get support in making complex material easier to fathom by visualisations and animations.
 
@@ -130,15 +131,16 @@ Also the hopes are, in this phase to get support in making complex material easi
 
 #### Assessment
 Hopes are to decouple peer-review from the publishing location or traditional journal, this makes a self-published and self-promoted a contribution to your field recognisable as a evaluated and valid part of the scientific corpus.
-At the same time there is hope that the effort researchers put into rigorous peer-reviewing the work of others gets recognised as well. This can be by open interactive discussion in the comment section, or in dedicated peer-review channels. For solutions in decoupling peer review and getting recognition: have for example a look at [publons.com](publons.com), [peerageofscience.org](peerageofscience.org), [rubriq.com](rubriq.com) . For informal open discussions have a look at [hypothes.is](hypothes.is)
 
-For impact hopes are that impact will be not be on the quantity of publications one can crank out, but on the quality of the contribution to science. Earning the recognition could be your contribution on github for your code that gets re-used and forked, or the badges you have earned during different parts of your contributions to your research. See for this [openresearchbadges.org](openresearchbadges.org), To yet quantify the alternatives for scientific impact, have a look at [impactstory.org](impactstory.org) or [altmetric.com](altmetric.com)
+At the same time there is hope that the effort researchers put into rigorous peer-reviewing the work of others is recognised as well. This can be by open interactive discussion in the comment section, or in dedicated peer-review channels. For solutions in decoupling peer review and getting recognition: have a look at [publons.com](www.publons.com), [peerageofscience.org](www.peerageofscience.org), [rubriq.com](www.rubriq.com). For informal open discussions have a look at [hypothes.is](www.hypothes.is)
+
+For impact hopes are that impact will be not be on the quantity of publications, but on the quality of the contribution to science. Earning the recognition could be your contribution on Github for your code that gets re-used and forked, or the badges you have earned during different parts of your contributions to your research. See for this [openresearchbadges.org](www.openresearchbadges.org), To quantify the alternatives for scientific impact, have a look at [impactstory.org](www.impactstory.org) or [altmetric.com](www.altmetric.com)
 
 ##### sample of answers:
 * Review
  * modernizing peer review and publishing beyond topical journals
- * "Open access, open review and open discussions.
- * Projects like Reader which allow much more interaction with papers"
+ * Open access, open review and open discussions.
+ * Projects like Reader which allow much more interaction with papers
  * A change in how the reviewing process takes place. Some journals have already adopted a hybrid reviewing process that enables different types of submission procedures. I believe this trend will continue in an attempt to make the publication process more objective and less prone to all kinds of unethical behavior in order to conform to publication pressure.
  * online discussions such as on research gate
  * Open access to data, open review

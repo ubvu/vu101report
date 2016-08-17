@@ -1,4 +1,4 @@
-As a quick summary we hafe made a table to show the one most used tool per research phase in each discipline.
+As a quick summary we have made a table to show the one most used tool per research phase in each discipline.
 A more detailed explanation is given in the section below the table, but for the one most used tool we can state the following:
 
 - *Discovery:* Most disciplines use Google Scholar to discover new literature. Medicine use PubMeb as their primary source for search. One could say that Lifesciences find having campus access to literature more important than searching for that literature, but in the detail section below we see a more elaborate explanation, where their attention for search is spread between Google Scholar and PubMed.
@@ -11,7 +11,7 @@ A more detailed explanation is given in the section below the table, but for the
 
 - *Outreach* ResearchGate is the most popular platform for profiling your research within the research community, except for two disciplines who use RG slightly less. Engineering&Technology use Google Scholar Citations a bit more, and Arts&Humanities use Academia.edu more.
 
-- *Assessment:* Physics, Medicine, Lifesciences and Law use Web of Science for assessment of their research, and the oter disciplines use the Journal Citation Register, which both contain the same impact factor calculated from journals in the ISI database. Internationally there is a lot of debate going on if the [merit of an article should count](http://www.nature.com/news/beat-it-impact-factor-publishing-elite-turns-against-controversial-metric-1.20224?WT.mc_id=TWT_NatureNews), and not the merit of the journal. Also discussed is the reward sysem to give [credit where credit is due](http://www.nature.com/news/publishing-credit-where-credit-is-due-1.15033).
+- *Assessment* Physics, Medicine, Lifesciences and Law use Web of Science for assessment of their research, and the oter disciplines use the Journal Citation Register, which both contain the same impact factor calculated from journals in the ISI database. Internationally there is a lot of debate going on if the [merit of an article should count](http://www.nature.com/news/beat-it-impact-factor-publishing-elite-turns-against-controversial-metric-1.20224?WT.mc_id=TWT_NatureNews), and not the merit of the journal. Also discussed is the reward sysem to give [credit where credit is due](http://www.nature.com/news/publishing-credit-where-credit-is-due-1.15033).
 
 
 ```{r}

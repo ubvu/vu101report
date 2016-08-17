@@ -1,6 +1,6 @@
 <!--## Extremities: Tenures vs Non-tenures-->
 
-The first set of graphs is a quick summary with the tools that show the most pronounced differences between the two groups. We calculate the difference by substracting the use in the tenured group from the use in the non-tenured group (both as percentages). The upper bars show the largest positive difference (ie, the tool is more popular among non-tenured researchers); the lower bars show the largest negative difference.
+The first set of graphs is a quick summary with the tools that show the most pronounced differences between the two groups. We calculate the difference by subtracting the use in the tenured group from the use in the non-tenured group (both as percentages). The upper bars show the largest positive difference (ie, the tool is more popular among non-tenured researchers); the lower bars show the largest negative difference.
 
 ```{r Vraag111.top2.fasen.Rmd, echo=FALSE}
 
