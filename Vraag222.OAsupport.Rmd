@@ -55,22 +55,22 @@ Once there is access to a paper there is a hope one can engage with more interac
 
 * Search
 
- * reduction of output (less is more)
- * tools that aggregate scattered knowledge in papers;
- * More clarity about the quality of journals.
- * Researchgate as primary tool
+ 	* reduction of output (less is more)
+ 	* tools that aggregate scattered knowledge in papers;
+ 	* More clarity about the quality of journals.
+ 	* Researchgate as primary tool
 
 * Access
 
- * open access online, platform for sharing between researcher without paying
- * scientific articles as 'free' pdf in the 'cloud'
- * Researchgate as primary tool
+	* open access online, platform for sharing between researcher without paying
+	* scientific articles as 'free' pdf in the 'cloud'
+	* Researchgate as primary tool
 
 * Read
 
- * Projects like Reader which allow much more interaction with papers
- * Researchgate as primary tool
- * tools that aggregate scattered knowledge in papers;
+	* Projects like Reader which allow much more interaction with papers
+	* Researchgate as primary tool
+	* tools that aggregate scattered knowledge in papers;
 
 #### Analysis
 When designing doing the operation of the research, the hopes are that there will be more emphasis on replication by working in concurrence, preregistering protocols and experiment designs. See for example [osf.io](https://cos.io/prereg/), [protocols.io](http://protocols.io), [scientificprotocols](https://protocols.scienceexchange.com/)
@@ -83,14 +83,14 @@ Research is so diverse and heterogeneous, there is no one tool to nail the job, 
 
 * Sharing
 
- * More emphasis on replication
- * More concurrence
- * It should be making Science reproducible again: better description of the methods, better quality data and  structured obtained knowledge should be required for any publication.
- * Publication based on preregistration of protocols/experiments
+	* More emphasis on replication
+	* More concurrence
+	* It should be making Science reproducible again: better description of the methods, better quality data and  structured obtained knowledge should be required for any publication.
+	* Publication based on preregistration of protocols/experiments
 
 * Analyzing
 
- * One important concept in marketing is the idea of "super segmentation". Lots of excellent tools are coming available, but they are differences relevant for different people, and different people need to integrate them. It will become a challenge how to integrate that most optimally. My suspicion is that the university ---slow as it is--- won't be able to handle this development. So either the universities adapt and let people operate in start-up like enterprises within the university, or good researchers break away from universities.
+	* One important concept in marketing is the idea of "super segmentation". Lots of excellent tools are coming available, but they are differences relevant for different people, and different people need to integrate them. It will become a challenge how to integrate that most optimally. My suspicion is that the university ---slow as it is--- won't be able to handle this development. So either the universities adapt and let people operate in start-up like enterprises within the university, or good researchers break away from universities.
 
 #### Writing
 The hopes for scholarly communication in the writing phase is that researchers hope for more responsive communication,  without losing credit for their contributions. Writing could be done in smaller iterations, where the feedback helps in building up towards completing a milestone. This is like contributions in the open source software industry where working with nightly-build and milestone releases is common practice.
@@ -103,9 +103,9 @@ Also the hopes are to get support in making complex material easier to fathom by
 
 * Write
 
- * online communication tools
- * Open Access but also sites like [Academia](https://www.academia.edu/), where you just put your text online and receive feedback, without a publisher in between.
- * Supporting written material by animation.
+	* online communication tools
+	* Open Access but also sites like [Academia](https://www.academia.edu/), where you just put your text online and receive feedback, without a publisher in between.
+	* Supporting written material by animation.
 
 #### Publication
 Hopes are that for deciding where to submit a paper other indicators than the journal impact factor will be considered like: author's right to publish in open access, the publication limit or APC budgets, quality factors of a journal (see [qoam.eu](http://qoam.eu) and [doaj.org](http://doaj.org)), data appliance policy, or even the necessity of publishing with a journal as intermediate can be questioned.
@@ -119,44 +119,44 @@ Of course big-data lovers have hopes that peer reviewed results can be fuel to c
 ##### sample of answers:
 
 * Submit
- * The manner in which publishers contract with institutions and authors about access and publishing.
- * Journals will lose dominance in favor of direct online publication, review and discussion
- * A cap on the number of papers published per researcher, to promote quality over quantity
- * More clarity about the quality of journals.
- * Elsevier will loose marketshare
+	* The manner in which publishers contract with institutions and authors about access and publishing.
+	* Journals will lose dominance in favor of direct online publication, review and discussion
+	* A cap on the number of papers published per researcher, to promote quality over quantity
+	* More clarity about the quality of journals.
+	* Elsevier will loose marketshare
 
 * Publishing
 
- * the further growth of open access journals
- * open access without print, fast publication rate (2 to 3 weeks following submission, see eLife)
- * Open access of publicly funded research.
- * detach scientists from traditional journal format and publishing
- * open access, other outlets than journals
- * Open access and blogging
- * Open access; Open data; preregistration; bypassing the regular journals
- * The need to advertise your own work and not get lost in the mass of papers that are published every day. In addition, the desire to make data available through repositories (such as a website, data dryad, or figshare)
- * Grey literature. Pre-print proofs of articles shared on the web, online discussions. So I think that official peer reviewed channels will remain important for evaluations, but less for the dissemination of ideas.
- * Open access + Publishing of raw and processed data and intermediate results
- * nanopublications and shareable knowlets
- * Researchgate as primary tool
+	* the further growth of open access journals
+	* open access without print, fast publication rate (2 to 3 weeks following submission, see eLife)
+	* Open access of publicly funded research.
+	* detach scientists from traditional journal format and publishing
+	* open access, other outlets than journals
+	* Open access and blogging
+	* Open access; Open data; preregistration; bypassing the regular journals
+	* The need to advertise your own work and not get lost in the mass of papers that are published every day. In addition, the desire to make data available through repositories (such as a website, data dryad, or figshare)
+	* Grey literature. Pre-print proofs of articles shared on the web, online discussions. So I think that official peer reviewed channels will remain important for evaluations, but less for the dissemination of ideas.
+	* Open access + Publishing of raw and processed data and intermediate results
+	* nanopublications and shareable knowlets
+	* Researchgate as primary tool
 
 * Archiving
 
- * Self-archiving, Open Access
+	* Self-archiving, Open Access
 
 * Datasharing
 
- * Sharing data
- * open acces publication and data sharing
- * sharing of data sets
- * (1) Open  data & analysis; (2) tools that aggregate scattered knowledge in papers; (3) open access
- * sharing research data for reproducibility of research results
- * Open access to data, open review
- * The need to advertise your own work and not get lost in the mass of papers that are published every day. In addition, the desire to make data available through repositories (such as a website, data dryad, or figshare)
- * Open access + Publishing of raw and processed data and intermediate results
- * datasets on which publications are based will become available
- * online availability of data accompanying publications
- * Publication in the form of tools, apps to interpret data
+	* Sharing data
+	* open acces publication and data sharing
+	* sharing of data sets
+	* (1) Open  data & analysis; (2) tools that aggregate scattered knowledge in papers; (3) open access
+	* sharing research data for reproducibility of research results
+	* Open access to data, open review
+	* The need to advertise your own work and not get lost in the mass of papers that are published every day. In addition, the desire to make data available through repositories (such as a website, data dryad, or figshare)
+	* Open access + Publishing of raw and processed data and intermediate results
+	* datasets on which publications are based will become available
+	* online availability of data accompanying publications
+	* Publication in the form of tools, apps to interpret data
 
 #### Outreach
 Hopes are to make it easier to advertise and track your own work on social networks like researchgate, academia.edu, twitter, and linked-in. For managing and tracking your outlets see for example [growkudos.com](http://growkudos.com), or other online trainings and workshops.
@@ -167,10 +167,10 @@ Also the hopes are, in this phase to get support in making complex material easi
 
 * Profile and Popular
 
- * Shift to open access publication and the shift from author's own websites to Research Gate and other networks of that type.
- * Social Media such as ResearchGate
- * The need to advertise your own work and not get lost in the mass of papers that are published every day. In addition, the desire to make data available through repositories (such as a website, data dryad, or figshare)
- * Researchgate as primary tool
+	* Shift to open access publication and the shift from author's own websites to Research Gate and other networks of that type.
+	* Social Media such as ResearchGate
+	* The need to advertise your own work and not get lost in the mass of papers that are published every day. In addition, the desire to make data available through repositories (such as a website, data dryad, or figshare)
+	* Researchgate as primary tool
 
 #### Assessment
 Hopes are to decouple peer-review from the publishing location or traditional journal, this makes a self-published and self-promoted a contribution to your field recognisable as a evaluated and valid part of the scientific corpus.
@@ -182,18 +182,18 @@ For impact hopes are that impact will be not be on the quantity of publications 
 
 * Review
 
- * modernizing peer review and publishing beyond topical journals
- * Open access, open review and open discussions.
- * Projects like Reader which allow much more interaction with papers
- * A change in how the reviewing process takes place. Some journals have already adopted a hybrid reviewing process that enables different types of submission procedures. I believe this trend will continue in an attempt to make the publication process more objective and less prone to all kinds of unethical behavior in order to conform to publication pressure.
- * online discussions such as on research gate
- * Open access to data, open review
- * interactive comments
- * Grey literature. Pre-print proofs of articles shared on the web, online discussions. So I think that official peer reviewed channels will remain important for evaluations, but less for the dissemination of ideas.
- * Post publication peer review opportunities, because peer review fails
+	* modernizing peer review and publishing beyond topical journals
+	* Open access, open review and open discussions.
+	* Projects like Reader which allow much more interaction with papers
+	* A change in how the reviewing process takes place. Some journals have already adopted a hybrid reviewing process that enables different types of submission procedures. I believe this trend will continue in an attempt to make the publication process more objective and less prone to all kinds of unethical behavior in order to conform to publication pressure.
+	* online discussions such as on research gate
+	* Open access to data, open review
+	* interactive comments
+	* Grey literature. Pre-print proofs of articles shared on the web, online discussions. So I think that official peer reviewed channels will remain important for evaluations, but less for the dissemination of ideas.
+	* Post publication peer review opportunities, because peer review fails
 
 * Impact
 
- * I hope a shift away from quantity to quality
- * I am convinced that the absurd focussing on bibliometrics will diminish if not vanish
- * assessment on how to monitor impact
+	* I hope a shift away from quantity to quality
+	* I am convinced that the absurd focussing on bibliometrics will diminish if not vanish
+	* assessment on how to monitor impact
