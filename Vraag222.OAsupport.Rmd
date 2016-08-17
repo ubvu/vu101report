@@ -1,6 +1,6 @@
 ## Open Intention for Tenures vs Non-tenures
 
-Despite of people are not always familiar with the tools that they can use for engaging in Open Science, overall they support the goals of Open Acces and Open Science.
+Despite of people are not always familiar with the tools that they can use for engaging in Open Science, overall they support the goals of Open Access and Open Science.
 
 ```{r}
 #Vraag222.OAsupport.R
@@ -23,7 +23,7 @@ text(x=xx, y=support.per.role[,i],label=paste('n=',respondenten.per.rol,sep=''),
      pos=3, cex=0.8)
 ```
 
-Apart from the multiple-choise questions, there was one open question:
+Apart from the multiple-choice questions, there was one open question:
 
 *"What do you think will be the most important development in scholarly communication in the coming years?"*
 
@@ -43,13 +43,13 @@ In the realm of communicating through journals as the only option for publishing
 * Development of prices for journals and for publications in journals. Prices are too high, and resistance is growing.
 
 ### Hopes
-53 Professors (10%) expressed the follwing hopes for the future of scholarly communication.
+53 Professors (10%) expressed the following hopes for the future of scholarly communication.
 
 #### Discovery
 As a researcher one needs to know what is the latest on your field, but do not need to be swamped in irrelevant information, and once a relevant paper is found there must be the ability to read it without restriction.
 
 The ultimate hope is that there is no need to read through all the papers but to get alerted to only the latest and necessary information for your current research domain, from the complete scientific corpus, open accessible for knowledge aggregators, and human provenance readers. But in terms of more traditional scholarly communication, there is a hope for more clarity on the quality of the scientific content, so that the few papers that remaining in the scientific corpus are more high in quality, or at least can be filtered on quality standards. When found there is the hope that one day there will be no need to pay and gain free access to all that scientific content.
-Once there is access to a paper there is a hope one can engage with more interaction to the content ---ee for example [readcube.com](http://readcube.com), [utopiadocs.com](http://utopiadocs.com)--- and interaction with other readers ---see for example [hypothes.is](http://hypothes.is).
+Once there is access to a paper there is a hope one can engage with more interaction to the content ---see for example [readcube.com](http://readcube.com), [utopiadocs.com](http://utopiadocs.com)--- and interaction with other readers ---see for example [hypothes.is](http://hypothes.is).
 
 ##### sample of answers:
 
@@ -123,7 +123,7 @@ Of course big-data lovers have hopes that peer reviewed results can be fuel to c
 	* Journals will lose dominance in favor of direct online publication, review and discussion
 	* A cap on the number of papers published per researcher, to promote quality over quantity
 	* More clarity about the quality of journals.
-	* Elsevier will loose marketshare
+	* Elsevier will loose market share
 
 * Publishing
 
@@ -147,7 +147,7 @@ Of course big-data lovers have hopes that peer reviewed results can be fuel to c
 * Datasharing
 
 	* Sharing data
-	* open acces publication and data sharing
+	* open access publication and data sharing
 	* sharing of data sets
 	* (1) Open  data & analysis; (2) tools that aggregate scattered knowledge in papers; (3) open access
 	* sharing research data for reproducibility of research results
@@ -195,5 +195,5 @@ For impact hopes are that impact will be not be on the quantity of publications 
 * Impact
 
 	* I hope a shift away from quantity to quality
-	* I am convinced that the absurd focussing on bibliometrics will diminish if not vanish
+	* I am convinced that the absurd focusing on bibliometrics will diminish if not vanish
 	* assessment on how to monitor impact

@@ -99,7 +99,7 @@ demographicsplot(plot_main, plot_labels, plot_values, plot_colors)
 ```
 
 ## Organisation demographics VU&VUmc
-Below the numbers are given for the active scientific personel on 30th of June 2016 for the VU. For VUmc (Medicine), numbers from annual report 2015 are used.
+Below the numbers are given for the active scientific personnel on 30th of June 2016 for the VU. For VUmc (Medicine), numbers from annual report 2015 are used.
 
 | Faculty                                     | Number of scientific personnel |
 | --------------------------------------------| ---: |
@@ -124,15 +124,15 @@ demographicsplot(plot_main, plot_labels, plot_values, plot_colors)
 ```
 
 ## Survey disciplines and faculty
-In this table we put the number of respondents from each discipline next to the number of academic staff of each faculty.  To know the response rate for each discipline, we need to know the number of VU respondents for each disipline and the total number of VU potential respondents that could have filled out the survey.
+In this table we put the number of respondents from each discipline next to the number of academic staff of each faculty. To know the response rate for each discipline, we need to know the number of VU respondents for each discipline and the total number of VU potential respondents that could have filled out the survey.
 
 For the first number we count the numbers of disciplines in VU respondents data. For the potential total response size for each discipline, we try to match the discipline from the survey to the faculties. This way we get an impression of the response rate of each faculty.
 
-We realise that the seperation and unifications are made some what artificial, and we have to remind the reader that one respondent could select multiple disciplines.
+We realise that the separation and unifications are made some what artificial, and we have to remind the reader that one respondent could select multiple disciplines.
 
-To know the total number of academic staff that could have filled out the survey for that discipline, we used the number of VU scientific personel to represent a survey discipline is calculated by splitting or joining the number of academic staff at a faculty.
+To know the total number of academic staff that could have filled out the survey for that discipline, we used the number of VU scientific personnel to represent a survey discipline is calculated by splitting or joining the number of academic staff at a faculty.
 
-We split the number of the Science faculty to respresent the disciplines of Physical sciences and Tecnology and Engineering. And we joined the faculties Behavioural and Movement Sciences *and* Earth and Lifesciences to represent the respondents for the discipline Life Sciences. Also we joined the faculties Medicine AND Dentistry to represent respondents from Medicine. Faculties Social Sciences *and* Economics and Business Administration were joined to represent respondents from Social Sciences and Economics. Also the faculties Theology *and* Humanities were joined to represent the respondents from Arts & Humanities.
+We split the number of the Science faculty to represent the disciplines of Physical sciences and Technology and Engineering. And we joined the faculties Behavioural and Movement Sciences *and* Earth and Lifesciences to represent the respondents for the discipline Life Sciences. Also we joined the faculties Medicine *and* Dentistry to represent respondents from Medicine. Faculties Social Sciences *and* Economics and Business Administration were joined to represent respondents from Social Sciences and Economics. Also the faculties Theology *and* Humanities were joined to represent the respondents from Arts & Humanities.
 
 The percentage of responses are calculated by relating the number of VU respondents on the survey for each discipline, to the total number of academic staff that could have filled out the survey for that discipline.
 
