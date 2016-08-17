@@ -29,7 +29,7 @@ Scopus usage is relatively low. Few VU respondents use the institutional reposit
 "##Outreach
 There are no clear differences between the VU or OECD averages. VU respondents seem to use more tools for outreach to the general public (mainly through Twitter, WordPress, and the Wikipedia), but differences are not substantial",
 "##Assessment
-...")
+Although few OECD researchers use tools for reviewing, VU researchers fall below this international average. For measuring impact, AltMetric is less popular with VU researchers than in the OECD. The lower use of Scopus also stands out, but Scopus is not supported at the VU.")
 
 explanation.tekst <- c(paste(d,sep=''))
 
