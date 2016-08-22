@@ -12,7 +12,7 @@ The way researchers share and claim their findings (scholarly communication) is 
 
 <!-- Het wetenschappelijke communicatieproces is volop in beweging. Dit komt door de inzet van digitale middelen binnen de onderzoeksfases: Discovery, Analysis, Writing, Publication, Outreach en Assessment. -->
 
-This project investigates the use of digital tools used in scholarly communication within the VU and VUmc. By pooling in with a global research from Utrecht University by Kramer and Bosman [1], we can compare our results with other countries.
+This project investigates the use of digital tools used in scholarly communication within the VU and VUmc. By pooling this with a global research from Utrecht University by Kramer and Bosman [1], we can compare our results with other countries.
 
 [1] Kramer, B. and J. Bosman, *Innovations in scholarly communication - global survey on research tool usage* [version 1; referees: awaiting peer review]. F1000Research 2016, 5:692
 [(doi: 10.12688/f1000research.8414.1)](http://dx.doi.org/10.12688/f1000research.8414.1)
